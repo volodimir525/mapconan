@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map Conan - Conan Exiles Interactive Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css">
+	<link rel="stylesheet" href="groupedlayercontrol.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/ardhi/Leaflet.MousePosition/master/src/L.Control.MousePosition.css">
+    <script src="leaflet.js" type="text/javascript"></script>
+	<script src="groupedlayercontrol.js" type="text/javascript"></script>
+	<script src="icons.js" type="text/javascript"></script>
+    <script src="https://cdn.rawgit.com/ardhi/Leaflet.MousePosition/master/src/L.Control.MousePosition.js" type="text/javascript"></script>
+    <style>
+      html, body, 
+	  
+	  #map { width:100%; height:100%; margin:0; padding:0; z-index: 1; background: #000000; }
+	  	  
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="text/javascript">
+		var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
+		var mapMinZoom = 3;
+		var mapMaxZoom = 6;
+		var mapMaxResolution = 0.25000000;
+		var mapMinResolution = Math.pow(2, mapMaxZoom) * mapMaxResolution;
+		var tileExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
+		var bounds = [[0,0], [-4000,4000]];
+		var crs = L.CRS.Simple;
+			crs.transformation = new L.Transformation(1, -tileExtent[0], -1, tileExtent[3]);
+			crs.scale = function(zoom) {
+				return Math.pow(2, zoom) / mapMinResolution;
+			};
+			crs.zoom = function(scale) {
+				return Math.log(scale * mapMinResolution) / Math.LN2;
+			};
+
+		var map = new L.Map('map', {
+			maxZoom: mapMaxZoom,
+			minZoom: mapMinZoom,
+			layers: overlays,
+			crs: crs,
+			maxBounds: bounds,
+			maxBoundsViscosity: 1,
+			attributionControl:false
+			
+		});
+			layer = L.tileLayer('{z}/{x}/{y}.png', {
+			minZoom: mapMinZoom, maxZoom: mapMaxZoom,
+			noWrap: true,
+			tms: false
+		}).addTo(map);
+			map.fitBounds(bounds);
+	
+	L.control.mousePosition().addTo(map)
+	  	
+		//Create Mineral Groups
+		var ironGroup = L.layerGroup().addTo(map);
+		var coalGroup = L.layerGroup().addTo(map);
+		var brimstoneGroup = L.layerGroup().addTo(map);
+		var crystalGroup = L.layerGroup().addTo(map);
+		var silverGroup = L.layerGroup().addTo(map);
+		var starmetalGroup = L.layerGroup().addTo(map);
+		
+		//Create Misc Groups
+		var religonGroup = L.layerGroup().addTo(map);
+		
+		//Create Thrall Groups
+		var blacksmithGroup = L.layerGroup().addTo(map);
+		var entertainerGroup = L.layerGroup().addTo(map);
+		var alchemistGroup = L.layerGroup().addTo(map);
+		var carpenterGroup = L.layerGroup().addTo(map);
+		var tannerGroup = L.layerGroup().addTo(map);
+		var sherpaGroup = L.layerGroup().addTo(map);
+		var taskmasterGroup = L.layerGroup().addTo(map);
+		var smelterGroup = L.layerGroup().addTo(map);
+		var priestGroup = L.layerGroup().addTo(map);
+		var armorerGroup = L.layerGroup().addTo(map);
+		var cookGroup = L.layerGroup().addTo(map);
+		
+		//Create Named Thrall Groups
+		var namedArcherGroup = L.layerGroup().addTo(map);
+		var namedAlchemistGroup = L.layerGroup().addTo(map);
+		var namedArmorerGroup = L.layerGroup().addTo(map);
+		var namedFighterGroup = L.layerGroup().addTo(map);
+		
+		//Create Location Groups
+		var caveGroup = L.layerGroup().addTo(map);
+		var dungeonGroup = L.layerGroup().addTo(map);
+		
+		//Set the groups
+		var overlays = {
+			"Iron": ironGroup,
+			"Coal": coalGroup,
+			"Brimstone": brimstoneGroup,
+			"Crystal": crystalGroup,
+			"Silver": silverGroup,
+			"Star Metal": starmetalGroup,
+			"NPC - Religon Trainer": religonGroup,
+			"Thrall - Alchemist": alchemistGroup,
+			"Thrall - Armorer": armorerGroup,
+			"Thrall - Bearer": sherpaGroup,
+			"Thrall - Blacksmith": blacksmithGroup,
+			"Thrall - Carpenter": carpenterGroup,
+			"Thrall - Cook": cookGroup,
+			"Thrall - Entertainer": entertainerGroup,
+			"Thrall - Priest": priestGroup,
+			"Thrall - Tanner": tannerGroup,
+			"Thrall - Taskmaster": taskmasterGroup,
+			"Thrall - Smelter": smelterGroup,
+			"Named Thrall - Archer": namedArcherGroup,
+			"Named Thrall - Alchemist": namedAlchemistGroup,
+			"Named Thrall - Armorer": namedArmorerGroup,
+			"Named Thrall - Fighter": namedFighterGroup,
+			"Locations - Caves": caveGroup,
+			"Locations - Dungeons": dungeonGroup
+		};
+		
+		//Crystal Icons
+		L.marker([-3266,1310], {icon: crystalIcon}).addTo(map).bindPopup("Crystals in Cavern of Fiends").addTo(crystalGroup),
+		
+		//Iron Icons
+		L.marker([-3021,1337.5], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-3016.5,1340.75], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-3015.75,1330], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
+		L.marker([-3021,1351.5], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-3037,1354.25], {icon: ironIcon}).addTo(map).bindPopup("19 Iron Nodes").addTo(ironGroup),
+		L.marker([-3031.75,1382.25], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-3037,1354.25], {icon: ironIcon}).addTo(map).bindPopup("19 Iron Nodes").addTo(ironGroup),
+		L.marker([-3037.25,1388.75], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
+		L.marker([-3073,713.75], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
+		L.marker([-3041,1395.75], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-3022.5,1367], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-3022,1387.75], {icon: ironIcon}).addTo(map).bindPopup("14 Iron Nodes").addTo(ironGroup),
+		L.marker([-3005.5,1368.25], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2997.25,1354.75], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-3016.5,1315.5], {icon: ironIcon}).addTo(map).bindPopup("21 Iron Nodes - On Cliff").addTo(ironGroup),
+		L.marker([-3011.5,1302.5], {icon: ironIcon}).addTo(map).bindPopup("12 Iron Nodes - On Cliff").addTo(ironGroup),
+		L.marker([-3008.25,1286.75], {icon: ironIcon}).addTo(map).bindPopup("20 Iron Nodes - On Plateau").addTo(ironGroup),
+		L.marker([-2996.75,1282.75], {icon: ironIcon}).addTo(map).bindPopup("9 Iron Nodes - On Plateau").addTo(ironGroup),
+		L.marker([-3048.25,1317.5], {icon: ironIcon}).addTo(map).bindPopup("15 Iron Nodes - On Plateau").addTo(ironGroup),
+		L.marker([-2981.25,1286.25], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes - On Cliff").addTo(ironGroup),
+		L.marker([-2985.75,1293], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-3032.5,1634.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-2946,1608.75], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-2971.5,1651], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-3054.25,1607], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-2994.25,680.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup);
+		L.marker([-2802.75,2095.5], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup);
+		L.marker([-2962,1598.25], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup);
+		L.marker([-2988.5,1649.5], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup);
+		L.marker([-3014.75,1670.75], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup);
+		L.marker([-3020,1654.5], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup);
+		L.marker([-2978,2326.75], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-3027,1822.25], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-3006.5,1863.5], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-2978,670.25], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-2936,1756], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
+		
+		//Coal Icons
+		L.marker([-2821.25,2106.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2830.25,1531], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2827.25,1505.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2842,2082.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2836,2098.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
+		L.marker([-2858,2058.25], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2967,671.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-3047.75,1744], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-3021.5,1718.25], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
+		L.marker([-2947,1726], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
+		L.marker([-2962,1737.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
+		
+		//Brimstone Icons
+		L.marker([-3149,1705], {icon: brimstoneIcon}).addTo(map).bindPopup("Brimstone in Sinner's Refuge").addTo(brimstoneGroup);
+		
+		//Religon Icons
+		L.marker([-3244,1328], {icon: yogIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Nunu_the_Cannibal' target='_blank'>Yog Trainer - Nunu the Cannibal</a>").addTo(religonGroup);
+		L.marker([-2614.5,1630], {icon: setIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Mek-kamoses' target='_blank'>Set Trainer - Mek-Kamoses</a>").addTo(religonGroup);
+		L.marker([-2516,1171], {icon: mitraIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Muriela_the_Artisan' target='_blank'>Mitra Trainer - Muriela the Artisan</a>").addTo(religonGroup);
+		L.marker([-1453.5,693.5], {icon: ymirIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Outcast' target='_blank'>Ymir Trainer - The Outcast</a>").addTo(religonGroup);
+		L.marker([-3056.25,3352], {icon: derketoIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(religonGroup);
+
+		//Thralls - Blacksmith
+		L.marker([-3357,1485.5], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Zamorian").addTo(blacksmithGroup);
+		L.marker([-2882.75,2117], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Zamorian").addTo(blacksmithGroup);
+		
+		
+		//Thralls - Entertainer
+		L.marker([-3262.75,1049.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-3343.5,2017.5], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-3347.5,2026.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-2967,2306.5], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Nordheimer").addTo(entertainerGroup);
+		L.marker([-2995.5, 1849.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-2987,1760.25], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		
+		//Thralls - Alchemist
+		L.marker([-3259.5,1037], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Dafari").addTo(alchemistGroup);
+		L.marker([-3007.75,1753], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Dafari").addTo(alchemistGroup);
+		
+		//Thralls - Taskmaster
+		L.marker([-3179.25,2317.5], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Hyborian").addTo(taskmasterGroup);
+		L.marker([-3009.75,1766.25], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Dafari").addTo(taskmasterGroup);
+		L.marker([-2975.5,1845.75], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Dafari").addTo(taskmasterGroup);
+		
+		//Thralls - Carpenter
+		L.marker([-3288.5,1237.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(alchemistGroup);
+		L.marker([-3461.75,1671], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Zamorian").addTo(alchemistGroup);
+		L.marker([-2999.5,1773.75], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(alchemistGroup);
+		L.marker([-3141,1533.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(alchemistGroup);
+		
+		//Thralls - Cook
+		L.marker([-2980,1849], {icon: cookIcon}).addTo(map).bindPopup("Cook - Dafari").addTo(cookGroup);
+		L.marker([-3007.8,1778.5], {icon: cookIcon}).addTo(map).bindPopup("Cook - Dafari").addTo(cookGroup);
+		L.marker([-2999.75,1524.75], {icon: cookIcon}).addTo(map).bindPopup("Cook - Dafari").addTo(cookGroup);
+		
+		//Thralls - Tanner
+		L.marker([-3232.5,1304], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Dafari").addTo(tannerGroup);
+		L.marker([-3004.5,1785.5], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Dafari").addTo(tannerGroup);
+		L.marker([-2899.50,1428.0], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Dafari").addTo(tannerGroup);
+		
+		//Thralls - Smelter
+		L.marker([-3412.75,2075.75], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Stygian").addTo(smelterGroup);
+		L.marker([-2883,2119], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Shemite").addTo(smelterGroup);
+		
+		//Thralls - Priest
+		L.marker([-2910.5,1987], {icon: priestIcon}).addTo(map).bindPopup("Priest - Mitra High Priest").addTo(priestGroup);
+		L.marker([-2995.25,1769], {icon: priestIcon}).addTo(map).bindPopup("Priest - Yog Priest").addTo(priestGroup);
+		
+		//Thralls - Bearer
+		L.marker([-3266,1276.75], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Dafari").addTo(sherpaGroup);
+		L.marker([-3341.5,2014], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Kushite").addTo(sherpaGroup);
+		L.marker([-2994.25,1843], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Stygian").addTo(sherpaGroup);
+		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Dafari").addTo(sherpaGroup);
+		
+		//Named Thralls - Fighter
+		L.marker([-2903.25,2258.75], {icon: warriorIcon}).addTo(map).bindPopup("Named Thrall - Tarman (Fighter)").addTo(namedFighterGroup);
+		
+		//Location - Dungeons
+		L.marker([-3249.5,996.5], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Dregs' target='_blank'>The Dregs</a>").addTo(dungeonGroup);
+		
+		//Location - Caves
+		L.marker([-3271,1318.5], {icon: caveIcon}).addTo(map).bindPopup("Cavern of Fiends - Demon Blood, Crystals").addTo(caveGroup);
+		L.marker([-3160,1705.25], {icon: caveIcon}).addTo(map).bindPopup("Sinner's Refuge - Brimstone").addTo(caveGroup);
+		
+		//Group Overlay Combiner
+		var groupedOverlays = {
+			"Minerals": {
+				"Iron": ironGroup,
+				"Coal": coalGroup,
+				"Brimstone": brimstoneGroup,
+				"Crystal": crystalGroup,
+				"Silver": silverGroup,
+				"Star Metal": starmetalGroup
+			},
+			"Thralls": {
+				"Alchemist": alchemistGroup,
+				"Armorer": armorerGroup,
+				"Bearer": sherpaGroup,
+				"Blacksmith": blacksmithGroup,
+				"Carpenter": carpenterGroup,
+				"Cook": cookGroup,
+				"Entertainer": entertainerGroup,
+				"Priest": priestGroup,
+				"Tanner": tannerGroup,
+				"Taskmaster": taskmasterGroup,
+				"Smelter": smelterGroup
+			},
+			"Named Thralls": {
+				"Archer": namedArcherGroup,
+				"Alchemist": namedAlchemistGroup,
+				"Armorer": namedArmorerGroup,
+				"Fighter": namedFighterGroup
+			},
+			"Locations": {
+				"Religon Trainer": religonGroup,
+				"Caves": caveGroup,
+				"Dungeons": dungeonGroup
+			}
+		};
+
+		
+		//Enable Group Options
+		var options = {
+			groupCheckboxes: true,
+			collapsed: false,
+			checkboxesChecked: true
+		};
+		//Display groups
+		L.control.groupedLayers(null, groupedOverlays, options).addTo(map);
+		
+    </script>
+  </body>
+</html>
