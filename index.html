@@ -282,6 +282,7 @@
 		L.marker([-2769.25,1574], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
 		L.marker([-2766.5,1514], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2890.75,1540.75], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2782.5,1778.75], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
 		L.marker([-2796.75,1689.25], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
 		L.marker([-2767.75,1498.75], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
 		L.marker([-2811.5,1698.5], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
@@ -295,6 +296,7 @@
 		L.marker([-2772,1578.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2765.75,1558.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2446.25,476.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2786.25,1802.75], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2437,489.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2808,1635.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2481.25,457.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
@@ -519,8 +521,9 @@
 		//Enable Group Options
 		var options = {
 			groupCheckboxes: true,
-			collapsed: false,
-			checkboxesChecked: true
+			collapsed: true,
+			checkboxesChecked: true,
+			doubleClickZoom: false
 		};
 		//Display groups
 		L.control.groupedLayers(null, groupedOverlays, options).addTo(map);
