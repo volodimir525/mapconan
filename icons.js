@@ -188,7 +188,7 @@ var priestIcon = L.icon({
 });
 
 var sherpaIcon = L.icon({
-	iconUrl: 'icons/icon_sherpa.BMP',
+	iconUrl: 'icons/icon_sherpa.png',
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
