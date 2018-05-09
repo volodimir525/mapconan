@@ -59,7 +59,7 @@
 			tms: false
 		}).addTo(map);
 			map.fitBounds(bounds);
-	
+
 	L.control.mousePosition().addTo(map)
 	  	
 		//Create Mineral Groups
@@ -164,6 +164,7 @@
 		L.marker([-2877,642.5], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
 		L.marker([-2561,673.25], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
 		L.marker([-2878.5,688], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
+		L.marker([-2716.75,201.25], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
 		L.marker([-2205.5,335], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
 		L.marker([-2516.75,609], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
 		L.marker([-2551.5,555], {icon: ironIcon}).addTo(map).bindPopup("1 Iron Node").addTo(ironGroup),
@@ -189,6 +190,7 @@
 		L.marker([-2997.25,1354.75], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
 		L.marker([-2595.5,575.75], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
 		L.marker([-2473.25,359.25], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-2768.75,1434.5], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
 		L.marker([-3003.75,3076], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
 		L.marker([-2587.25,596.25], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2617.5,591.25], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
@@ -278,6 +280,7 @@
 		L.marker([-2525.5,638], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
 		L.marker([-2556.5,3420], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
 		L.marker([-2517.25,622.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
+		L.marker([-2583.5,1574.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2509.25,616.25], {icon: ironIcon}).addTo(map).bindPopup("9 Iron Nodes").addTo(ironGroup),
 		L.marker([-2501.5,573.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2487,487.25], {icon: ironIcon}).addTo(map).bindPopup("8 Iron Nodes").addTo(ironGroup),
@@ -286,6 +289,7 @@
 		L.marker([-2375.5,575.25], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2805.5,1606.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2766.75,1544.75], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
+		L.marker([-2753.75,2129.5], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2441.5,481.25], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		L.marker([-2470.75,456], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
 		L.marker([-2380.5,566], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
@@ -327,6 +331,8 @@
 		L.marker([-2725,2951], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
 		L.marker([-2790,3093.75], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
 		L.marker([-2919.5,2721.75], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
+		L.marker([-2689.5,1863], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
+		L.marker([-2756.5,1922.25], {icon: ironIcon}).addTo(map).bindPopup("7 Iron Nodes").addTo(ironGroup),
 		L.marker([-2799.75,2782.25], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
 		L.marker([-2936,2736], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
 		L.marker([-2861.5,2744], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
@@ -339,24 +345,61 @@
 		L.marker([-2599.5,3275.5], {icon: ironIcon}).addTo(map).bindPopup("18 Iron Nodes").addTo(ironGroup),
 		L.marker([-2599,3257], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
 		L.marker([-2595.25,3396], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-2749.25,1915], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-2694.25,1991.25], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
 		L.marker([-2569.25,3394], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2761.75,2004.75], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2747,2115], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2542.75,1401.25], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2707.75,2029.25], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2680.25,1816], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2658,1881.5], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2691.5,1906.75], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2674.25,1547.5], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2574,1458], {icon: ironIcon}).addTo(map).bindPopup("4 Iron Nodes").addTo(ironGroup),
+		L.marker([-2736.5,1826.25], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-2726,2052], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-2699,1870.25], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-2819.5,1330.75], {icon: ironIcon}).addTo(map).bindPopup("6 Iron Nodes").addTo(ironGroup),
+		L.marker([-2755.5,1866.75], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-2760.5,1318], {icon: ironIcon}).addTo(map).bindPopup("2 Iron Nodes").addTo(ironGroup),
+		L.marker([-2749,1658.75], {icon: ironIcon}).addTo(map).bindPopup("5 Iron Nodes").addTo(ironGroup),
+		L.marker([-2622,1363], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
+		L.marker([-2581.75,1399.25], {icon: ironIcon}).addTo(map).bindPopup("3 Iron Nodes").addTo(ironGroup),
 		
 		//Coal Icons
 		L.marker([-2821.25,2106.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2606,1373], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2751.5,1651.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2582.5,1578.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2652.75,1311.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2707.5,1643.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2722.75,1656.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2821.5,1600.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2709.25,1842.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2712,1732], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2705,1810.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2682.25,1908.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2794,1663], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2766.5,1544.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2772,1578.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2729,2056.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2723.25,2044.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2765.75,1558.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2446.25,476.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2786.25,1802.75], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2734.25,1820.25], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2437,489.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2808,1635.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2721,1797], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2753.5,1805], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2481.25,457.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2621.5,617], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2487,521], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2429.5,510], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2542,1478], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2486.5,595.75], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
+		L.marker([-2556.5,1466], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2830.25,1531], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2565.75,603.25], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
 		L.marker([-2793,1582.5], {icon: coalIcon}).addTo(map).bindPopup("1 Coal Node").addTo(coalGroup);
@@ -391,17 +434,22 @@
 		L.marker([-2836,2098.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2837,1704.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2488.5,576], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2707.75,1748], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2488,513.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2858,2058.25], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2658.75,647.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2545.75,684], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2621.75,593.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2671.25,1899.25], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2570.75,1402.75], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2742.25, 688.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2603,862], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2790.5,1743], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2581.75,1370.75], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2609.5,625.75], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2568,867], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2645,836], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
+		L.marker([-2716.25,2034.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2934.25,664.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2470,934.25], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
 		L.marker([-2427,943.5], {icon: coalIcon}).addTo(map).bindPopup("2 Coal Nodes").addTo(coalGroup);
@@ -413,8 +461,10 @@
 		L.marker([-2424.5,342], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2694.5,642.75], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2947,1726], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
+		L.marker([-2728,2033.75], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2522.75,648.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-3192,3141.75], {icon: coalIcon}).addTo(map).bindPopup("4 Coal Nodes").addTo(coalGroup);
+		L.marker([-2676.25,1884.25], {icon: coalIcon}).addTo(map).bindPopup("4 Coal Nodes").addTo(coalGroup);
 		L.marker([-2503,611], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2519.5,629], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
 		L.marker([-2962,1737.5], {icon: coalIcon}).addTo(map).bindPopup("3 Coal Nodes").addTo(coalGroup);
@@ -443,10 +493,13 @@
 		//Thralls - Blacksmith
 		L.marker([-3357,1485.5], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Zamorian").addTo(blacksmithGroup);
 		L.marker([-2882.75,2117], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Zamorian").addTo(blacksmithGroup);
+		L.marker([-2648.5,2098], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Zingarian (Lower Platform)").addTo(blacksmithGroup);
 		L.marker([-2588,554.75], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Stygian").addTo(blacksmithGroup);
+		L.marker([-2654.75,2207.5], {icon: blacksmithIcon}).addTo(map).bindPopup("Blacksmith - Stygian").addTo(blacksmithGroup);
 		
 		//Thralls - Armorer
 		L.marker([-2582.75,553], {icon: armorerIcon}).addTo(map).bindPopup("Armorer - Stygian").addTo(armorerGroup);
+		L.marker([-2652.25,2101], {icon: armorerIcon}).addTo(map).bindPopup("Armorer - Stygian").addTo(armorerGroup);
 		L.marker([-3051.5,3351.75], {icon: armorerIcon}).addTo(map).bindPopup("Armorer - Lemurian").addTo(armorerGroup);
 		L.marker([-3032,3344], {icon: armorerIcon}).addTo(map).bindPopup("Armorer - Lemurian").addTo(armorerGroup);
 		
@@ -454,7 +507,11 @@
 		L.marker([-3262.75,1049.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
 		L.marker([-3343.5,2017.5], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
 		L.marker([-2269,2957.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Stygian").addTo(entertainerGroup);
+		L.marker([-2664.25,2126], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Stygian").addTo(entertainerGroup);
 		L.marker([-3347.5,2026.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-2623.25,2134], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
+		L.marker([-2600.5,2131.5], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Zamorian").addTo(entertainerGroup);
+		L.marker([-2545,3224.25], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
 		L.marker([-2967,2306.5], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Nordheimer").addTo(entertainerGroup);
 		L.marker([-2995.5, 1849.75], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
 		L.marker([-2987,1760.25], {icon: entertainerIcon}).addTo(map).bindPopup("Entertainer - Dafari").addTo(entertainerGroup);
@@ -468,21 +525,28 @@
 		L.marker([-3259.5,1037], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Dafari").addTo(alchemistGroup);
 		L.marker([-3007.75,1753], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Dafari").addTo(alchemistGroup);
 		L.marker([-2718.75,423.75], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Stygian").addTo(alchemistGroup);
+		L.marker([-2542,3263.5], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Nordheimer").addTo(alchemistGroup);
+		L.marker([-2661.5,2112.25], {icon: cookIcon}).addTo(map).bindPopup("Alchemist - Nordheimer").addTo(alchemistGroup);
 		
 		//Thralls - Taskmaster
 		L.marker([-3179.25,2317.5], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Hyborian").addTo(taskmasterGroup);
 		L.marker([-3009.75,1766.25], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Dafari").addTo(taskmasterGroup);
 		L.marker([-2975.5,1845.75], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Dafari").addTo(taskmasterGroup);
+		L.marker([-2543.75,3256.75], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Kushite").addTo(taskmasterGroup);
+		L.marker([-2668,2221], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Stygian").addTo(taskmasterGroup);
+		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster - Stygian").addTo(taskmasterGroup);
 		
 		//Thralls - Carpenter
 		L.marker([-3288.5,1237.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(carpenterGroup);
 		L.marker([-3461.75,1671], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Zamorian").addTo(carpenterGroup);
 		L.marker([-2999.5,1773.75], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(carpenterGroup);
 		L.marker([-3141,1533.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(carpenterGroup);
+		L.marker([-2448,3356], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Shemite").addTo(carpenterGroup);
+		L.marker([-2663,2084.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Shemite (Lower Area)").addTo(carpenterGroup);
 		L.marker([-2627,382], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Dafari").addTo(carpenterGroup);
 		L.marker([-2609,559.5], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Stygian").addTo(carpenterGroup);
 		L.marker([-3054.5,3356], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Lemurian").addTo(carpenterGroup);
-		L.marker([-2456,3307.25], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Hyrkanian").addTo(carpenterGroup);
+		L.marker([-2456,3307.25], {icon: carpenterIcon}).addTo(map).bindPopup("Carpenter - Hyrkanian or <a href='namedthralls/rayne.png' target='_blank'>Named Thrall - Rayne O' the Rosewood</a>").addTo(carpenterGroup).addTo(namedCarpenterGroup);
 		L.marker([-2697.5,2542], {icon: carpenterIcon}).addTo(map).bindPopup("2 Carpenters").addTo(carpenterGroup);
 		
 		//Thralls - Cook
@@ -494,8 +558,11 @@
 		L.marker([-3025,3342.5], {icon: cookIcon}).addTo(map).bindPopup("Cook - Lemurian").addTo(cookGroup);
 		L.marker([-2262.75,2961.5], {icon: cookIcon}).addTo(map).bindPopup("Cook - Cimmerian").addTo(cookGroup);
 		L.marker([-2721.75,424.75], {icon: cookIcon}).addTo(map).bindPopup("Cook - Stygian").addTo(cookGroup);
+		L.marker([-2720,2219.5], {icon: cookIcon}).addTo(map).bindPopup("Cook - Stygian").addTo(cookGroup);
 		L.marker([-2938.5,2775], {icon: cookIcon}).addTo(map).bindPopup("Cook - Hyborian").addTo(cookGroup);
+		L.marker([-2628,2140.5], {icon: cookIcon}).addTo(map).bindPopup("Cook - Zamorian").addTo(cookGroup);
 		L.marker([-2465,3285.25], {icon: cookIcon}).addTo(map).bindPopup("Cook - Zingarian").addTo(cookGroup);
+		L.marker([-2507.25,3220], {icon: cookIcon}).addTo(map).bindPopup("Cook - Zingarian").addTo(cookGroup);
 		L.marker([-2768,2933.75], {icon: cookIcon}).addTo(map).bindPopup("Cook - Hyrkanian (Upper Levels)").addTo(cookGroup);
 		
 		//Thralls - Tanner
@@ -504,6 +571,7 @@
 		L.marker([-2899.50,1428.0], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Dafari").addTo(tannerGroup);
 		L.marker([-2699,484], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Zamorian").addTo(tannerGroup);
 		L.marker([-2667,476.75], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Kushite").addTo(tannerGroup);
+		L.marker([-2660.25,2071], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Kushite").addTo(tannerGroup);
 		L.marker([-2606,481.5], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Stygian").addTo(tannerGroup);
 		L.marker([-2606,481.5], {icon: tannerIcon}).addTo(map).bindPopup("Tanner - Hyrkanian").addTo(tannerGroup);
 		
@@ -512,10 +580,14 @@
 		L.marker([-2883,2119], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Shemite").addTo(smelterGroup);
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Shemite").addTo(smelterGroup);
 		L.marker([-3103.5,2621.75], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Shemite").addTo(smelterGroup);
+		L.marker([-2651.5,2104.25], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Shemite (Lower Platform)").addTo(smelterGroup);
+		L.marker([-2443.5,3352], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Zamorian").addTo(smelterGroup);
+		L.marker([-2616,2117.5], {icon: smelterIcon}).addTo(map).bindPopup("Smelter - Zamorian").addTo(smelterGroup);
 		
 		//Thralls - Priest
 		L.marker([-2910.5,1987], {icon: priestIcon}).addTo(map).bindPopup("Priest - Mitra High Priest").addTo(priestGroup);
 		L.marker([-2995.25,1769], {icon: priestIcon}).addTo(map).bindPopup("Priest - Yog Priest").addTo(priestGroup);
+		L.marker([-2662.75,2093.5], {icon: priestIcon}).addTo(map).bindPopup("Priest - Yog Priest (Lower Area)").addTo(priestGroup);
 		L.marker([-2629,551], {icon: priestIcon}).addTo(map).bindPopup("Priest - Set Priest").addTo(priestGroup);
 		L.marker([-3158.25,1711.5], {icon: priestIcon}).addTo(map).bindPopup("Priest - Mitra Priest(In Cave)").addTo(priestGroup);
 		
@@ -523,20 +595,34 @@
 		L.marker([-3266,1276.75], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Dafari").addTo(sherpaGroup);
 		L.marker([-3341.5,2014], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Kushite").addTo(sherpaGroup);
 		L.marker([-2994.25,1843], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Stygian").addTo(sherpaGroup);
+		L.marker([-2619.75,2129.5], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Stygian").addTo(sherpaGroup);
 		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Dafari").addTo(sherpaGroup);
 		L.marker([-2604.25,477.25], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Zingarian").addTo(sherpaGroup);
+		L.marker([-2633.75,2152.25], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Zamorian").addTo(sherpaGroup);
 		L.marker([-2767.5,2955.25], {icon: sherpaIcon}).addTo(map).bindPopup("Bearer - Hyrkanian (In Cave)").addTo(sherpaGroup);
 		
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).addTo(map).bindPopup("Named Thrall - Tarman (Fighter)").addTo(namedFighterGroup);
-		L.marker([-2777,1775.25], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/thugra.png' target='_blank'>Named Thrall - Thugra (Fighter)</a>").addTo(namedFighterGroup);
-		L.marker([-3042.25,3360.5], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/mei.png' target='_blank'>Named Thrall - Mei the Blade (Fighter)</a>").addTo(namedFighterGroup);
+		L.marker([-2777,1775.25], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/thugra.png' target='_blank'>Thugra (Fighter)</a>").addTo(namedFighterGroup);
+		L.marker([-3042.25,3360.5], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/mei.png' target='_blank'>Mei the Blade (Fighter)</a>").addTo(namedFighterGroup);
+		L.marker([-2409,3368.25], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/gallo.png' target='_blank'>Gall O' the Spear-Din (Fighter)</a>").addTo(namedFighterGroup);
+		L.marker([-2671.25,2141], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/captainioushwa.png' target='_blank'>Captain Ioushuwa (Fighter)</a>").addTo(namedFighterGroup);
+		L.marker([-2695.5,1824.25], {icon: warriorIcon}).addTo(map).bindPopup("<a href='namedthralls/nbatu.png' target='_blank'>N'batu (Fighter)</a>").addTo(namedFighterGroup);
 		
 		//Named Thralls - Taskmaster
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).addTo(map).bindPopup("Taskmaster Master").addTo(namedTaskmasterGroup);
 
 		//Named Thralls - Entertainer
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).addTo(map).bindPopup("Luba the Luscious").addTo(namedEntertainerGroup);
+		
+		//Named Thralls - Cook
+		L.marker([-2666.75,2105.75], {icon: cookIcon}).addTo(map).bindPopup("<a href='namedthralls/vatessa.png' target='_blank'>Vatessa the Potent (Cook) (Lower Area)</a>").addTo(namedCookGroup);
+
+		//Named Thralls - Carpenter
+		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).addTo(map).bindPopup("<a href='namedthralls/sigyn.png' target='_blank'>Sigyn the Woodworker (Carpenter)</a>").addTo(namedCarpenterGroup);
+		
+		//Named Thralls - Archer
+		L.marker([-2558.75,3262.75], {icon: archerIcon}).addTo(map).bindPopup("<a href='namedthralls/sarnai.png' target='_blank'>Sarnai the Thorn (Archer)</a>").addTo(namedArcherGroup);
 
 		
 		//Location - Dungeons
@@ -550,6 +636,8 @@
 		L.marker([-3496,1905], {icon: caveIcon}).addTo(map).bindPopup("Hanuman's Grotto - Demon Blood, Crystals").addTo(caveGroup);
 		L.marker([-3181.5,1901], {icon: caveIcon}).addTo(map).bindPopup("Gallaman's Tomb - Brimstone").addTo(caveGroup);
 		L.marker([-2513.25,2304], {icon: caveIcon}).addTo(map).bindPopup("Xalthar's Refuge").addTo(caveGroup);
+		L.marker([-2596,1393], {icon: caveIcon}).addTo(map).bindPopup("Weaver's Hollow").addTo(caveGroup);
+		L.marker([-2482.75,1492], {icon: caveIcon}).addTo(map).bindPopup("Scuttler's Shortcut").addTo(caveGroup);
 		
 		//Group Overlay Combiner
 		var groupedOverlays = {
