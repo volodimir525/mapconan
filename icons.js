@@ -42,7 +42,7 @@ var goldstoneIcon = L.icon({
 var silverIcon = L.icon({
 	iconUrl: 'icons/icon_silver.png',
 				
-	iconSize:	[48,48],
+	iconSize:	[32,32],
 	iconAnchor: [16,16],
 	popupAnchor:	[-10, -35]
 });
