@@ -28,7 +28,7 @@
 		var mapMaxResolution = 0.25000000;
 		var mapMinResolution = Math.pow(2, mapMaxZoom) * mapMaxResolution;
 		var tileExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
-		var bounds = [[0,0], [-4000,4000]];
+		var maxBounds = [[0,0], [-4000,4000]];
 		var crs = L.CRS.Simple;
 			crs.transformation = new L.Transformation(1, -tileExtent[0], -1, tileExtent[3]);
 			crs.scale = function(zoom) {
@@ -43,17 +43,20 @@
 			minZoom: mapMinZoom,
 			layers: overlays,
 			crs: crs,
-			maxBounds: bounds,
+			maxBounds: maxBounds,
 			maxBoundsViscosity: 1,
 			attributionControl:false
 			
 		});
 			layer = L.tileLayer('{z}/{x}/{y}.png', {
 			minZoom: mapMinZoom, maxZoom: mapMaxZoom,
-			noWrap: true,
+			bounds: [[0,0], [-4000,4000]],
 			tms: false
 		}).addTo(map);
-			map.fitBounds(bounds);
+			map.fitBounds([
+        crs.unproject(L.point(mapExtent[2], mapExtent[3])),
+        crs.unproject(L.point(mapExtent[0], mapExtent[1]))
+		]);
 
 		//Coordinates Display (Bottom Left)
 		L.control.mousePosition().addTo(map)
