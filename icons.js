@@ -4,7 +4,7 @@ var ironIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var coalIcon = L.icon({
@@ -12,7 +12,7 @@ var coalIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var blackiceIcon = L.icon({
@@ -20,7 +20,7 @@ var blackiceIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 		
 var brimstoneIcon = L.icon({
@@ -28,7 +28,7 @@ var brimstoneIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var crystalIcon = L.icon({
@@ -36,7 +36,7 @@ var crystalIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 		
 var goldstoneIcon = L.icon({
@@ -44,7 +44,7 @@ var goldstoneIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var silverIcon = L.icon({
@@ -52,7 +52,7 @@ var silverIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 		
 var starmetalIcon = L.icon({
@@ -60,7 +60,7 @@ var starmetalIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 //Religon Icons
@@ -69,7 +69,7 @@ var cromIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var derketoIcon = L.icon({
@@ -77,7 +77,7 @@ var derketoIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var mitraIcon = L.icon({
@@ -85,7 +85,7 @@ var mitraIcon = L.icon({
 
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var setIcon = L.icon({
@@ -93,7 +93,7 @@ var setIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var ymirIcon = L.icon({
@@ -101,7 +101,7 @@ var ymirIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var yogIcon = L.icon({
@@ -109,7 +109,7 @@ var yogIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 
@@ -120,7 +120,7 @@ var archerIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var armorerIcon = L.icon({
@@ -128,7 +128,7 @@ var armorerIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var armorerIcon = L.icon({
@@ -136,7 +136,7 @@ var armorerIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var blacksmithIcon = L.icon({
@@ -144,7 +144,7 @@ var blacksmithIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var carpenterIcon = L.icon({
@@ -152,7 +152,7 @@ var carpenterIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var cookIcon = L.icon({
@@ -160,7 +160,7 @@ var cookIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var entertainerIcon = L.icon({
@@ -168,7 +168,7 @@ var entertainerIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var masonIcon = L.icon({
@@ -176,7 +176,7 @@ var masonIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var merchantIcon = L.icon({
@@ -184,7 +184,7 @@ var merchantIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var priestIcon = L.icon({
@@ -192,7 +192,7 @@ var priestIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var sherpaIcon = L.icon({
@@ -200,7 +200,7 @@ var sherpaIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var smelterIcon = L.icon({
@@ -208,7 +208,7 @@ var smelterIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var tannerIcon = L.icon({
@@ -216,7 +216,7 @@ var tannerIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var taskmasterIcon = L.icon({
@@ -224,7 +224,7 @@ var taskmasterIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var torchlighterIcon = L.icon({
@@ -232,7 +232,7 @@ var torchlighterIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var warriorIcon = L.icon({
@@ -240,7 +240,7 @@ var warriorIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 ////////////////////////////////////////////////////Location Icons
@@ -249,7 +249,7 @@ var caveIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var dungeonIcon = L.icon({
@@ -257,7 +257,7 @@ var dungeonIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
 
 var obeliskIcon = L.icon({
@@ -265,5 +265,5 @@ var obeliskIcon = L.icon({
 				
 	iconSize:	[32,32],
 	iconAnchor: [16,16],
-	popupAnchor:	[-10, -35]
+	popupAnchor:	[0, -10]
 });
