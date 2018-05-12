@@ -1,0 +1,40 @@
+/* 
+ * This file is used for generic site styling.
+ * Changes that effect the entire project's styles go here.
+ * (as opposed to just effecting a small component of site.)
+ */
+ 
+ .clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+body {
+  color: #d6d6c2;
+  overflow: none;
+}
+
+main {
+  flex: 3;
+  height: 100vh;
+}
+
+aside {
+  background-color: #202020;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: none;
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  overflow: none;
+}
