@@ -25,8 +25,7 @@ main {
 aside {
   background-color: #202020;
   float: left;
-  overflow-y: scroll;
-  overflow-x: none;
+  overflow: none;
   width: 25%;
 }
 
