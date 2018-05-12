@@ -55,7 +55,8 @@
 		}).addTo(map);
 			map.fitBounds(bounds);
 
-	L.control.mousePosition().addTo(map)
+		//Coordinates Display (Bottom Left)
+		L.control.mousePosition().addTo(map)
 	  	
 		//Create Mineral Groups
 		var ironGroup = L.layerGroup().addTo(map);
