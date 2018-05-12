@@ -100,6 +100,7 @@
 		//Create Location Groups
 		var caveGroup = L.layerGroup().addTo(map);
 		var dungeonGroup = L.layerGroup().addTo(map);
+		var obeliskGroup = L.layerGroup().addTo(map);
 		
 		//Set the groups
 		var overlays = {
@@ -135,6 +136,7 @@
 			"Named Thrall - Tanner": namedTannerGroup,
 			"Named Thrall - Taskmaster": namedTaskmasterGroup,			
 			"Locations - Caves": caveGroup,
+			"Locations - Obelisks": obeliskGroup,
 			"Locations - Dungeons": dungeonGroup
 		};
 		
@@ -735,6 +737,9 @@
 		L.marker([-3249.5,996.5], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Dregs' target='_blank'>The Dregs</a>").addTo(dungeonGroup);
 		L.marker([-2901.25,3366.75], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Palace_of_the_Witch_Queen' target='_blank'>Palace of the Witch Queen</a>").addTo(dungeonGroup);
 		L.marker([-2179.75,2499.25], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Passage' target='_blank'>The Passage</a>").addTo(dungeonGroup);
+		L.marker([-1526.5,1377], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Black_Keep' target='_blank'>The Black Keep</a>").addTo(dungeonGroup);
+		L.marker([-1550.5,1283], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/Undergate' target='_blank'>Undergate</a> - Entrace requires swimming under ice.").addTo(dungeonGroup);
+		L.marker([-969,1537], {icon: dungeonIcon}).addTo(map).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Well_of_Skelos' target='_blank'>The Well of Skelos</a>").addTo(dungeonGroup);
 		
 		//Location - Caves
 		L.marker([-3271,1318.5], {icon: caveIcon}).addTo(map).bindPopup("Cavern of Fiends - Demon Blood, Crystals").addTo(caveGroup);
@@ -744,6 +749,31 @@
 		L.marker([-2513.25,2304], {icon: caveIcon}).addTo(map).bindPopup("Xalthar's Refuge").addTo(caveGroup);
 		L.marker([-2596,1393], {icon: caveIcon}).addTo(map).bindPopup("Weaver's Hollow").addTo(caveGroup);
 		L.marker([-2482.75,1492], {icon: caveIcon}).addTo(map).bindPopup("Scuttler's Shortcut").addTo(caveGroup);
+		L.marker([-2006,1823.25], {icon: caveIcon}).addTo(map).bindPopup("Lockstone Cave").addTo(caveGroup);
+		L.marker([-2879.75,1315], {icon: caveIcon}).addTo(map).bindPopup("Warren of Degenerates - Demon Blood, Crystals").addTo(caveGroup);
+		L.marker([-1087,1201], {icon: caveIcon}).addTo(map).bindPopup("The Floe - Goes to Volcano").addTo(caveGroup);
+		L.marker([-1391,1266.5], {icon: caveIcon}).addTo(map).bindPopup("Dragonmouth - Goes to Volcano").addTo(caveGroup);
+		L.marker([-3052.75,1298.25], {icon: caveIcon}).addTo(map).bindPopup("Skittering Cavern - Gossamer").addTo(caveGroup);
+		L.marker([-3017,1193], {icon: caveIcon}).addTo(map).bindPopup("Shaleback Hollow").addTo(caveGroup);
+		L.marker([-1957,1822], {icon: caveIcon}).addTo(map).bindPopup("Jhil's Roost").addTo(caveGroup);
+		L.marker([-1799.25,1772.75], {icon: caveIcon}).addTo(map).bindPopup("Bin-Yakin`s Seal").addTo(caveGroup);
+		L.marker([-1913,1845.75], {icon: caveIcon}).addTo(map).bindPopup("The Scraps").addTo(caveGroup);
+		L.marker([-1648.75,339.25], {icon: caveIcon}).addTo(map).bindPopup("The Barrow King").addTo(caveGroup);
+		L.marker([-1493.25,1886.5], {icon: caveIcon}).addTo(map).bindPopup("The High Way - Goes to Volcano").addTo(caveGroup);
+		L.marker([-1702.5,971.25], {icon: caveIcon}).addTo(map).bindPopup("The Crevice").addTo(caveGroup);
+		L.marker([-2863.5,2186.75], {icon: caveIcon}).addTo(map).bindPopup("Executioners Entrance - Brimstone, Iron").addTo(caveGroup);
+		
+		//Location - Obelisks
+		L.marker([-2253.75,2589], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk1.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-2771.75,3226.25], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk2.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-1110,1643], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk3.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-1117.25,1086.25], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk4.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-1698.5,520.5], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk5.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-2743.75,1074.25], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk6.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-2444.25,679.75], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk7.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-3247.75,985.75], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk8.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-2846.5,1794.5], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk9.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
+		L.marker([-1620.75,1337], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='obelisks/obelisk10.png' target='_blank'>Obelisk</a>").addTo(namedFighterGroup);
 		
 		//Group Overlay Combiner
 		var groupedOverlays = {
@@ -786,7 +816,8 @@
 			"Locations": {
 				"Religon Trainer": religonGroup,
 				"Caves": caveGroup,
-				"Dungeons": dungeonGroup
+				"Dungeons": dungeonGroup,
+				"Obelisks": obeliskGroup
 			}
 		};
 

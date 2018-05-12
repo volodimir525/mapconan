@@ -251,3 +251,11 @@ var dungeonIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[-10, -35]
 });
+
+var obeliskIcon = L.icon({
+	iconUrl: 'loc_icons/icon_obelisk.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[-10, -35]
+});
