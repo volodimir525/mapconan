@@ -26,7 +26,7 @@ var blackiceIcon = L.icon({
 var brimstoneIcon = L.icon({
 	iconUrl: 'icons/icon_brimstone.png',
 
-	iconSize:	[48,48],
+	iconSize:	[32,32],
 	iconAnchor: [16,16],
 	popupAnchor:	[-10, -35]
 });
@@ -34,7 +34,7 @@ var brimstoneIcon = L.icon({
 var crystalIcon = L.icon({
 	iconUrl: 'icons/icon_crystal.png',
 				
-	iconSize:	[48,48],
+	iconSize:	[32,32],
 	iconAnchor: [16,16],
 	popupAnchor:	[-10, -35]
 });
