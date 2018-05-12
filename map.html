@@ -65,6 +65,7 @@
 		var crystalGroup = L.layerGroup().addTo(map);
 		var silverGroup = L.layerGroup().addTo(map);
 		var starmetalGroup = L.layerGroup().addTo(map);
+		var blackiceGroup = L.layerGroup().addTo(map);
 		
 		//Create Misc Groups
 		var religonGroup = L.layerGroup().addTo(map);
@@ -111,6 +112,7 @@
 			"Crystal": crystalGroup,
 			"Silver": silverGroup,
 			"Star Metal": starmetalGroup,
+			"Black Ice": blackiceGroup,
 			"NPC - Religon Trainer": religonGroup,
 			"Thrall - Alchemist": alchemistGroup,
 			"Thrall - Armorer": armorerGroup,
@@ -140,6 +142,9 @@
 			"Locations - Obelisks": obeliskGroup,
 			"Locations - Dungeons": dungeonGroup
 		};
+		
+		//Black Ice Icons
+		
 		
 		//Crystal Icons
 		L.marker([-3266,1310], {icon: crystalIcon}).addTo(map).bindPopup("Crystals in Cavern of Fiends").addTo(crystalGroup),
@@ -784,7 +789,8 @@
 				"Brimstone": brimstoneGroup,
 				"Crystal": crystalGroup,
 				"Silver": silverGroup,
-				"Star Metal": starmetalGroup
+				"Star Metal": starmetalGroup,
+				"Black Ice": blackiceGroup
 			},
 			"Thralls": {
 				"Alchemist": alchemistGroup,

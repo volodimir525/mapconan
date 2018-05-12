@@ -14,6 +14,14 @@ var coalIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[-10, -35]
 });
+
+var blackiceIcon = L.icon({
+	iconUrl: 'icons/icon_black_ice.png',
+
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[-10, -35]
+});
 		
 var brimstoneIcon = L.icon({
 	iconUrl: 'icons/icon_brimstone.png',
