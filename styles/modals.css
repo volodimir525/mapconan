@@ -7,7 +7,6 @@
   background-color: #ffffff;
   border-bottom: 8px solid #7289da;
   width: 450px;
-  min-height: 300px;
   opacity: 0;
   margin: 0 auto;
   pointer-events: none;
@@ -103,4 +102,19 @@
 
 .modal-content__paypal {
   padding: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .modal {
+    width: 90%;
+  }
+
+  .modal-content,
+  .modal-content__paypal {
+    padding: 10px 20px;
+  }
+
+  .modal-header {
+    padding: 20px;
+  }
 }
