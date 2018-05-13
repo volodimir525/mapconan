@@ -22,7 +22,15 @@ var blackiceIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
-		
+
+var obsidianIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_obsidian.png',
+
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
 var brimstoneIcon = L.icon({
 	iconUrl: 'data/images/icons/icon_brimstone.png',
 
