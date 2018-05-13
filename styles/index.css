@@ -22,10 +22,6 @@ main {
   height: 100vh;
 }
 
-strong {
-  font-weight: 600;
-}
-
 a:link,
 a:visited,
 a:hover {
