@@ -1,0 +1,45 @@
+/*
+ * Styles in this file should only modify buttons.
+ * Please reuse classes where possible.
+ */
+
+.button-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+}
+
+.info-button,
+.donate-button {
+  background-color: #7289da;
+  border-bottom: 6px solid #5e77d4;
+  color: #c3ccef;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+
+.info-button:hover,
+.donate-button:hover {
+  background-color: #5e77d4;
+  border-bottom: 6px solid #7289da;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .info-button,
+  .donate-button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+  }
+}
