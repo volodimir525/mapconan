@@ -21,7 +21,9 @@
   </head>
   <body>
     <div id="map"></div>
-    <script type="text/javascript">
+	<script type="text/javascript">
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 		var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		var mapMinZoom = 3;
 		var mapMaxZoom = 6;
@@ -48,12 +50,15 @@
 			attributionControl:false
 			
 		});
+
 			layer = L.tileLayer('https://www.conanexilesmap.com/data/images/map/{z}/{x}/{y}.png', {
 			minZoom: mapMinZoom, maxZoom: mapMaxZoom,
 			bounds: [[0,0], [-4000,4000]],
 			tms: false
+			
 		}).addTo(map);
-			map.fitBounds([
+
+		map.fitBounds([
         crs.unproject(L.point(mapExtent[2], mapExtent[3])),
         crs.unproject(L.point(mapExtent[0], mapExtent[1]))
 		]);
