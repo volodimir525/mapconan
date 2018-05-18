@@ -36,3 +36,7 @@ a:active {
   display: flex;
   overflow: none;
 }
+
+.map {
+  z-index: 5;
+}
