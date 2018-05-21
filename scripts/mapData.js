@@ -887,7 +887,7 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		L.marker([-1620.75,1337], {icon: obeliskIcon}).addTo(map).bindPopup("<a href='data/images/markers/obelisks/obelisk10.png' target='_blank'><img src='data/images/markers/obelisks/obelisk10.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup);
 		
 		//Group Overlay Combiner
-		var groupedOverlays = {
+		var groupedResources = {
 			"Toggle Resources": {
 				"| - Iron": ironGroup,
 				"| - Coal": coalGroup,
@@ -925,25 +925,30 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 				"| - Smelter": namedSmelterGroup,
 				"| - Tanner": namedTannerGroup,
 				"| - Taskmaster": namedTaskmasterGroup
-			},
+			}
+		}
+
+		var groupedLocations = {
 			"Toggle Locations": {
 				"| - Caves": caveGroup,
 				"| - Dungeons": dungeonGroup,
 				"| - Obelisks": obeliskGroup,
 				"| - Religon Trainer": religonGroup
-				
 			}
-		};
+		}
 
 		//Enable Group Options
 		var options = {
 			groupCheckboxes: true,
 			collapsed: true
-        };
-        
-		//Display groups
-        var layerControl = L.control.groupedLayers(null, groupedOverlays, options).addTo(this.map);
-        L.DomEvent.unselectableText(layerControl._container);
-		L.DomEvent.disableClickPropagation(layerControl._container);
-		L.DomEvent.disableScrollPropagation(layerControl._container);
-		L.DomEvent.disableScrollPropagation(layerControl._container);
+		};
+
+		//OLD FILTERING
+		L.control.groupedLayers(null, groupedResources, options).addTo(this.map);
+		L.control.groupedLayers(null, groupedLocations, options).addTo(this.map);
+
+		//
+		//	NEW FILTERING GROUP LOCS
+		//var layerControlResources = L.control.groupedLayers(null, groupedResources, options);
+		//var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
+		//
