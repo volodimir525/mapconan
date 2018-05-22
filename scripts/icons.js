@@ -275,3 +275,204 @@ var obeliskIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var campBlackhandIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_blackhand.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campCimmerianIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_cimmerian.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campDarfariIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_darfari.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campDogsOfTheDesertIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_dogsofthedesert.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campFrostGiantIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_frostgiant.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campLemurianIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_lemurian.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campRelicHuntersIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_relic_hunters.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campSerpentmenIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_serpentmen.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campUnnamedCityIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_unnamed_city.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var campVanirIcon = L.icon({
+	iconUrl: 'data/images/icons/camp_vanir.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+
+var capitalBlackhandIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_blackhand.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalCimmerianIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_cimmerian.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalDarfariIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_darfari.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalDogsOfTheDesertIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_dogsofthedesert.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalFrostGiantIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_frostgiant.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalLemurianIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_lemurian.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalRelicHuntersIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_relic_hunters.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalSerpentmenIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_serpentmen.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalUnnamedCityIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_unnamed_city.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var capitalVanirIcon = L.icon({
+	iconUrl: 'data/images/icons/capital_vanir.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var vistaIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_vista.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var ruinsIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_ruins.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var bossIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_boss.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var loreIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_lore.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var treasureIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_treasure.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
