@@ -339,16 +339,16 @@
 
 .leaflet-control-layers {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-	background: #fff;
+	background-image: url("../data/images/site/bg_tipT.png");
 	border-radius: 5px;
 	}
 .leaflet-control-layers-toggle {
-	background-image: url(../data/images/site/layers.png);
+	background-image: url(../data/images/icons/icon_lore.png);
 	width: 36px;
 	height: 36px;
 	}
 .leaflet-retina .leaflet-control-layers-toggle {
-	background-image: url(../data/images/site/layers-2x.png);
+	background-image: url(../data/images/icons/icon_lore.png);
 	background-size: 26px 26px;
 	}
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -365,8 +365,9 @@
 	}
 .leaflet-control-layers-expanded {
 	padding: 6px 10px 6px 6px;
-	color: #333;
-	background: #fff;
+	font: 16px 'Roboto', sans-serif;
+	color: #fff;
+	background-image: url("../data/images/site/bg_menuTV.png");
 	}
 .leaflet-control-layers-scrollbar {
 	overflow-y: scroll;
@@ -539,6 +540,7 @@
 	color: #c3c3c3;
 	text-decoration: none;
 	font-weight: bold;
+	text-align: center;
 	background: transparent;
 	}
 .leaflet-container a.leaflet-popup-close-button:hover {

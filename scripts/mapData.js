@@ -930,58 +930,58 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		//Group Overlay Combiner
 		var groupedResources = {
 			"Resources": {
-				"| - Iron": ironGroup,
-				"| - Coal": coalGroup,
-				"| - Brimstone": brimstoneGroup,
-				"| - Crystal": crystalGroup,
-				"| - Silver": silverGroup,
-				"| - Star Metal": starmetalGroup,
-				"| - Black Ice": blackiceGroup,
-				"| - Obsidian": obsidianGroup
+				"<img src='data/images/icons/icon_ironstone.png' width='16' height='16'></img> Iron": ironGroup,
+				"<img src='data/images/icons/icon_coal.png' width='16' height='16'></img> Coal": coalGroup,
+				"<img src='data/images/icons/icon_brimstone.png' width='16' height='16'></img> Brimstone": brimstoneGroup,
+				"<img src='data/images/icons/icon_crystal.png' width='16' height='16'></img> Crystal": crystalGroup,
+				"<img src='data/images/icons/icon_silver.png' width='16' height='16'></img> Silver": silverGroup,
+				"<img src='data/images/icons/icon_starmetal.png' width='16' height='16'></img> Star Metal": starmetalGroup,
+				"<img src='data/images/icons/icon_black_ice.png' width='16' height='16'></img> Black Ice": blackiceGroup,
+				"<img src='data/images/icons/icon_obsidian.png' width='16' height='16'></img> Obsidian": obsidianGroup
 			},
 			"Thralls": {
-				"| - Alchemist": alchemistGroup,
-				"| - Armorer": armorerGroup,
-				"| - Bearer": sherpaGroup,
-				"| - Blacksmith": blacksmithGroup,
-				"| - Carpenter": carpenterGroup,
-				"| - Cook": cookGroup,
-				"| - Entertainer": entertainerGroup,
-				"| - Priest": priestGroup,
-				"| - Tanner": tannerGroup,
-				"| - Taskmaster": taskmasterGroup,
-				"| - Smelter": smelterGroup
+				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Alchemist": alchemistGroup,
+				"<img src='data/images/icons/icon_armorer.png' width='16' height='16'></img> Armorer": armorerGroup,
+				"<img src='data/images/icons/icon_sherpa.png' width='16' height='16'></img> Bearer": sherpaGroup,
+				"<img src='data/images/icons/icon_blacksmith.png' width='16' height='16'></img> Blacksmith": blacksmithGroup,
+				"<img src='data/images/icons/icon_carpenter.png' width='16' height='16'></img> Carpenter": carpenterGroup,
+				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Cook": cookGroup,
+				"<img src='data/images/icons/icon_entertainer.png' width='16' height='16'></img> Entertainer": entertainerGroup,
+				"<img src='data/images/icons/icon_priest.png' width='16' height='16'></img> Priest": priestGroup,
+				"<img src='data/images/icons/icon_tanner.png' width='16' height='16'></img> Tanner": tannerGroup,
+				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": taskmasterGroup,
+				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": smelterGroup
 			},
 			"Named Thralls": {
-				"| - Archer": namedArcherGroup,
-				"| - Alchemist": namedAlchemistGroup,
-				"| - Armorer": namedArmorerGroup,
-				"| - Blacksmith": namedBlacksmithGroup,
-				"| - Carpenter": namedCarpenterGroup,
-				"| - Cook": namedCookGroup,
-				"| - Entertainer": namedEntertainerGroup,
-				"| - Fighter": namedFighterGroup,
-				"| - Priest": namedPriestGroup,
-				"| - Bearer": namedSherpaGroup,
-				"| - Smelter": namedSmelterGroup,
-				"| - Tanner": namedTannerGroup,
-				"| - Taskmaster": namedTaskmasterGroup
+				"<img src='data/images/icons/icon_archer.png' width='16' height='16'></img> Archer": namedArcherGroup,
+				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Alchemist": namedAlchemistGroup,
+				"<img src='data/images/icons/icon_armorer.png' width='16' height='16'></img> Armorer": namedArmorerGroup,
+				"<img src='data/images/icons/icon_blacksmith.png' width='16' height='16'></img> Blacksmith": namedBlacksmithGroup,
+				"<img src='data/images/icons/icon_carpenter.png' width='16' height='16'></img> Carpenter": namedCarpenterGroup,
+				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Cook": namedCookGroup,
+				"<img src='data/images/icons/icon_entertainer.png' width='16' height='16'></img> Entertainer": namedEntertainerGroup,
+				"<img src='data/images/icons/icon_warrior.png' width='16' height='16'></img> Fighter": namedFighterGroup,
+				"<img src='data/images/icons/icon_priest.png' width='16' height='16'></img> Priest": namedPriestGroup,
+				"<img src='data/images/icons/icon_sherpa.png' width='16' height='16'></img> Bearer": namedSherpaGroup,
+				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": namedSmelterGroup,
+				"<img src='data/images/icons/icon_tanner.png' width='16' height='16'></img> Tanner": namedTannerGroup,
+				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": namedTaskmasterGroup
 			}
 		}
 
 		var groupedLocations = {
 			"Toggle Locations": {
-				"| - Religon Trainer": religonGroup,
-				"| - Caves": caveGroup,
-				"| - Dungeons": dungeonGroup,
-				"| - Obelisks": obeliskGroup,
-				"| - Camps": campGroup,
-				"| - Capitals": capitalGroup,
-				"| - Vistas": vistaGroup,
-				"| - Ruins": ruinsGroup,
-				"| - Bosses": bossGroup,
-				"| - Lore": loreGroup,
-				"| - Treasures": treasureGroup
+				"<img src='data/images/icons/icon_mitra.png' width='16' height='16'></img> Religon Trainer": religonGroup,
+				"<img src='data/images/icons/icon_cave.png' width='16' height='16'></img> Caves": caveGroup,
+				"<img src='data/images/icons/icon_dungeon.png' width='16' height='16'></img> Dungeons": dungeonGroup,
+				"<img src='data/images/icons/icon_obelisk.png' width='16' height='16'></img> Obelisks": obeliskGroup,
+				"<img src='data/images/icons/camp_vanir.png' width='16' height='16'></img> Camps": campGroup,
+				"<img src='data/images/icons/capital_vanir.png' width='16' height='16'></img> Capitals": capitalGroup,
+				"<img src='data/images/icons/icon_vista.png' width='16' height='16'></img> Vistas": vistaGroup,
+				"<img src='data/images/icons/icon_ruins.png' width='16' height='16'></img> Ruins": ruinsGroup,
+				"<img src='data/images/icons/icon_boss.png' width='16' height='16'></img> Bosses": bossGroup,
+				"<img src='data/images/icons/icon_lore.png' width='16' height='16'></img> Lore": loreGroup,
+				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup
 			}
 		}
 

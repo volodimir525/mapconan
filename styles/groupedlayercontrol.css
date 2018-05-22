@@ -1,11 +1,12 @@
 .leaflet-control-layers-group-name {
-  font-weight: bold;
   margin-bottom: .2em;
   margin-left: 3px;
+	font: bold 18px/14px 'Roboto', sans-serif;
 }
 
 .leaflet-control-layers-group {
   margin-bottom: .5em;
+  text-shadow: 1px 1px #111;
 }
 
 .leaflet-control-layers-scrollbar {
