@@ -47,6 +47,11 @@ a:active {
                                   supported by Chrome and Opera */
 }
 
+.border-fix{
+  border-radius:25px 25px 10px 10px;
+  border: 2px solid white;
+}
+
 .map {
   z-index: 5;
 }
