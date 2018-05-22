@@ -985,6 +985,10 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 			}
 		}
 
+		//	NEW FILTERING GROUP LOCS
+		var layerControlResources = L.control.groupedLayers(null, groupedResources);
+		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
+
 		//Enable Group Options
 		var options = {
 			groupCheckboxes: true,
@@ -992,11 +996,10 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		};
 
 		//OLD FILTERING
-		L.control.groupedLayers(null, groupedResources).addTo(this.map);
-		L.control.groupedLayers(null, groupedLocations, options).addTo(this.map);
+		layerControlResources.addTo(this.map);
+		layerControlLocations.addTo(this.map);
+		L.DomUtil.disableTextSelection(layerControlLocations._container);
+		L.DomEvent.disableClickPropagation(layerControlLocations._container);
+		L.DomUtil.disableTextSelection(layerControlResources._container);
+		L.DomEvent.disableClickPropagation(layerControlResources._container);
 
-		//
-		//	NEW FILTERING GROUP LOCS
-		//var layerControlResources = L.control.groupedLayers(null, groupedResources, options);
-		//var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
-		//
