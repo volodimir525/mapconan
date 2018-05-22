@@ -51,9 +51,6 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		var blackiceGroup = L.layerGroup().addTo(map);
 		var obsidianGroup = L.layerGroup().addTo(map);
 		
-		//Create Misc Groups
-		var religonGroup = L.layerGroup().addTo(map);
-		
 		//Create Thrall Groups
 		var alchemistGroup = L.layerGroup().addTo(map);
 		var armorerGroup = L.layerGroup().addTo(map);
@@ -87,6 +84,14 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		var caveGroup = L.layerGroup().addTo(map);
 		var dungeonGroup = L.layerGroup().addTo(map);
 		var obeliskGroup = L.layerGroup().addTo(map);
+		var religonGroup = L.layerGroup().addTo(map);
+		var campGroup = L.layerGroup().addTo(map);
+		var capitalGroup = L.layerGroup().addTo(map);
+		var vistaGroup = L.layerGroup().addTo(map);
+		var ruinsGroup = L.layerGroup().addTo(map);
+		var bossGroup = L.layerGroup().addTo(map);
+		var loreGroup = L.layerGroup().addTo(map);
+		var treasureGroup = L.layerGroup().addTo(map);
 		
 		//Set the groups
 		var overlays = {
@@ -125,7 +130,14 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 			"Named Thrall - Taskmaster": namedTaskmasterGroup,			
 			"Locations - Caves": caveGroup,
 			"Locations - Obelisks": obeliskGroup,
-			"Locations - Dungeons": dungeonGroup
+			"Locations - Dungeons": dungeonGroup,
+			"Locations - Camps": campGroup,
+			"Locations - Capitals": capitalGroup,
+			"Locations - Vistas": vistaGroup,
+			"Locations - Ruins": ruinsGroup,
+			"Locations - Bosses": bossGroup,
+			"Locations - Lore": loreGroup,
+			"Locations - Treasure": treasureGroup
 		};
 		
 		//Obsidian Icons
@@ -930,10 +942,17 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 
 		var groupedLocations = {
 			"Toggle Locations": {
+				"| - Religon Trainer": religonGroup,
 				"| - Caves": caveGroup,
 				"| - Dungeons": dungeonGroup,
 				"| - Obelisks": obeliskGroup,
-				"| - Religon Trainer": religonGroup
+				"| - Obelisks": campGroup,
+				"| - Obelisks": capitalGroup,
+				"| - Obelisks": vistaGroup,
+				"| - Obelisks": ruinsGroup,
+				"| - Obelisks": bosssGroup,
+				"| - Obelisks": loreGroup,
+				"| - Obelisks": treasureGroup
 			}
 		}
 
