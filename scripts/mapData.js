@@ -861,7 +861,7 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		L.marker([-2901.25,3366.75], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Palace_of_the_Witch_Queen' target='_blank'>Palace of the Witch Queen</a>").addTo(dungeonGroup),
 		L.marker([-2179.75,2499.25], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Passage' target='_blank'>The Passage</a>").addTo(dungeonGroup),
 		L.marker([-1526.5,1377], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Black_Keep' target='_blank'>The Black Keep</a>").addTo(dungeonGroup),
-		L.marker([-1550.5,1283], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Undergate' target='_blank'>Undergate</a> - Entrace requires swimming under ice.").addTo(dungeonGroup),
+		L.marker([-1550.5,1283], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Undergate' target='_blank'>Undergate</a> - Entrance requires swimming under ice.").addTo(dungeonGroup),
 		L.marker([-969,1537], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Well_of_Skelos' target='_blank'>The Well of Skelos</a>").addTo(dungeonGroup),
 		
 		//Location - Caves
@@ -985,21 +985,19 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 			}
 		}
 
-		//	NEW FILTERING GROUP LOCS
-		var layerControlResources = L.control.groupedLayers(null, groupedResources);
-		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
-
 		//Enable Group Options
 		var options = {
 			groupCheckboxes: true,
 			collapsed: true
 		};
 
+		var layerControlResources = L.control.groupedLayers(null, groupedResources);
+		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
+
+
 		//OLD FILTERING
-		layerControlResources.addTo(this.map);
-		layerControlLocations.addTo(this.map);
-		L.DomUtil.disableTextSelection(layerControlLocations._container);
+		layerControlResources.addTo(map);
+		layerControlLocations.addTo(map);
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
-		L.DomUtil.disableTextSelection(layerControlResources._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 
