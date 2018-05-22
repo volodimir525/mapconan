@@ -505,22 +505,22 @@
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
 	}
 
-a:link {
+.leaflet-popup a:link {
 	text-decoration: none;
 	color: #f7941d;
 }
 
-a:visited {
+.leaflet-popup a:visited {
 	text-decoration: none;
 	color: #f7941d;
 }
 
-a:hover {
+.leaflet-popup a:hover {
 	text-decoration: underline;
 	color: #FFFFFF;
 }
 
-a:active {
+.leaflet-popup a:active {
 	text-decoration: underline;
 	color: #FFFFFF;
 }
