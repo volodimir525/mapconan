@@ -1,4 +1,4 @@
-var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
+		var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		var mapMinZoom = 3;
 		var mapMaxZoom = 6;
 		var mapMaxResolution = 0.25000000;
@@ -898,9 +898,54 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		L.marker([-2846.5,1794.5], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk9.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk9.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
 		L.marker([-1620.75,1337], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk10.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk10.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
 		
-		//Locations - Camps
+		//Locations - Camps (Blackhand)
 
 
+		//Locations - Camps (Cimmeria)
+
+
+		//Locations - Camps (Darfari)
+		L.marker([-3332.5,2019], {icon: campDarfariIcon}).bindPopup("Narrowneck Span").addTo(campGroup),
+		L.marker([-3284,1248], {icon: campDarfariIcon}).bindPopup("Marrowman's Height").addTo(campGroup),
+		L.marker([-3227.5,1301.5], {icon: campDarfariIcon}).bindPopup("Howling Plateau").addTo(campGroup),
+		L.marker([-3254.5,1052.75], {icon: campDarfariIcon}).bindPopup("Skulker's End").addTo(campGroup),
+		L.marker([-3192.5,1059.75], {icon: campDarfariIcon}).bindPopup("Riverwatch Camp").addTo(campGroup),
+		L.marker([-3107,1259], {icon: campDarfariIcon}).bindPopup("Death's Shadow Camp").addTo(campGroup),
+		L.marker([-3137,1529], {icon: campDarfariIcon}).bindPopup("Corner of Bones").addTo(campGroup),
+		L.marker([-3007,1248.25], {icon: campDarfariIcon}).bindPopup("Fleshtearer Falls").addTo(campGroup),
+		L.marker([-2905.5,1427], {icon: campDarfariIcon}).bindPopup("Witness Camp").addTo(campGroup),
+		L.marker([-2988.25,1462.75], {icon: campDarfariIcon}).bindPopup("The Cursed Way").addTo(campGroup),
+		L.marker([-2999,1512.25], {icon: campDarfariIcon}).bindPopup("Ravager's Cleft").addTo(campGroup),
+		L.marker([-3041.25,1657.25], {icon: campDarfariIcon}).bindPopup("Dustdevil Ridge").addTo(campGroup),
+		L.marker([-3144.5,1851.75], {icon: campDarfariIcon}).bindPopup("Gallaman's Overlook").addTo(campGroup),
+		L.marker([-3200,1879], {icon: campDarfariIcon}).bindPopup("Carver's Crest").addTo(campGroup),
+		L.marker([-2987,1849], {icon: campDarfariIcon}).bindPopup("Spinebreaker's Flank").addTo(campGroup),
+		L.marker([-3038,2076.5], {icon: campDarfariIcon}).bindPopup("Bonebreaker's Bend").addTo(campGroup),
+		L.marker([-2965.25,1626.5], {icon: campDarfariIcon}).bindPopup("Heartsblood Rise").addTo(campGroup),
+		L.marker([-2855,1714], {icon: campDarfariIcon}).bindPopup("Raider's Ridge").addTo(campGroup),
+		L.marker([-2788,1759], {icon: campDarfariIcon}).bindPopup("Thugra's Stand").addTo(campGroup),
+
+		//Locations - Camps (Dogs of the Desert)
+
+
+		//Locations - Camps (Frost Giant)
+
+
+		//Locations - Camps (Lemurian)
+
+
+		//Locations - Camps (Relic Hunters)
+
+
+		//Locations - Camps (Serpentmen)
+
+
+		//Locations - Camps (Unnamed City)
+
+
+		//Locations - Camps (Vanir)
+
+		
 		//Locations - Capitals
 		L.marker([-2297.75,1197], {icon: capitalDogsOfTheDesertIcon}).bindPopup("The Den").addTo(capitalGroup),
 		L.marker([-1014.5,1081], {icon: capitalFrostGiantIcon}).bindPopup("The Temple of Frost").addTo(capitalGroup),
@@ -914,9 +959,28 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 		
 		//Locations - Vistas
 		L.marker([-2514.75,1725.5], {icon: vistaIcon}).bindPopup("Swagger Rock").addTo(vistaGroup),
+		L.marker([-2710.25,2129.25], {icon: vistaIcon}).bindPopup("Pariah's Overwatch").addTo(vistaGroup),
 		
 		//Locations - Ruins
+		L.marker([-3669,2293], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
+		L.marker([-3706.5,2165.5], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
+		L.marker([-3662,1964.5], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
+		L.marker([-3740,1598], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
+		L.marker([-3728,1421], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
 		L.marker([-3717,1820.5], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
+		L.marker([-3373.75,1353.75], {icon: ruinsIcon}).bindPopup("Shattered Bridge").addTo(ruinsGroup),
+		L.marker([-3183.5,1010], {icon: ruinsIcon}).bindPopup("Algar's Overlook").addTo(ruinsGroup),
+		L.marker([-3361.5,1754.5], {icon: ruinsIcon}).bindPopup("The Sentinels").addTo(ruinsGroup),
+		L.marker([-2844.75,1817.5], {icon: ruinsIcon}).bindPopup("The Sinkhole").addTo(ruinsGroup),
+		L.marker([-2848.75,1963.75], {icon: ruinsIcon}).bindPopup("The Arena").addTo(ruinsGroup),
+		L.marker([-2968.25,1379], {icon: ruinsIcon}).bindPopup("The Tower of Bats").addTo(ruinsGroup),
+		L.marker([-2796.25,1614], {icon: ruinsIcon}).bindPopup("Hand of the Maker").addTo(ruinsGroup),
+		L.marker([-3247.75,2616], {icon: ruinsIcon}).bindPopup("Sandswept Ruins").addTo(ruinsGroup),
+		L.marker([-2929.75,1065.5], {icon: ruinsIcon}).bindPopup("The Aviary").addTo(ruinsGroup),
+		L.marker([-2900.5,980.5], {icon: ruinsIcon}).bindPopup("Citadel of the Triumvirate").addTo(ruinsGroup),
+		L.marker([-2841.25,867.25], {icon: ruinsIcon}).bindPopup("The Spawning Pools").addTo(ruinsGroup),
+		L.marker([-2762.5,996.25], {icon: ruinsIcon}).bindPopup("The Slave Pits").addTo(ruinsGroup),
+		L.marker([-2711.75,1075], {icon: ruinsIcon}).bindPopup("The Archives").addTo(ruinsGroup),
 		
 		//Locations - Bosses
 		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup);
@@ -984,6 +1048,8 @@ var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
 				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup
 			}
 		}
+
+		var hash = new L.Hash(map);
 
 		//Enable Group Options
 		var options = {
