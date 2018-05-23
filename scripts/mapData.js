@@ -15,6 +15,7 @@
 			};
 
 		var map = new L.Map('map', {
+			renderer: L.canvas,
 			maxZoom: mapMaxZoom,
 			minZoom: mapMinZoom,
 			layers: overlays,
