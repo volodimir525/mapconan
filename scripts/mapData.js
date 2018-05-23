@@ -794,7 +794,7 @@
 		L.marker([-2609,559.5], {icon: carpenterIcon}).bindPopup("Carpenter - Stygian").addTo(carpenterGroup),
 		L.marker([-2353.5,1171], {icon: carpenterIcon}).bindPopup("Carpenter - Stygian").addTo(carpenterGroup),
 		L.marker([-3054.5,3356], {icon: carpenterIcon}).bindPopup("Carpenter - Lemurian").addTo(carpenterGroup),
-		L.marker([-2456,3307.25], {icon: carpenterIcon}).bindPopup("Carpenter - Hyrkanian or <a href='data/images/thralls/rayne.png' target='_blank'>Named Thrall - Rayne O' the Rosewood</a>").addTo(carpenterGroup).addTo(namedCarpenterGroup),
+		L.marker([-2456,3307.25], {icon: carpenterIcon}).bindPopup("Carpenter - Hyrkanian or Named Thrall - Rayne O' the Rosewood</a>").addTo(carpenterGroup).addTo(namedCarpenterGroup),
 		L.marker([-2697.5,2542], {icon: carpenterIcon}).bindPopup("2 Carpenters").addTo(carpenterGroup),
 		
 		//Thralls - Cook
@@ -863,11 +863,11 @@
 
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).bindPopup("Tarman (Fighter)").addTo(namedFighterGroup),
-		L.marker([-2777,1775.25], {icon: warriorIcon}).bindPopup("<a href='data/images/thralls/thugra.png' target='_blank'>Thugra (Fighter)</a>").addTo(namedFighterGroup),
-		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("<a href='data/images/thralls/mei.png' target='_blank'>Mei the Blade (Fighter)</a>").addTo(namedFighterGroup),
-		L.marker([-2409,3368.25], {icon: warriorIcon}).bindPopup("<a href='data/images/thralls/gallo.png' target='_blank'>Gall O' the Spear-Din (Fighter)</a>").addTo(namedFighterGroup),
-		L.marker([-2671.25,2141], {icon: warriorIcon}).bindPopup("<a href='data/images/thralls/captainioushwa.png' target='_blank'>Captain Ioushuwa (Fighter)</a>").addTo(namedFighterGroup),
-		L.marker([-2695.5,1824.25], {icon: warriorIcon}).bindPopup("<a href='data/images/thralls/nbatu.png' target='_blank'>N'batu (Fighter)</a>").addTo(namedFighterGroup),
+		L.marker([-2777,1775.25], {icon: warriorIcon}).bindPopup("Thugra (Fighter)").addTo(namedFighterGroup),
+		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("Mei the Blade (Fighter)").addTo(namedFighterGroup),
+		L.marker([-2409,3368.25], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din (Fighter)").addTo(namedFighterGroup),
+		L.marker([-2671.25,2141], {icon: warriorIcon}).bindPopup("Captain Ioushuwa (Fighter)").addTo(namedFighterGroup),
+		L.marker([-2695.5,1824.25], {icon: warriorIcon}).bindPopup("N'batu (Fighter)").addTo(namedFighterGroup),
 		L.marker([-1941,1538.5], {icon: warriorIcon}).bindPopup("Lian (Fighter)").addTo(namedFighterGroup),
 		
 		//Named Thralls - Taskmaster
@@ -878,18 +878,18 @@
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious").addTo(namedEntertainerGroup),
 		
 		//Named Thralls - Cook
-		L.marker([-2666.75,2105.75], {icon: cookIcon}).bindPopup("<a href='data/images/thralls/vatessa.png' target='_blank'>Vatessa the Potent (Cook) (Lower Area)</a>").addTo(namedCookGroup),
+		L.marker([-2666.75,2105.75], {icon: cookIcon}).bindPopup("Vatessa the Potent (Cook) (Lower Area)").addTo(namedCookGroup),
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler (Cook)").addTo(namedCookGroup),
 
 		//Named Thralls - Carpenter
 		
-		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("<a href='data/images/thralls/sigyn.png' target='_blank'>Sigyn the Woodworker (Carpenter)</a>").addTo(namedCarpenterGroup),
+		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker (Carpenter)").addTo(namedCarpenterGroup),
 		
 		//Named Thralls - Bearer
-		L.marker([-2598,1783.25], {icon: sherpaIcon}).bindPopup("<a href='data/images/thralls/dono.png' target='_blank'>Dono'Thelpup (Bearer)</a>").addTo(namedSherpaGroup),
+		L.marker([-2598,1783.25], {icon: sherpaIcon}).bindPopup("Dono'Thelpup (Bearer)").addTo(namedSherpaGroup),
 		
 		//Named Thralls - Archer
-		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("<a href='data/images/thralls/sarnai.png' target='_blank'>Sarnai the Thorn (Archer)</a>").addTo(namedArcherGroup),
+		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn (Archer)").addTo(namedArcherGroup),
 		L.marker([-2102,1711], {icon: archerIcon}).bindPopup("Freya (Archer)").addTo(namedArcherGroup),
 
 		
@@ -924,16 +924,16 @@
 		L.marker([-2863.5,2186.75], {icon: caveIcon}).bindPopup("Executioners Entrance - Brimstone, Iron").addTo(caveGroup),
 		
 		//Location - Obelisks
-		L.marker([-2253.75,2589], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk1.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk1.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-2771.75,3226.25], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk2.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk2.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-1110,1643], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk3.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk3.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-1117.25,1086.25], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk4.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk4.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-1698.5,520.5], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk5.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk5.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-2743.75,1074.25], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk6.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk6.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-2444.25,679.75], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk7.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk7.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-3247.75,985.75], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk8.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk8.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-2846.5,1794.5], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk9.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk9.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
-		L.marker([-1620.75,1337], {icon: obeliskIcon}).bindPopup("<a href='data/images/markers/obelisks/obelisk10.png' target='_blank'><img class='border-fix' src='data/images/markers/obelisks/obelisk10.png' width='300'></img></a><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-2253.75,2589], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk1.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-2771.75,3226.25], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk2.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-1110,1643], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk3.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-1117.25,1086.25], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk4.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-1698.5,520.5], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk5.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-2743.75,1074.25], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk6.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-2444.25,679.75], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk7.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-3247.75,985.75], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk8.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-2846.5,1794.5], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk9.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
+		L.marker([-1620.75,1337], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk10.png' width='300'></img><p align='center'>Obelisk</p>").addTo(obeliskGroup),
 		
 		//Locations - Camps (Blackhand)
 
