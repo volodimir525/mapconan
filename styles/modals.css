@@ -103,7 +103,15 @@
   margin-bottom: 20px;
 }
 
+.modal-content__android > .modal-content__text  {
+  margin-bottom: 20px;
+}
+
 .modal-content__paypal {
+  padding: 30px;
+}
+
+.modal-content__android {
   padding: 30px;
 }
 
@@ -113,6 +121,7 @@
   }
 
   .modal-content,
+  .modal-content__android,
   .modal-content__paypal {
     padding: 10px 20px;
   }
