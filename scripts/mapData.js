@@ -1,5 +1,5 @@
 		var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
-		var mapMinZoom = 3;
+		var mapMinZoom = 2;
 		var mapMaxZoom = 6;
 		var mapMaxResolution = 0.25000000;
 		var mapMinResolution = Math.pow(2, mapMaxZoom) * mapMaxResolution;
@@ -38,6 +38,8 @@
         crs.unproject(L.point(mapExtent[2], mapExtent[3])),
         crs.unproject(L.point(mapExtent[0], mapExtent[1]))
 		]);
+
+		map.setZoom(3);
 
 		//Coordinates Display (Bottom Left)
 		L.control.mousePosition().addTo(map)
