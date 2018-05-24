@@ -952,9 +952,14 @@
 		L.marker([-2735.5,2227], {icon: campBlackhandIcon}).bindPopup("Sailstich Camp").addTo(campGroup),
 		L.marker([-2668,2218], {icon: campBlackhandIcon}).bindPopup("The Sandpit").addTo(campGroup),
 		L.marker([-2693.5,2543.5], {icon: campBlackhandIcon}).bindPopup("Deckswab's Retreat").addTo(campGroup),
+		L.marker([-2416.5,3369.5], {icon: campBlackhandIcon}).bindPopup("Captain's Quarters").addTo(campGroup),
+		L.marker([-2474.5,3320.5], {icon: campBlackhandIcon}).bindPopup("Jamilla's Liberty").addTo(campGroup),
+		L.marker([-2537.5,3233], {icon: campBlackhandIcon}).bindPopup("Floatsam").addTo(campGroup),
+		L.marker([-2274,2956], {icon: campBlackhandIcon}).bindPopup("Tailer's Berth").addTo(campGroup),
+		L.marker([-2494.5,2721], {icon: campBlackhandIcon}).bindPopup("Scupper's Shelter").addTo(campGroup),
 
 		//Locations - Camps (Cimmeria)
-
+		L.marker([-1585.5,692], {icon: campCimmerianIcon}).bindPopup("Narrowneck Span").addTo(campGroup),
 
 		//Locations - Camps (Darfari)
 		L.marker([-3332.5,2019], {icon: campDarfariIcon}).bindPopup("Narrowneck Span").addTo(campGroup),
@@ -990,7 +995,11 @@
 		L.marker([-2573,1478.5], {icon: campDogsOfTheDesertIcon}).bindPopup("Howler's Lode").addTo(campGroup),
 
 		//Locations - Camps (Frost Giant)
-
+		L.marker([-1240,1176], {icon: campFrostGiantIcon}).bindPopup("Flamemist Camp").addTo(campGroup),
+		L.marker([-1291,954.5], {icon: campFrostGiantIcon}).bindPopup("Icekeeper Hollow").addTo(campGroup),
+		L.marker([-1165.5,696.5], {icon: campFrostGiantIcon}).bindPopup("Crystalline Chasm").addTo(campGroup),
+		L.marker([-1245.5,464], {icon: campFrostGiantIcon}).bindPopup("Blizzard's Overwatch").addTo(campGroup),
+		L.marker([-1539,1145.5], {icon: campFrostGiantIcon}).bindPopup("Ymir's Delusion").addTo(campGroup),
 
 		//Locations - Camps (Lemurian)
 
@@ -1010,8 +1019,22 @@
 
 
 		//Locations - Camps (Vanir)
+		L.marker([-2092.5,1714], {icon: campVanirIcon}).bindPopup("Freya's Hovel").addTo(campGroup),
+		L.marker([-2169.5,1550.5], {icon: campVanirIcon}).bindPopup("Trapper's Cabin").addTo(campGroup),
+		L.marker([-2102,1420], {icon: campVanirIcon}).bindPopup("Desertwatch").addTo(campGroup),
+		L.marker([-1937.5,1538.5], {icon: campVanirIcon}).bindPopup("Lian's Watch").addTo(campGroup),
+		L.marker([-1870,1435], {icon: campVanirIcon}).bindPopup("Meadowatch").addTo(campGroup),
+		L.marker([-1838,1574.5], {icon: campVanirIcon}).bindPopup("Coldfish Camp").addTo(campGroup),
+		L.marker([-1782,1416.5], {icon: campVanirIcon}).bindPopup("Meltwater Crag").addTo(campGroup),
+		L.marker([-1963,1425], {icon: campVanirIcon}).bindPopup("Mammoth Rider's Shanty").addTo(campGroup),
+		L.marker([-1874.5,1313], {icon: campVanirIcon}).bindPopup("Nordhof").addTo(campGroup),
+		L.marker([-1798,1296.5], {icon: campVanirIcon}).bindPopup("Rimefisher's Hut").addTo(campGroup),
+		L.marker([-2039,1191.5], {icon: campVanirIcon}).bindPopup("Stormwatch").addTo(campGroup),
+		L.marker([-1942,909.5], {icon: campVanirIcon}).bindPopup("The Wardtowers").addTo(campGroup),
+		L.marker([-1902,909], {icon: campVanirIcon}).bindPopup("Godsward Tower").addTo(campGroup),
+		L.marker([-1974,952], {icon: campVanirIcon}).bindPopup("Sandward Tower").addTo(campGroup),
+		L.marker([-1959.5,868.5], {icon: campVanirIcon}).bindPopup("Ghostward Tower").addTo(campGroup),
 
-		
 		//Locations - Capitals
 		L.marker([-2297.75,1197], {icon: capitalDogsOfTheDesertIcon}).bindPopup("The Den").addTo(capitalGroup),
 		L.marker([-1014.5,1081], {icon: capitalFrostGiantIcon}).bindPopup("The Temple of Frost").addTo(capitalGroup),
@@ -1045,6 +1068,42 @@
 		L.marker([-2536,2541], {icon: vistaIcon}).bindPopup("Messenger's Respite").addTo(vistaGroup),
 		L.marker([-2614.5,2570.5], {icon: vistaIcon}).bindPopup("The Crossway").addTo(vistaGroup),
 		L.marker([-2913.5,2551.5], {icon: vistaIcon}).bindPopup("Pitfall Pass").addTo(vistaGroup),
+		L.marker([-1060.25,1680.25], {icon: vistaIcon}).bindPopup("Path of the Penitent").addTo(vistaGroup),
+		L.marker([-1167.75,1564.25], {icon: vistaIcon}).bindPopup("Bridge of Voormithadreth").addTo(vistaGroup),
+		L.marker([-1174,1499.25], {icon: vistaIcon}).bindPopup("The Pens").addTo(vistaGroup),
+		L.marker([-1170,1658], {icon: vistaIcon}).bindPopup("Terrace of the Tenders").addTo(vistaGroup),
+		L.marker([-1341,1449.5], {icon: vistaIcon}).bindPopup("The Hidden Way").addTo(vistaGroup),
+		L.marker([-1415.25,1559.5], {icon: vistaIcon}).bindPopup("Road of the Pilgrim").addTo(vistaGroup),
+		L.marker([-1428,1814.5], {icon: vistaIcon}).bindPopup("Rockfall Canyon").addTo(vistaGroup),
+		L.marker([-1211,1068.5], {icon: vistaIcon}).bindPopup("The Frozen Slopes").addTo(vistaGroup),
+		L.marker([-1493,810.5], {icon: vistaIcon}).bindPopup("Skyfall Ridge").addTo(vistaGroup),
+		L.marker([-1352,801], {icon: vistaIcon}).bindPopup("Eyelet Lake").addTo(vistaGroup),
+		L.marker([-1277.5,861], {icon: vistaIcon}).bindPopup("Eyelet Lake").addTo(vistaGroup),
+		L.marker([-1277.5,861], {icon: vistaIcon}).bindPopup("Frostneedle Forest").addTo(vistaGroup),
+		L.marker([-1607.5,1574], {icon: vistaIcon}).bindPopup("Icespire Chasm").addTo(vistaGroup),
+		L.marker([-2141,1887], {icon: vistaIcon}).bindPopup("Scartalon Ridgeline").addTo(vistaGroup),
+		L.marker([-2290,1829.5], {icon: vistaIcon}).bindPopup("Imi's Cradle").addTo(vistaGroup),
+		L.marker([-2308.5,1848], {icon: vistaIcon}).bindPopup("Telith's Island").addTo(vistaGroup),
+		L.marker([-1867.5,1146], {icon: vistaIcon}).bindPopup("Godsclaw Passage").addTo(vistaGroup),
+		L.marker([-2134.5,1242], {icon: vistaIcon}).bindPopup("Devil's Squat").addTo(vistaGroup),
+		L.marker([-1569,448.5], {icon: vistaIcon}).bindPopup("The Dirgewood").addTo(vistaGroup),
+		L.marker([-1808,606], {icon: vistaIcon}).bindPopup("Wightwatch Lookout").addTo(vistaGroup),
+		L.marker([-3050.5,2933.5], {icon: vistaIcon}).bindPopup("Warrior's Walk").addTo(vistaGroup),
+		L.marker([-3212,3065], {icon: vistaIcon}).bindPopup("The Silkwood").addTo(vistaGroup),
+		L.marker([-3134,3268.5], {icon: vistaIcon}).bindPopup("Dagon's Claw").addTo(vistaGroup),
+		L.marker([-3063,3087], {icon: vistaIcon}).bindPopup("Hullshatter Cove").addTo(vistaGroup),
+		L.marker([-2908.5,2887], {icon: vistaIcon}).bindPopup("Xalthar's Crossing").addTo(vistaGroup),
+		L.marker([-2742.5,2990.5], {icon: vistaIcon}).bindPopup("The Crevice").addTo(vistaGroup),
+		L.marker([-2971,3618.5], {icon: vistaIcon}).bindPopup("Island of Unsightly Sirens").addTo(vistaGroup),
+		L.marker([-2753.5,3564.5], {icon: vistaIcon}).bindPopup("Wreck of the Martyr").addTo(vistaGroup),
+		L.marker([-2317.5,3479.5], {icon: vistaIcon}).bindPopup("Heliograph Heights").addTo(vistaGroup),
+		L.marker([-2428.5,3313], {icon: vistaIcon}).bindPopup("Buccaneer Bay").addTo(vistaGroup),
+		L.marker([-2610,2915], {icon: vistaIcon}).bindPopup("Bay of Hulks").addTo(vistaGroup),
+		L.marker([-2483.5,3004.5], {icon: vistaIcon}).bindPopup("Inlet of the Hook").addTo(vistaGroup),
+		L.marker([-2405.5,2766], {icon: vistaIcon}).bindPopup("Canopy Outlook").addTo(vistaGroup),
+		L.marker([-2382.5,2503.5], {icon: vistaIcon}).bindPopup("Mire of Eternal Dreams").addTo(vistaGroup),
+		L.marker([-2655.5,3184.5], {icon: vistaIcon}).bindPopup("Wreck of the Wagtail").addTo(vistaGroup),
+		L.marker([-2949.5,2776.5], {icon: vistaIcon}).bindPopup("Drifter's Rest").addTo(vistaGroup),
 		
 		//Locations - Ruins
 		L.marker([-3669,2293], {icon: ruinsIcon}).bindPopup("The Broken Highway").addTo(ruinsGroup),
@@ -1086,7 +1145,41 @@
 		L.marker([-2903,2088.5], {icon: ruinsIcon}).bindPopup("Deathwhisper Ruins").addTo(ruinsGroup),
 		L.marker([-2518.5,2436.5], {icon: ruinsIcon}).bindPopup("The Eye that Never Closes").addTo(ruinsGroup),
 		L.marker([-2440,2377], {icon: ruinsIcon}).bindPopup("Boulevard of the North Star").addTo(ruinsGroup),
-		
+		L.marker([-1347.25,1592], {icon: ruinsIcon}).bindPopup("Road of the Righteous").addTo(ruinsGroup),
+		L.marker([-1195.25,1779.25], {icon: ruinsIcon}).bindPopup("Shrine of the Oracle").addTo(ruinsGroup),
+		L.marker([-1042.25,1394.25], {icon: ruinsIcon}).bindPopup("The Shattered Stairs").addTo(ruinsGroup),
+		L.marker([-955.5,1659.75], {icon: ruinsIcon}).bindPopup("Walkway of the Devout").addTo(ruinsGroup),
+		L.marker([-1269,866.5], {icon: ruinsIcon}).bindPopup("Bleakwood Ruins").addTo(ruinsGroup),
+		L.marker([-1303.5,599], {icon: ruinsIcon}).bindPopup("Carrowmore").addTo(ruinsGroup),
+		L.marker([-1724.5,1265.5], {icon: ruinsIcon}).bindPopup("Bridge of the Betrayer").addTo(ruinsGroup),
+		L.marker([-1571,1376.5], {icon: ruinsIcon}).bindPopup("Ruins of Xullan").addTo(ruinsGroup),
+		L.marker([-1641.5,1140.5], {icon: ruinsIcon}).bindPopup("Ring of Silence").addTo(ruinsGroup),
+		L.marker([-2331,1869.5], {icon: ruinsIcon}).bindPopup("Sanctuary Ruins").addTo(ruinsGroup),
+		L.marker([-2214.5,1607], {icon: ruinsIcon}).bindPopup("The Breach").addTo(ruinsGroup),
+		L.marker([-2066,1608.5], {icon: ruinsIcon}).bindPopup("The Northern Aqueduct").addTo(ruinsGroup),
+		L.marker([-1907,1608], {icon: ruinsIcon}).bindPopup("The Great Dam").addTo(ruinsGroup),
+		L.marker([-1955.5,1078.5], {icon: ruinsIcon}).bindPopup("Skyholme Ruins").addTo(ruinsGroup),
+		L.marker([-1864,768.5], {icon: ruinsIcon}).bindPopup("Circle of Swords").addTo(ruinsGroup),
+		L.marker([-1662.5,930.5], {icon: ruinsIcon}).bindPopup("Bjornar's Stand").addTo(ruinsGroup),
+		L.marker([-1786,1058.5], {icon: ruinsIcon}).bindPopup("Ruins of Velstad").addTo(ruinsGroup),
+		L.marker([-1691,632], {icon: ruinsIcon}).bindPopup("The Ravaged Barrows").addTo(ruinsGroup),
+		L.marker([-1731.5,520.5], {icon: ruinsIcon}).bindPopup("The Cursed Mound").addTo(ruinsGroup),
+		L.marker([-2243,2603.5], {icon: ruinsIcon}).bindPopup("Upper Staging Area").addTo(ruinsGroup),
+		L.marker([-2316,2660.5], {icon: ruinsIcon}).bindPopup("Ruined Outpost").addTo(ruinsGroup),
+		L.marker([-2488,2841], {icon: ruinsIcon}).bindPopup("Lower Staging Area").addTo(ruinsGroup),
+		L.marker([-2634,2695.5], {icon: ruinsIcon}).bindPopup("Eastern Barracks").addTo(ruinsGroup),
+		L.marker([-2762,2916], {icon: ruinsIcon}).bindPopup("Descent of Dagon").addTo(ruinsGroup),
+		L.marker([-2788.5,2816], {icon: ruinsIcon}).bindPopup("Penitent's Crossing").addTo(ruinsGroup),
+		L.marker([-2923,3036.5], {icon: ruinsIcon}).bindPopup("Gate of the Moon").addTo(ruinsGroup),
+		L.marker([-2916,3133], {icon: ruinsIcon}).bindPopup("Avenue of the Sun").addTo(ruinsGroup),
+		L.marker([-3034,3244], {icon: ruinsIcon}).bindPopup("Xel-ha Docks").addTo(ruinsGroup),
+		L.marker([-2899,3223], {icon: ruinsIcon}).bindPopup("The Black Garden").addTo(ruinsGroup),
+		L.marker([-2794.5,3222], {icon: ruinsIcon}).bindPopup("Dagon's Eye").addTo(ruinsGroup),
+		L.marker([-2906,3318.5], {icon: ruinsIcon}).bindPopup("The Celestial Plaza").addTo(ruinsGroup),
+		L.marker([-2779,3416], {icon: ruinsIcon}).bindPopup("A Light to Guide them Home").addTo(ruinsGroup),
+		L.marker([-2714.5,3358], {icon: ruinsIcon}).bindPopup("Watchers of the Passage").addTo(ruinsGroup),
+		L.marker([-2899,3466.5], {icon: ruinsIcon}).bindPopup("Dagon's Embrace").addTo(ruinsGroup),
+				
 		//Locations - Bosses
 		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup);
 		
