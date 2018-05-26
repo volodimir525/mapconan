@@ -476,3 +476,11 @@ var treasureIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var recipeIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_recipes.png',
+				
+	iconSize:	[28,28],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});

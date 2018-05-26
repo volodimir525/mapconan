@@ -95,6 +95,8 @@
 		var bossGroup = L.layerGroup().addTo(map);
 		var loreGroup = L.layerGroup().addTo(map);
 		var treasureGroup = L.layerGroup().addTo(map);
+		var recipeGroup = L.layerGroup().addTo(map);
+		var emoteGroup = L.layerGroup().addTo(map);
 		
 		//Set the groups
 		var overlays = {
@@ -140,7 +142,9 @@
 			"Locations - Ruins": ruinsGroup,
 			"Locations - Bosses": bossGroup,
 			"Locations - Lore": loreGroup,
-			"Locations - Treasure": treasureGroup
+			"Locations - Treasure": treasureGroup,
+			"Locations - Recipes": recipeGroup,
+			"Locations - Emotes": emoteGroup,
 		};
 		
 		//Obsidian Icons
@@ -1232,13 +1236,19 @@
 		L.marker([-2899,3466.5], {icon: ruinsIcon}).bindPopup("Dagon's Embrace").addTo(ruinsGroup),
 				
 		//Locations - Bosses
-		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup);
+		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup),
 		
 		//Locations - Lore
 		
 		
 		//Locations - Treasures
 
+
+		//Locations - Recipes
+		L.marker([-3267,1078.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/darfaribanners.png' width='300'></img><p align='center'>Darfari Banners</p></a>").addTo(recipeGroup);
+
+
+		//Locations Emotes
 
 		//Group Overlay Combiner
 		var groupedResources = {
@@ -1297,7 +1307,9 @@
 				"<img src='data/images/icons/icon_ruins.png' width='16' height='16'></img> Ruins": ruinsGroup,
 				"<img src='data/images/icons/icon_boss.png' width='16' height='16'></img> Bosses": bossGroup,
 				"<img src='data/images/icons/icon_lore.png' width='16' height='16'></img> Lore": loreGroup,
-				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup
+				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup,
+				"<img src='data/images/icons/icon_recipes.png' width='16' height='16'></img> Recipes": recipeGroup,
+				"<img src='data/images/icons/icon_emote.png' width='16' height='16'></img> Emotes": emoteGroup
 			}
 		}
 
