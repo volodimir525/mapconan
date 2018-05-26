@@ -722,6 +722,55 @@
 		//Brimstone Icons
 		L.marker([-3149,1705], {icon: brimstoneIcon}).bindPopup("Brimstone in Sinner's Refuge").addTo(brimstoneGroup),
 		L.marker([-3175,1901], {icon: brimstoneIcon}).bindPopup("Brimstone in Gallaman's Tomb").addTo(brimstoneGroup),
+		L.marker([-2305,672], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2330.5,671.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2330.5,671.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2319.5,715.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2339.75,719.25], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2332,749.25], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2292.75,718], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2297.5,739.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2303.75,755.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2290.25,763.5], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2258,718.5], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2245.75,731.5], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2260.25,745.5], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2226.25,698], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2217.25,720], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2242.75,688.5], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2228.5,764], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2277.5,786.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
+		L.marker([-2427,3464.75], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2476.5,3487.25], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2489,3472.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2512.75,3504.75], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2486.75,3559.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2526.25,3599], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2597.25,3595.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2640.75,3572.25], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2664.25,3508.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2663,3434], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2787.75,3479.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2822,3519.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2901.5,3496.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2956.5,3541.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3013.5,3554.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3088.25,3530], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2115.25,3448], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3091,3384.25], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3044,3272], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3071.25,3328], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-3116.5,3449.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2839.75,3582.25], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2901.75,3586.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2785.25,3605], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2376,3607.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2342.5,3580.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2313,3538], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2273.5,3498], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2375,3527], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2432,3587.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
+		L.marker([-2457.25,3368.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
 		
 		//Religon Icons
 		L.marker([-3244,1328], {icon: yogIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Nunu_the_Cannibal' target='_blank'>Yog Trainer - Nunu the Cannibal</a>").addTo(religonGroup),
@@ -1252,7 +1301,7 @@
 			}
 		}
 
-		var hash = new L.Hash(map);
+		
 
 		//Enable Group Options
 		var options = {
@@ -1273,3 +1322,4 @@
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 
+		var hash = new L.Hash(map);
