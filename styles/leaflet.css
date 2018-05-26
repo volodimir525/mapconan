@@ -505,6 +505,9 @@
 	background-image: url("../data/images/site/bg_tipT.png");
 	color: #FFFFFF;
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	border: 2px;
+	border-style: solid;
+	border-color: #000;
 	}
 
 .leaflet-popup a:link {
