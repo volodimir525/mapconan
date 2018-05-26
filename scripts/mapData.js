@@ -1203,6 +1203,9 @@
 				"<img src='data/images/icons/icon_black_ice.png' width='16' height='16'></img> Black Ice": blackiceGroup,
 				"<img src='data/images/icons/icon_obsidian.png' width='16' height='16'></img> Obsidian": obsidianGroup
 			},
+		}
+
+		var groupedThralls = {
 			"Thralls": {
 				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Alchemist": alchemistGroup,
 				"<img src='data/images/icons/icon_armorer.png' width='16' height='16'></img> Armorer": armorerGroup,
@@ -1258,12 +1261,15 @@
 		};
 
 		var layerControlResources = L.control.groupedLayers(null, groupedResources);
+		var layerControlThralls = L.control.groupedLayers(null, groupedThralls);
 		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
 
 
 		//OLD FILTERING
 		layerControlResources.addTo(map);
+		layerControlThralls.addTo(map);
 		layerControlLocations.addTo(map);
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
+		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 

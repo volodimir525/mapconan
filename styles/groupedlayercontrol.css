@@ -6,6 +6,7 @@
 
 .leaflet-control-layers-group {
   margin-bottom: .5em;
+  height: 100%;
   text-shadow: 1px 1px #111;
 }
 
