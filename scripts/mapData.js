@@ -1234,10 +1234,12 @@
 		L.marker([-2779,3416], {icon: ruinsIcon}).bindPopup("A Light to Guide them Home").addTo(ruinsGroup),
 		L.marker([-2714.5,3358], {icon: ruinsIcon}).bindPopup("Watchers of the Passage").addTo(ruinsGroup),
 		L.marker([-2899,3466.5], {icon: ruinsIcon}).bindPopup("Dagon's Embrace").addTo(ruinsGroup),
-				
+		
+
 		//Locations - Bosses
 		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup),
 		
+
 		//Locations - Lore
 		
 		
@@ -1246,6 +1248,15 @@
 
 		//Locations - Recipes
 		L.marker([-3267,1078.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/darfaribanners.png' width='300'></img><p align='center'>Darfari Banners</p></a>").addTo(recipeGroup);
+		L.marker([-2734.25,439.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/relichunters.png' width='300'></img><p align='center'>Relic Hunter Armor</p></a>").addTo(recipeGroup);
+		L.marker([-2590.75,532.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/relichunterbanners.png' width='300'></img><p align='center'>Relic Hunter Banners</p></a>").addTo(recipeGroup);
+		L.marker([-2973,1395.75], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VIII' target='_blank'><img class='border-fix' src='data/images/recipes/cooking8.png' width='300'></img><p align='center'>Specialist Cooking VIII</p></a>").addTo(recipeGroup);
+		L.marker([-2984,1746.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Skulltaker' target='_blank'><img class='border-fix' src='data/images/recipes/skulltaker.png' width='300'></img><p align='center'>Skulltaker</p></a>").addTo(recipeGroup);
+		L.marker([-2985.25,1754.5], {icon: recipeIcon}).bindPopup("<img class='border-fix' src='data/images/recipes/cooking1&6.png' width='300'></img><p align='center'><a href='https://conanexiles.gamepedia.com/Specialist_Cooking_I' target='_blank'>Specialist Cooking I</a><br><a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VI' target='_blank'>Specialist Cooking VI</a></p>").addTo(recipeGroup);
+		L.marker([-2726,1994.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Hyena-Fur_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/hyenafurarmor.png' width='300'></img><p align='center'>Hyena-Fur Armor</p></a>").addTo(recipeGroup);
+		L.marker([-2505.25,1166.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VII' target='_blank'><img class='border-fix' src='data/images/recipes/cooking7.png' width='300'></img><p align='center'>Specialist Cooking VII</p></a>").addTo(recipeGroup);
+		L.marker([-2339.5,1211.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Brewing_I' target='_blank'><img class='border-fix' src='data/images/recipes/brewing1.png' width='300'></img><p align='center'>Specialist Brewing I</p></a>").addTo(recipeGroup);
+		L.marker([-2304,1212.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Dogs_of_the_Desert_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/dogsofthedesertbanners.png' width='300'></img><p align='center'>Dogs of the Desert Banners</p></a>").addTo(recipeGroup);
 
 
 		//Locations Emotes
