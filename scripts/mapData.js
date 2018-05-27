@@ -1237,9 +1237,13 @@
 		
 
 		//Locations - Bosses
-		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
-		L.marker([-2717,1867.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
-		L.marker([-2021,478], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
+		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2717,1867.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2021,478], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-1087,591.5], {icon: bossIcon}).bindPopup("Rocknose King (Ice)<br><li>Health : 2840<li>Armor : 65<li>XP Reward : 12600<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Black_Ice' target='_blank'>Black Ice</a>").addTo(bossGroup),
+		L.marker([-1097,538], {icon: bossIcon}).bindPopup("Rocknose King (Ice)<br><li>Health : 2840<li>Armor : 65<li>XP Reward : 12600<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Black_Ice' target='_blank'>Black Ice</a>").addTo(bossGroup),
+		L.marker([-3042,1489.75], {icon: bossIcon}).bindPopup("Skorpion King<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2966,1383.25], {icon: bossIcon}).bindPopup("Albino Bat<br><li>Health : 1117<li>Armor : 73<li>XP Reward : 10710<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Albino_Bat_Demon_Blood' target='_blank'>Albino Bat Demon Blood</a>").addTo(bossGroup),
 		
 
 		//Locations - Lore
@@ -1249,6 +1253,7 @@
 		L.marker([-2011.5,481.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-2698,1871.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-3299,1646.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-3031.25,1497.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 
 
 		//Locations - Recipes
