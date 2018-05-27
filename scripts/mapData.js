@@ -1237,13 +1237,18 @@
 		
 
 		//Locations - Bosses
-		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Alligator").addTo(bossGroup),
+		L.marker([-3270,1629.25], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
+		L.marker([-2717,1867.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
+		L.marker([-2021,478], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100").addTo(bossGroup),
 		
 
 		//Locations - Lore
 		
 		
 		//Locations - Treasures
+		L.marker([-2011.5,481.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2698,1871.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-3299,1646.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 
 
 		//Locations - Recipes
