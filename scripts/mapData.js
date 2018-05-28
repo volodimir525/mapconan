@@ -1347,7 +1347,8 @@
 			}
 		}
 
-		
+		var hash = new L.Hash(map);
+				
 
 		//Enable Group Options
 		var options = {
@@ -1367,5 +1368,3 @@
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
-
-		var hash = new L.Hash(map);
