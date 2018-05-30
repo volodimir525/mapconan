@@ -84,19 +84,19 @@
 
 		
 		//Create Location Groups
-		var caveGroup = L.layerGroup().addTo(map);
-		var dungeonGroup = L.layerGroup().addTo(map);
-		var obeliskGroup = L.layerGroup().addTo(map);
-		var religonGroup = L.layerGroup().addTo(map);
-		var campGroup = L.layerGroup().addTo(map);
-		var capitalGroup = L.layerGroup().addTo(map);
-		var vistaGroup = L.layerGroup().addTo(map);
-		var ruinsGroup = L.layerGroup().addTo(map);
-		var bossGroup = L.layerGroup().addTo(map);
-		var loreGroup = L.layerGroup().addTo(map);
-		var treasureGroup = L.layerGroup().addTo(map);
-		var recipeGroup = L.layerGroup().addTo(map);
-		var emoteGroup = L.layerGroup().addTo(map);
+		var caveGroup = L.layerGroup();
+		var dungeonGroup = L.layerGroup();
+		var obeliskGroup = L.layerGroup();
+		var religonGroup = L.layerGroup();
+		var campGroup = L.layerGroup();
+		var capitalGroup = L.layerGroup();
+		var vistaGroup = L.layerGroup();
+		var ruinsGroup = L.layerGroup();
+		var bossGroup = L.layerGroup();
+		var loreGroup = L.layerGroup();
+		var treasureGroup = L.layerGroup();
+		var recipeGroup = L.layerGroup();
+		var emoteGroup = L.layerGroup();
 		
 		//Set the groups
 		var overlays = {
@@ -1320,6 +1320,8 @@
 				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": taskmasterGroup,
 				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": smelterGroup
 			},
+		}
+		var namedThralls = {
 			"Named Thralls": {
 				"<img src='data/images/icons/icon_archer.png' width='16' height='16'></img> Archer": namedArcherGroup,
 				"<img src='data/images/icons/icon_cook.png' width='16' height='16'></img> Alchemist": namedAlchemistGroup,
@@ -1360,19 +1362,32 @@
 
 		//Enable Group Options
 		var options = {
+			autoZIndex: true,
 			groupCheckboxes: true,
 			collapsed: true
 		};
 
-		var layerControlResources = L.control.groupedLayers(null, groupedResources);
-		var layerControlThralls = L.control.groupedLayers(null, groupedThralls);
+		var layerControlResources = L.control.groupedLayers(null, groupedResources, options);
+		var layerControlThralls = L.control.groupedLayers(null, groupedThralls, options);
+		var layerControlNamedThralls = L.control.groupedLayers(null, namedThralls, options);
 		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
 
 
 		//OLD FILTERING
 		layerControlResources.addTo(map);
 		layerControlThralls.addTo(map);
+		layerControlNamedThralls.addTo(map);
 		layerControlLocations.addTo(map);
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
+
+		//Add Default Filters
+		obeliskGroup.addTo(map);
+		campGroup.addTo(map);
+		capitalGroup.addTo(map);
+		ruinsGroup.addTo(map);
+		bossGroup.addTo(map);
+		treasureGroup.addTo(map);
+		recipeGroup.addTo(map);
+		
