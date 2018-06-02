@@ -1242,6 +1242,7 @@
 		L.marker([-2644,1198], {icon: bossIcon}).bindPopup("Red Dragon<br><li>Health : 40998<li>Armor : 84<li>XP Reward : 25200<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Red_Dragon_Head' target='_blank'>Red Dragon Head</a><li><a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'>Dragon Bone</a>").addTo(bossGroup),
 		L.marker([-2717,1867.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
 		L.marker([-2021,478], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2702.5,2476.75], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
 		L.marker([-1087,591.5], {icon: bossIcon}).bindPopup("Rocknose King (Ice)<br><li>Health : 2840<li>Armor : 65<li>XP Reward : 12600<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Black_Ice' target='_blank'>Black Ice</a>").addTo(bossGroup),
 		L.marker([-1097,538], {icon: bossIcon}).bindPopup("Rocknose King (Ice)<br><li>Health : 2840<li>Armor : 65<li>XP Reward : 12600<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Black_Ice' target='_blank'>Black Ice</a>").addTo(bossGroup),
 		L.marker([-3042,1489.75], {icon: bossIcon}).bindPopup("Skorpion King<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
@@ -1262,6 +1263,7 @@
 		L.marker([-2749,3563.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-3216.25,3073.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-3028.75,1880.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2698.5,2472.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 
 
 		//Locations - Recipes
