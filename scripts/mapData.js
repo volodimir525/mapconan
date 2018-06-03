@@ -1293,6 +1293,15 @@
 
 
 		//Locations Emotes
+		L.marker([-1010.5,1097], {icon: emoteIcon}).bindPopup("Runestone<br><li><a href='https://conanexiles.gamepedia.com/By_Crom' target='_blank'>By Crom</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
+		L.marker([-2863,998.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Set' target='_blank'>By Set</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
+		L.marker([-2997.75,1754], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Yog' target='_blank'>By Yog</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
+		L.marker([-2528.25,1165.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Mitra' target='_blank'>By Mitra</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
+		L.marker([-2711.5,466.5], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
+		L.marker([-2711.5,466.5], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
+		L.marker([-2268.25,1197.75], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Belly_Dance' target='_blank'>Belly Dance</a><br>").addTo(emoteGroup);
+
+
 
 		//Group Overlay Combiner
 		var groupedResources = {
@@ -1385,6 +1394,7 @@
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 
 		//Add Default Filters
+		/*
 		obeliskGroup.addTo(map);
 		campGroup.addTo(map);
 		capitalGroup.addTo(map);
@@ -1392,4 +1402,5 @@
 		bossGroup.addTo(map);
 		treasureGroup.addTo(map);
 		recipeGroup.addTo(map);
-		
+		*/
+		emoteGroup.addTo(map);

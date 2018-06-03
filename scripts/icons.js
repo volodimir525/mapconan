@@ -484,3 +484,11 @@ var recipeIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var emoteIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_emote.png',
+				
+	iconSize:	[28,28],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
