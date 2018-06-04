@@ -1,5 +1,5 @@
 		var mapExtent = [0.00000000, -4000.00000000, 4000.00000000, 0.00000000];
-		var mapMinZoom = 2;
+		var mapMinZoom = 3;
 		var mapMaxZoom = 6;
 		var mapMaxResolution = 0.25000000;
 		var mapMinResolution = Math.pow(2, mapMaxZoom) * mapMaxResolution;
@@ -24,9 +24,9 @@
 			maxBoundsViscosity: 1,
 			attributionControl:false,
 			zoomControl:false
-			
+				
 		});
-
+			
 			layer = L.tileLayer('https://www.conanexilesmap.com/data/images/map/{z}/{x}/{y}.png', {
 			minZoom: mapMinZoom, maxZoom: mapMaxZoom,
 			bounds: [[0,0], [-4000,4000]],
@@ -38,8 +38,6 @@
         crs.unproject(L.point(mapExtent[2], mapExtent[3])),
         crs.unproject(L.point(mapExtent[0], mapExtent[1]))
 		]);
-
-		map.setZoom(3);
 
 		//Coordinates Display (Bottom Left)
 		L.control.mousePosition().addTo(map)
@@ -1302,7 +1300,7 @@
 		L.marker([-2268.25,1197.75], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Belly_Dance' target='_blank'>Belly Dance</a><br>").addTo(emoteGroup);
 
 
-
+		var hash = new L.Hash(map);
 		//Group Overlay Combiner
 		var groupedResources = {
 			"Resources": {
@@ -1368,9 +1366,6 @@
 			}
 		}
 
-		var hash = new L.Hash(map);
-				
-
 		//Enable Group Options
 		var options = {
 			autoZIndex: true,
@@ -1392,6 +1387,7 @@
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
+		
 
 		//Add Default Filters
 		obeliskGroup.addTo(map);
