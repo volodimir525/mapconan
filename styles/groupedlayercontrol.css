@@ -15,6 +15,21 @@
   padding-right: 10px;
 }
 
+/* Change Icons */
+/*
+div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle{
+	background-image: url('../data/images/icons/icon_ironstone.png');
+}
+div.leaflet-control-layers:nth-child(2) a.leaflet-control-layers-toggle{
+  background-image: url('../data/images/icons/icon_taskmaster.png');
+}
+div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle{
+	background-image: url('../data/images/icons/icon_boss.png');
+}
+div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle{
+	background-image: url('../data/images/icons/icon_lore.png');
+}
+*/
 
 /* Desktop Only Toggle Button Styles */
 /*
