@@ -1394,7 +1394,6 @@
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 
 		//Add Default Filters
-		/*
 		obeliskGroup.addTo(map);
 		campGroup.addTo(map);
 		capitalGroup.addTo(map);
@@ -1402,5 +1401,4 @@
 		bossGroup.addTo(map);
 		treasureGroup.addTo(map);
 		recipeGroup.addTo(map);
-		*/
 		emoteGroup.addTo(map);
