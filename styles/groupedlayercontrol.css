@@ -15,7 +15,9 @@
   padding-right: 10px;
 }
 
+
 /* Desktop Only Toggle Button Styles */
+/*
 @media only screen  and (min-width : 1224px) {
   div.leaflet-control{
     clear: none;
@@ -64,3 +66,4 @@
     cursor: pointer;
   } 
 }
+*/
