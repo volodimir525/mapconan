@@ -14,3 +14,53 @@
   overflow-y: scroll;
   padding-right: 10px;
 }
+
+/* Desktop Only Toggle Button Styles */
+@media only screen  and (min-width : 1224px) {
+  div.leaflet-control{
+    clear: none;
+  }
+  div.leaflet-touch div.leaflet-control-layers{
+    margin: 0;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 200px;
+  }
+  .leaflet-bar a, .leaflet-control-layers-toggle{
+    background-position: 50% 2px;
+  }
+  .leaflet-touch .leaflet-control-layers-toggle{
+    height: 38px;
+  }
+  a.leaflet-control-layers-toggle{
+    text-decoration: none;
+  }
+  a.leaflet-control-layers-toggle::after{
+    display: block;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 34px;
+    padding-left: 42px;
+    width: 110px;
+  }
+  div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle::after{
+    content: 'Resources';
+  }
+  div.leaflet-control-layers:nth-child(2) a.leaflet-control-layers-toggle::after{
+    content: 'Thralls';
+  }
+  div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle::after{
+    content: 'Named Thralls';
+  }
+  div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle::after{
+    content: 'Locations';
+  }
+  .leaflet-control-layers .leaflet-control-layers-group-label{
+    	margin-bottom: 8px;
+   }
+  .leaflet-control-layers label, .leaflet-control-layers input{
+    cursor: pointer;
+  } 
+}
