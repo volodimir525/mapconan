@@ -15,3 +15,5 @@ Thumbs.db
 tmp/**/* 
 *.tmp
 *.temp
+styles/groupedlayercontrol-beta.css
+index-beta.html

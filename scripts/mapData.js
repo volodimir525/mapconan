@@ -1291,6 +1291,7 @@
 
 
 		//Locations Emotes
+		L.marker([-2335.5,618], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Polite_Laugh' target='_blank'>Polite Laugh</a><br><li><a href='https://conanexiles.gamepedia.com/Laugh' target='_blank'>Laugh</a>").addTo(emoteGroup);
 		L.marker([-1010.5,1097], {icon: emoteIcon}).bindPopup("Runestone<br><li><a href='https://conanexiles.gamepedia.com/By_Crom' target='_blank'>By Crom</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2863,998.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Set' target='_blank'>By Set</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2997.75,1754], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Yog' target='_blank'>By Yog</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
@@ -1298,6 +1299,37 @@
 		L.marker([-2711.5,466.5], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
 		L.marker([-2711.5,466.5], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
 		L.marker([-2268.25,1197.75], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Belly_Dance' target='_blank'>Belly Dance</a><br>").addTo(emoteGroup);
+		L.marker([-2677.25,1659.5], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Cimmerian_Dance' target='_blank'>Cimmerian Dance</a><br>").addTo(emoteGroup);
+		L.marker([-3172.75,1031.75], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Khitan_Dance' target='_blank'>Khitan Dance</a><br>").addTo(emoteGroup);
+		L.marker([-3028.75,1473.25], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/War_Dance' target='_blank'>War Dance</a><br>").addTo(emoteGroup);
+		L.marker([-1606.75,550.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Chicken' target='_blank'>Chicken</a><br>").addTo(emoteGroup);
+		L.marker([-1708.5,595.5], {icon: emoteIcon}).bindPopup("Journal on Ground (Not visible on ground)<br><li><a href='https://conanexiles.gamepedia.com/Spit' target='_blank'>Spit</a><br>").addTo(emoteGroup);
+		L.marker([-1891.75,768.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Shake_Fist' target='_blank'>Shake Fist</a><br>").addTo(emoteGroup);
+		L.marker([-1952.75,916.25], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Push-ups' target='_blank'>Push-Ups</a><br>").addTo(emoteGroup);
+		L.marker([-1801,1296], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Slit_Throat' target='_blank'>Slit Throat</a><br>").addTo(emoteGroup);
+		L.marker([-2116.75,1084.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Cheer' target='_blank'>Cheer</a><br>").addTo(emoteGroup);
+		L.marker([-2635.5,554.75], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Shrug' target='_blank'>Shrug</a><br>").addTo(emoteGroup);
+		L.marker([-2638,544.75], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Polite_Clap' target='_blank'>Polite Clap</a><br>").addTo(emoteGroup);
+		L.marker([-2629.25,534.75], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Clap' target='_blank'>Clap</a><br>").addTo(emoteGroup);
+		L.marker([-2630.75,542], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Point' target='_blank'>Point</a><br>").addTo(emoteGroup);
+		L.marker([-2627.5,549.75], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Grovel' target='_blank'>Grovel</a><br>").addTo(emoteGroup);
+		L.marker([-2628.5,544.5], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Surrender' target='_blank'>Surrender</a><br>").addTo(emoteGroup);
+		L.marker([-2632.75,547], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Bear_Hug' target='_blank'>Bear Hug</a><br>").addTo(emoteGroup);
+		L.marker([-2633.25,557], {icon: emoteIcon}).bindPopup("Torn Page on Ground<br><li><a href='https://conanexiles.gamepedia.com/Ponder' target='_blank'>Ponder</a><br>").addTo(emoteGroup);
+		L.marker([-2796.25,1620.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Come_Here' target='_blank'>Come Here</a><br>").addTo(emoteGroup);
+		L.marker([-2988.5,1751.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Spank' target='_blank'>Spank</a><br>").addTo(emoteGroup);
+		L.marker([-2848.75,1797.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Squirm' target='_blank'>Squirm</a><br>").addTo(emoteGroup);
+		L.marker([-2659.75,2092], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Seduce' target='_blank'>Seduce</a><br>").addTo(emoteGroup);
+		L.marker([-2924.25,2089], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Blow_Kiss' target='_blank'>Blow Kiss</a><br>").addTo(emoteGroup);
+		L.marker([-3107.25,2079.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Show_Off' target='_blank'>Show Off</a><br>").addTo(emoteGroup);
+		L.marker([-3243.75,1054.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Comb_Hair' target='_blank'>Comb Hair</a><br>").addTo(emoteGroup);
+		L.marker([-2634.5,385.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Flirt' target='_blank'>Flirt</a><br>").addTo(emoteGroup);
+		L.marker([-2339.5,882.25], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Yawn' target='_blank'>Yawn</a><br>").addTo(emoteGroup);
+		L.marker([-2495.25,1183.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Score' target='_blank'>Score</a><br>").addTo(emoteGroup);
+		L.marker([-2604.25,1396.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Crom' target='_blank'>By Crom</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br><li><a href='https://conanexiles.gamepedia.com/Grovel' target='_blank'>Grovel</a>").addTo(emoteGroup);
+		L.marker([-2855.75,1276.25], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Sigh' target='_blank'>Sigh</a><br>").addTo(emoteGroup);
+		L.marker([-3266.5,1392], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Submissive' target='_blank'>Submissive</a><br>").addTo(emoteGroup);
+		L.marker([-3487.25,1307.25], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Cross Arms' target='_blank'>Cross Arms</a><br>").addTo(emoteGroup);
 
 
 		var hash = new L.Hash(map);
@@ -1359,7 +1391,7 @@
 				"<img src='data/images/icons/icon_vista.png' width='16' height='16'></img> Vistas": vistaGroup,
 				"<img src='data/images/icons/icon_ruins.png' width='16' height='16'></img> Ruins": ruinsGroup,
 				"<img src='data/images/icons/icon_boss.png' width='16' height='16'></img> Bosses": bossGroup,
-				"<img src='data/images/icons/icon_lore.png' width='16' height='16'></img> Lore": loreGroup,
+				//"<img src='data/images/icons/icon_lore.png' width='16' height='16'></img> Lore": loreGroup,
 				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup,
 				"<img src='data/images/icons/icon_recipes.png' width='16' height='16'></img> Recipes": recipeGroup,
 				"<img src='data/images/icons/icon_emote.png' width='16' height='16'></img> Emotes": emoteGroup
@@ -1389,7 +1421,7 @@
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 		
 
-		//Add Default Filters
+		/*/Add Default Filters
 		obeliskGroup.addTo(map);
 		campGroup.addTo(map);
 		capitalGroup.addTo(map);
@@ -1397,4 +1429,5 @@
 		bossGroup.addTo(map);
 		treasureGroup.addTo(map);
 		recipeGroup.addTo(map);
+		/*/
 		emoteGroup.addTo(map);
