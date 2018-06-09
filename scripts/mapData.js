@@ -889,6 +889,7 @@
 		L.marker([-2651.5,2104.25], {icon: smelterIcon}).bindPopup("Smelter - Shemite (Lower Platform)").addTo(smelterGroup),
 		L.marker([-2443.5,3352], {icon: smelterIcon}).bindPopup("Smelter - Zamorian").addTo(smelterGroup),
 		L.marker([-2616,2117.5], {icon: smelterIcon}).bindPopup("Smelter - Zamorian").addTo(smelterGroup),
+		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter 1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(smelterGroup),
 		
 		//Thralls - Priest
 		L.marker([-2910.5,1987], {icon: priestIcon}).bindPopup("Priest - Mitra High Priest").addTo(priestGroup),
@@ -909,6 +910,7 @@
 		
 		//Named Thralls - Blacksmith
 		L.marker([-1255,1724], {icon: blacksmithIcon}).bindPopup("Secas the Smith (Blacksmith)").addTo(namedBlacksmithGroup),
+		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
 
 		//Named Thralls - Alchemist
 		L.marker([-1181,1668.5], {icon: cookIcon}).bindPopup("Sayd Secretkeeper (Alchemist)").addTo(namedAlchemistGroup),
@@ -949,6 +951,8 @@
 		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn (Archer)").addTo(namedArcherGroup),
 		L.marker([-2102,1711], {icon: archerIcon}).bindPopup("Freya (Archer)").addTo(namedArcherGroup),
 
+		//Named Thralls - Smelter
+		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Daya Leaddrinker (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/oQNnjcF.jpg
 		
 		//Location - Dungeons
 		L.marker([-3249.5,996.5], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Dregs' target='_blank'>The Dregs</a>").addTo(dungeonGroup),
