@@ -791,7 +791,7 @@
 		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Blacksmith - Nordheimer").addTo(blacksmithGroup),
 		
 		//Thralls - Armorer
-		L.marker([-2582.75,553], {icon: armorerIcon}).bindPopup("Armorer - Stygian").addTo(armorerGroup),
+		L.marker([-2582.75,553], {icon: armorerIcon}).bindPopup("Armorer 1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(armorerGroup),
 		L.marker([-2652.25,2101], {icon: armorerIcon}).bindPopup("Armorer - Stygian").addTo(armorerGroup),
 		L.marker([-3051.5,3351.75], {icon: armorerIcon}).bindPopup("Armorer - Lemurian").addTo(armorerGroup),
 		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Armorer - Kushite").addTo(armorerGroup),
@@ -890,6 +890,7 @@
 		L.marker([-2443.5,3352], {icon: smelterIcon}).bindPopup("Smelter - Zamorian").addTo(smelterGroup),
 		L.marker([-2616,2117.5], {icon: smelterIcon}).bindPopup("Smelter - Zamorian").addTo(smelterGroup),
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter 1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(smelterGroup),
+		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Smelter 3-4 (Hyborian, Shemite, Stygian, Zingaran), Daya Leaddrinker").addTo(smelterGroup),
 		
 		//Thralls - Priest
 		L.marker([-2910.5,1987], {icon: priestIcon}).bindPopup("Priest - Mitra High Priest").addTo(priestGroup),
