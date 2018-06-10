@@ -828,6 +828,7 @@
 		L.marker([-2542,3263.5], {icon: cookIcon}).bindPopup("Alchemist - Nordheimer").addTo(alchemistGroup),
 		L.marker([-2661.5,2112.25], {icon: cookIcon}).bindPopup("Alchemist - Nordheimer").addTo(alchemistGroup),
 		L.marker([-1167,1650.25], {icon: cookIcon}).bindPopup("2 Alchemists").addTo(alchemistGroup),
+		L.marker([-1949,945.75], {icon: cookIcon}).bindPopup("Alchemist 3-4 (Nordheimer), Rokur the Alchemist").addTo(alchemistGroup),
 
 		
 		//Thralls - Taskmaster
@@ -855,6 +856,8 @@
 		L.marker([-2697.5,2542], {icon: carpenterIcon}).bindPopup("2 Carpenters").addTo(carpenterGroup),
 		L.marker([-2339.75,1216], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2293.25,1184.75], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
+		L.marker([-2291.25,1103.25], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
+		L.marker([-2501.75,1171.75], {icon: carpenterIcon}).bindPopup("Carpenter 1 (Cimmerian)").addTo(carpenterGroup),
 		
 		//Thralls - Cook
 		L.marker([-2980,1849], {icon: cookIcon}).bindPopup("Cook - Dafari").addTo(cookGroup),
@@ -902,6 +905,7 @@
 		L.marker([-2662.75,2093.5], {icon: priestIcon}).bindPopup("Priest - Yog Priest (Lower Area)").addTo(priestGroup),
 		L.marker([-2627,553], {icon: priestIcon}).bindPopup("Set Priest, Set High Priest, Set Archpriest").addTo(priestGroup), // https://i.imgur.com/hA1Mmd6.jpg
 		L.marker([-3158.25,1711.5], {icon: priestIcon}).bindPopup("Priest - Mitra Priest(In Cave)").addTo(priestGroup),
+		L.marker([-1933.5,906.75], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
 		
 		//Thralls - Bearer
 		L.marker([-3266,1276.75], {icon: sherpaIcon}).bindPopup("Bearer - Dafari").addTo(sherpaGroup),
@@ -912,6 +916,7 @@
 		L.marker([-2604.25,477.25], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Kushite, Nordheimer, Stygian, Zingaran)").addTo(sherpaGroup),
 		L.marker([-2633.75,2152.25], {icon: sherpaIcon}).bindPopup("Bearer - Zamorian").addTo(sherpaGroup),
 		L.marker([-2767.5,2955.25], {icon: sherpaIcon}).bindPopup("Bearer - Hyrkanian (In Cave)").addTo(sherpaGroup),
+		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zingaran, Zamorian), Ulrik the Mountaineer, Pelor the Well-Travelled, Dono'thelpup").addTo(sherpaGroup),
 		
 		//Named Thralls - Blacksmith
 		L.marker([-1255,1724], {icon: blacksmithIcon}).bindPopup("Secas the Smith (Blacksmith)").addTo(namedBlacksmithGroup),
@@ -920,6 +925,7 @@
 
 		//Named Thralls - Alchemist
 		L.marker([-1181,1668.5], {icon: cookIcon}).bindPopup("Sayd Secretkeeper (Alchemist)").addTo(namedAlchemistGroup),
+		L.marker([-1949,945.75], {icon: cookIcon}).bindPopup("Rokur the Alchemist").addTo(namedAlchemistGroup), // https://i.imgur.com/uB7WoXF.jpg
 
 		//Named Thralls - Armorer
 		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer, Llarn Steeltoe (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
@@ -957,6 +963,7 @@
 		//Named Thralls - Bearer
 		L.marker([-2598,1783.25], {icon: sherpaIcon}).bindPopup("Dono'Thelpup (Bearer)").addTo(namedSherpaGroup),
 		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Belor the Well-Travelled (Bearer), Narr Goatfoot (Bearer), Fairin of the Wild Coast (Bearer), Rethrous the Burdened (Bearer), Ulrik the Mountaineer (Bearer), Kathibria Featherstep (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
+		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Ulrik the Mountaineer, Pelor the Well-Travelled, Dono'thelpup (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/ry6gffX.jpg // https://i.imgur.com/LS5RyDg.jpg
 		
 		//Named Thralls - Archer
 		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn (Archer)").addTo(namedArcherGroup),
