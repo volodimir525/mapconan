@@ -782,7 +782,7 @@
 		L.marker([-3056.25,3352], {icon: derketoIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(religonGroup),
 
 		//Thralls - Blacksmith
-		L.marker([-2882.75,2117], {icon: blacksmithIcon}).bindPopup("Blacksmith - Zamorian").addTo(blacksmithGroup),
+		L.marker([-2885,2115.5], {icon: blacksmithIcon}).bindPopup("Blacksmith 1-3, (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
 		L.marker([-2648.5,2098], {icon: blacksmithIcon}).bindPopup("Blacksmith - Zingarian (Lower Platform)").addTo(blacksmithGroup),
 		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Blacksmith 1-4 (Hyborian, Shemite, Stygian, Zingaran), Hyam Hammerhand").addTo(blacksmithGroup),
 		L.marker([-2654.75,2207.5], {icon: blacksmithIcon}).bindPopup("Blacksmith - Stygian").addTo(blacksmithGroup),
@@ -822,7 +822,7 @@
 		L.marker([-2600.5,2131.5], {icon: entertainerIcon}).bindPopup("Entertainer - Zamorian").addTo(entertainerGroup),
 		L.marker([-2545,3224.25], {icon: entertainerIcon}).bindPopup("Entertainer - Dafari").addTo(entertainerGroup),
 		L.marker([-1789,1417], {icon: entertainerIcon}).bindPopup("Entertainer 1-3 (Nordheimer)").addTo(entertainerGroup),
-		L.marker([-2967,2306.5], {icon: entertainerIcon}).bindPopup("Entertainer - Nordheimer").addTo(entertainerGroup),
+		L.marker([-2967,2306.5], {icon: entertainerIcon}).bindPopup("Entertainer 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(entertainerGroup),
 		L.marker([-2995.5, 1849.75], {icon: entertainerIcon}).bindPopup("Entertainer - Dafari").addTo(entertainerGroup),
 		L.marker([-2987,1760.25], {icon: entertainerIcon}).bindPopup("Entertainer - Dafari").addTo(entertainerGroup),
 		L.marker([-3158,1697], {icon: entertainerIcon}).bindPopup("2 Entertainers (In Cave)").addTo(entertainerGroup),
@@ -891,6 +891,7 @@
 		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Nordheimer)").addTo(carpenterGroup),
 		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Cimmerian)").addTo(carpenterGroup),
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker").addTo(carpenterGroup),
+		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
 		
 		//Thralls - Cook
 		L.marker([-2980,1849], {icon: cookIcon}).bindPopup("Cook - Dafari").addTo(cookGroup),
@@ -913,6 +914,8 @@
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Cook 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent").addTo(cookGroup),
 		L.marker([-2971.5,3612.25], {icon: cookIcon}).bindPopup("Cook 3 (Hyborian, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 		L.marker([-3337.5,1918], {icon: cookIcon}).bindPopup("Cook 1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
+		L.marker([-3096.25,2112.5], {icon: cookIcon}).bindPopup("Cook 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
+		L.marker([-2904.75,2137.5], {icon: cookIcon}).bindPopup("Cook 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 		
 		//Thralls - Tanner
 		L.marker([-3229.75,1301.25], {icon: tannerIcon}).bindPopup("Tanner 1-2 (Darfari)").addTo(tannerGroup),
@@ -930,7 +933,7 @@
 		
 		//Thralls - Smelter
 		L.marker([-3412.75,2075.75], {icon: smelterIcon}).bindPopup("Smelter 1 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
-		L.marker([-2883,2119], {icon: smelterIcon}).bindPopup("Smelter - Shemite").addTo(smelterGroup),
+		L.marker([-2879.75,2118.5], {icon: smelterIcon}).bindPopup("Smelter 1-3 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter - Shemite").addTo(smelterGroup),
 		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Smelter 3-4 (Shemite, Stygian), Yael of Shem").addTo(smelterGroup),
 		L.marker([-2651.5,2104.25], {icon: smelterIcon}).bindPopup("Smelter - Shemite (Lower Platform)").addTo(smelterGroup),
@@ -941,7 +944,7 @@
 		L.marker([-1593.5,606.5], {icon: smelterIcon}).bindPopup("Smelter 1-3 (Cimmerian)").addTo(smelterGroup),
 		
 		//Thralls - Priest
-		L.marker([-2910.5,1987], {icon: priestIcon}).bindPopup("Priest - Mitra High Priest").addTo(priestGroup),
+		L.marker([-2910.5,1987], {icon: priestIcon}).bindPopup("Mitra Priest, Mitra High Priest, Mitra Archpriest").addTo(priestGroup),
 		L.marker([-2995.25,1769], {icon: priestIcon}).bindPopup("Priest - Yog Priest").addTo(priestGroup),
 		L.marker([-2662.75,2093.5], {icon: priestIcon}).bindPopup("Priest - Yog Priest (Lower Area)").addTo(priestGroup),
 		L.marker([-2627,553], {icon: priestIcon}).bindPopup("Set Priest, Set High Priest, Set Archpriest").addTo(priestGroup), // https://i.imgur.com/hA1Mmd6.jpg
@@ -949,6 +952,7 @@
 		L.marker([-1933.5,906.75], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
 		L.marker([-1986.25,1301.5], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
 		L.marker([-1995.5,1291], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
+		L.marker([-2663.5, 2424.5], {icon: priestIcon}).bindPopup("Yog Priest, Yog High Priest, Yog Archpriest").addTo(priestGroup),
 		
 		//Thralls - Bearer
 		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Hesth Plainswalker").addTo(sherpaGroup),
@@ -966,7 +970,8 @@
 		L.marker([-1577.5,709.5], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), Amzadi the Wanderer").addTo(sherpaGroup),
 		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran), Hesth Plainswalker, walks around").addTo(sherpaGroup),
 		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Amzadi the Wanderer, in the cave, walks around").addTo(sherpaGroup),
-		
+		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Bearer 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Eina the Light").addTo(sherpaGroup),
+
 		//Named Thralls - Blacksmith
 		L.marker([-1255,1724], {icon: blacksmithIcon}).bindPopup("Secas the Smith (Blacksmith)").addTo(namedBlacksmithGroup),
 		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
@@ -1002,6 +1007,7 @@
 		L.marker([-1311.75,1625], {icon: warriorIcon}).bindPopup("Spinas the Marauder & Daicas the Sharp (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3, walks the road").addTo(namedFighterGroup), // https://i.imgur.com/uckco5r.jpg
 		L.marker([-1648,613], {icon: warriorIcon}).bindPopup("Dalinsia Snowhunter (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/8a1v9yx.jpg
 		L.marker([-3222.75,1137.5], {icon: warriorIcon}).bindPopup("Ritualist (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/hgXgRmj.jpg
+		L.marker([-2910.5,2136], {icon: warriorIcon}).bindPopup("Sully (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/wEaW03b.jpg
 		
 		//Named Thralls - Taskmaster
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster Master (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker, Olena the Oathmaker").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
@@ -1040,6 +1046,7 @@
 		L.marker([-3202,1084.25], {icon: sherpaIcon}).bindPopup("Eina the Light, Dono'Thelpup (Bearer), walks around").addTo(namedSherpaGroup), // https://i.imgur.com/IMcO5TL.jpg // https://i.imgur.com/zUrLmqh.jpg
 		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Hesth Plainswalker (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/zwh5YhK.jpg
 		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Amzadi the Wanderer (Bearer), in the cave, walks around").addTo(namedSherpaGroup), // https://i.imgur.com/hghK86f.jpg
+		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Eina the Light (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/PIORAOJ.jpg
 		
 		//Named Thralls - Archer
 		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn (Archer)").addTo(namedArcherGroup),
