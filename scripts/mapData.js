@@ -808,6 +808,7 @@
 		L.marker([-2500.75,3246.5], {icon: armorerIcon}).bindPopup("Random 1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(armorerGroup),
 		L.marker([-3103.5,2621.75], {icon: armorerIcon}).bindPopup("Random 1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), walks around, spawns on top of the mountain").addTo(armorerGroup),
 		L.marker([-3322.75,1274.5], {icon: armorerIcon}).bindPopup("Armorer 1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(armorerGroup),
+		L.marker([-2696.75,2538.5], {icon: armorerIcon}).bindPopup("Random 1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(armorerGroup),
 
 		//Thralls - Entertainer
 		L.marker([-3262.75,1049.75], {icon: entertainerIcon}).bindPopup("Entertainer 1 (Darfari)").addTo(entertainerGroup),
@@ -852,6 +853,7 @@
 		L.marker([-1976.75,1312.25], {icon: cookIcon}).bindPopup("Alchemist 1-3 (Nordheimer)").addTo(alchemistGroup),
 		L.marker([-1938,1282], {icon: cookIcon}).bindPopup("Alchemist 1-3 (Nordheimer), double spawn").addTo(alchemistGroup),
 		L.marker([-1635.75,605.75], {icon: cookIcon}).bindPopup("Alchemist 1-3 (Cimmerian)").addTo(alchemistGroup),
+		L.marker([-2686.5,2561], {icon: cookIcon}).bindPopup("Alchemist 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(alchemistGroup),
 		
 		//Thralls - Taskmaster
 		L.marker([-3179.25,2317.5], {icon: taskmasterIcon}).bindPopup("Taskmaster 1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian), walk around the Exile camps").addTo(taskmasterGroup),
@@ -879,7 +881,7 @@
 		L.marker([-2353.5,1171], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-3054,3354.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-4 (Lemurian), Poscore Nimblefingers").addTo(carpenterGroup),
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker").addTo(carpenterGroup),
-		L.marker([-2697.5,2542], {icon: carpenterIcon}).bindPopup("2 Carpenters").addTo(carpenterGroup),
+		L.marker([-2702.25, 2540.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
 		L.marker([-2339.75,1216], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2293.25,1184.75], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2291.25,1103.25], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
