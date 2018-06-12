@@ -825,7 +825,7 @@
 		L.marker([-2967,2306.5], {icon: entertainerIcon}).bindPopup("Entertainer 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(entertainerGroup),
 		L.marker([-2995.5, 1849.75], {icon: entertainerIcon}).bindPopup("Entertainer - Dafari").addTo(entertainerGroup),
 		L.marker([-2987,1760.25], {icon: entertainerIcon}).bindPopup("Entertainer - Dafari").addTo(entertainerGroup),
-		L.marker([-3158,1697], {icon: entertainerIcon}).bindPopup("2 Entertainers (In Cave)").addTo(entertainerGroup),
+		L.marker([-3077,1696], {icon: entertainerIcon}).bindPopup("Entertainer 1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - inside Sinner's Refuge, entry at south, double spawn").addTo(entertainerGroup),
 		L.marker([-2772.5,1558.5], {icon: entertainerIcon}).bindPopup("Entertainer - Kushite").addTo(entertainerGroup),
 		L.marker([-3051.75,3348.75], {icon: entertainerIcon}).bindPopup("Entertainer 2 (Lemurian)").addTo(entertainerGroup),
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Entertainer 1-4 (Hyborian, Hyrkanian, Shemite, Stygian, Zingaran)").addTo(entertainerGroup),
@@ -874,7 +874,7 @@
 		L.marker([-3461.75,1671], {icon: carpenterIcon}).bindPopup("Carpenter 1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
 		L.marker([-2332.25,1227.25], {icon: carpenterIcon}).bindPopup("Carpenter 1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2999.5,1773.75], {icon: carpenterIcon}).bindPopup("Carpenter - Dafari").addTo(carpenterGroup),
-		L.marker([-3141,1533.5], {icon: carpenterIcon}).bindPopup("Carpenter - Dafari").addTo(carpenterGroup),
+		L.marker([-3145,1532.5], {icon: carpenterIcon}).bindPopup("Carpenter 1 (Darfari)").addTo(carpenterGroup),
 		L.marker([-2663,2084.5], {icon: carpenterIcon}).bindPopup("Carpenter - Shemite (Lower Area)").addTo(carpenterGroup),
 		L.marker([-2627,382], {icon: carpenterIcon}).bindPopup("Carpenter - Dafari").addTo(carpenterGroup),
 		L.marker([-2609,559.5], {icon: carpenterIcon}).bindPopup("Carpenter 1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
@@ -948,7 +948,7 @@
 		L.marker([-2995.25,1769], {icon: priestIcon}).bindPopup("Priest - Yog Priest").addTo(priestGroup),
 		L.marker([-2662.75,2093.5], {icon: priestIcon}).bindPopup("Priest - Yog Priest (Lower Area)").addTo(priestGroup),
 		L.marker([-2627,553], {icon: priestIcon}).bindPopup("Set Priest, Set High Priest, Set Archpriest").addTo(priestGroup), // https://i.imgur.com/hA1Mmd6.jpg
-		L.marker([-3158.25,1711.5], {icon: priestIcon}).bindPopup("Priest - Mitra Priest(In Cave)").addTo(priestGroup),
+		L.marker([-3064.5,1701.75], {icon: priestIcon}).bindPopup("Mitra Priest, Mitra High Priest, Mitra Archpriest - inside Sinner's Refuge, entry to south").addTo(priestGroup), // https://i.imgur.com/2sT5KZE.jpg
 		L.marker([-1933.5,906.75], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
 		L.marker([-1986.25,1301.5], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
 		L.marker([-1995.5,1291], {icon: priestIcon}).bindPopup("Nordheimer Priest 1-3").addTo(priestGroup),
