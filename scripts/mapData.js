@@ -977,6 +977,7 @@
 		L.marker([-1669.25,577.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian)").addTo(taskmasterGroup),
 		L.marker([-2473.25,3309.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian)").addTo(taskmasterGroup),
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Darfari, Shemite, Stygian, Zamorian), Vanko the Fearsome T4, Saddur the Slaver T4").addTo(taskmasterGroup),
+		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4, Olena the Oathmaker T4").addTo(taskmasterGroup),
 
 		//Thralls - Random (Ready to add randomThrall class, remove duplicates from above)
 		//L.marker([-2500.75,3246.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
@@ -1008,7 +1009,7 @@
 		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
 		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
-		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
+		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer) - spawns upstairs, walks around").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
 		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Armorer), Ogrus Iron-Eater T4 (Armorer), Shendelzare, Joka Ironfist T4 (Armorer), Jehungir Horseshoe T4 (Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
 
 		//Named Thralls - Bearer
@@ -1092,7 +1093,7 @@
 		L.marker([-2660.25,2071], {icon: tannerIcon}).bindPopup("Valenso Da Reyn T4 (Tanner) - upper level").addTo(namedTannerGroup), // https://i.imgur.com/Fc6dNRP.jpg
 
 		//Named Thralls - Taskmaster
-		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster Master T4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4 (Taskmaster), Olena the Oathmaker T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
+		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Taskmaster), Olena the Oathmaker T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
 		L.marker([-967.5,1549.75], {icon: taskmasterIcon}).bindPopup("Risa the Brutal T4 (Taskmaster), walks around or dies to lava").addTo(namedTaskmasterGroup),
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Vanko the Fearsome T4 (Taskmaster), Saddut the Slaver T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/39tsrGQ.jpg // https://i.imgur.com/R1iVEzI.jpg
 
