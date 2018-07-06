@@ -782,6 +782,10 @@
 		L.marker([-3056.25,3352], {icon: derketoIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(religonGroup),
 
 		//------------------T-H-R-A-L-L-S------------------------------------------------------------------------------------------------//
+		// in \Steam\steamapps\common\Conan Exiles\ConanSandbox\Saved\Config\WindowsNoEditor\ServerSettings.ini
+		// change NPCRespawnMultiplier=1.000000 to NPCRespawnMultiplier=0.000001
+		// in-game don't open server settings or it resets, instead use console command MakeMeAdmin
+		// use shift+del to kill thralls instantly, if the NPCRespawnMultiplier stayed, you should have instant respawns
 
 		//Thralls - Alchemist
 		L.marker([-3259.5,1037], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Darfari)").addTo(alchemistGroup),
@@ -810,6 +814,8 @@
 		L.marker([-2696.75,2538.5], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(armorerGroup),
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4").addTo(armorerGroup),
 		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4 - spawns upstairs, walks around").addTo(armorerGroup),
+		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Aquilonian, Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Arcen Brokenfingers T4, Diana Steelshaper T4, Ghamm the worn T4, Hanar of Bossonia T4, Than Hammerblow T4, Zoara of the Marshes T4").addTo(armorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
+		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Aquilonian, Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Arcen, Brokenfingers T4, Diana Steelshaper T4, Ghamm the worn T4, Hanar of Bossonia T4, Than Hammerblow T4, Zoara of the Marshes T4").addTo(armorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
 
 		//Thralls - Bearer
 		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
@@ -850,6 +856,9 @@
 		L.marker([-2624.5,2133.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2631.25,2142.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
+		L.marker([-2722.75,445.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
+		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // west bonfire
+		L.marker([-3043.75,3409.5], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // east bonfire
 
 		//Thralls - Carpenter
 		L.marker([-3286.5,1236.25], {icon: carpenterIcon}).bindPopup("Carpenter T1 (Darfari)").addTo(carpenterGroup),
@@ -990,6 +999,7 @@
 		//L.marker([-2631.25,2142.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
 		//L.marker([-2615.5,2115.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
 		//L.marker([-2502.75,3253.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // east bonfire
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
@@ -1003,14 +1013,19 @@
 		L.marker([-2335.75,1109.25], {icon: archerIcon}).bindPopup("Du'neman the Dragoon T4 (Archer) - spawns on top, patrols the area").addTo(namedArcherGroup), // https://i.imgur.com/eIg5rtV.jpg
 		L.marker([-1184.25,1636.75], {icon: archerIcon}).bindPopup("Vais the Wayfaerer T4 (Archer) & Anos Preyfinder T4 (Archer) - shared spawn with Cimmerian Archer T1-2 & Hyborian Archer T3").addTo(namedArcherGroup), // https://i.imgur.com/VqyZfUv.jpg // https://i.imgur.com/eaHbHG7.jpg
 		L.marker([-2663.5,2065.75], {icon: archerIcon}).bindPopup("Galter of Bossonia T4 (Archer), Conchaka of Hyrkania T4 (Archer) - middle level, shared spawn with T3 Archer").addTo(namedArcherGroup), // https://i.imgur.com/3466YrO.jpg
+		L.marker([-3039.75,3355], {icon: archerIcon}).bindPopup("Alren Storm T4 (Archer), Lissira T4 (Archer) - shared spawn with Lemurian Archer 3").addTo(namedArcherGroup), // https://i.imgur.com/BAZ2jeX.jpg
 
 		//Named Thralls - Armorer
-		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer T4 (Armorer), Llarn Steeltoe T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
+		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer T4 (Kushite Armorer), Llarn Steeltoe T4 (Kambujan Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
 		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
 		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
-		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
-		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer) - spawns upstairs, walks around").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
-		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Armorer), Ogrus Iron-Eater T4 (Armorer), Shendelzare, Joka Ironfist T4 (Armorer), Jehungir Horseshoe T4 (Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
+		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
+		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer) - spawns upstairs, walks around").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
+		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Zamorian Armorer), Ogrus Iron-Eater T4 (Darfari Armorer), Shendelzare T4 (Kambujan Armorer), Joka Ironfist T4 (Hyborian Armorer), Jehungir Horseshoe T4 (Hyrkanian Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
+		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
+		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
+		L.marker([-3049.75,3374.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
+		L.marker([-3043.75,3409.5], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
 
 		//Named Thralls - Bearer
 		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
@@ -1035,10 +1050,12 @@
 
 		//Named Thralls - Blacksmith
 		L.marker([-1255,1724], {icon: blacksmithIcon}).bindPopup("Secas the Smith T4 (Blacksmith)").addTo(namedBlacksmithGroup),
-		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
-		L.marker([-2289.5,1213.75], {icon: blacksmithIcon}).bindPopup("Talitha Goldfingers T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/NFCZOUJ.jpg
-		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Beri T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/Db21vs2.jpg
-		L.marker([-2654.25,2102.25], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Blacksmith) - middle level").addTo(namedBlacksmithGroup), // https://i.imgur.com/zfpVt0Z.jpg
+		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
+		L.marker([-2289.5,1213.75], {icon: blacksmithIcon}).bindPopup("Talitha Goldfingers T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/NFCZOUJ.jpg
+		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/Db21vs2.jpg
+		L.marker([-2654.25,2102.25], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Shemite Blacksmith) - middle level").addTo(namedBlacksmithGroup), // https://i.imgur.com/zfpVt0Z.jpg
+		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
+		L.marker([-3043.75,3409.5], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
 
 		//Named Thralls - Carpenter
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/QuEKZtu.jpg
@@ -1053,6 +1070,8 @@
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/6R4TILS.jpg
 		L.marker([-3057.75,3349.25], {icon: cookIcon}).bindPopup("Gnash the Hungry T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/Rb72P6X.jpg
 		L.marker([-2667,2100.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook) - lower level").addTo(namedCookGroup), // https://i.imgur.com/gwr1lON.jpg
+		L.marker([-3049.75,3374.75], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
+		L.marker([-3043.75,3409.5], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
 
 		//Named Thralls - Entertainer
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer), Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
@@ -1065,7 +1084,7 @@
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).bindPopup("Tarman T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2777,1775.25], {icon: warriorIcon}).bindPopup("Thugra T4 (Fighter)").addTo(namedFighterGroup),
-		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("Mei the Blade T4 (Fighter)").addTo(namedFighterGroup),
+		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("Mei the Blade T4, Waros the Breaker T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2409,3368.25], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din T4 (Fighter), Hekkr Waverunner T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2671.25,2141], {icon: warriorIcon}).bindPopup("Captain Ioushuwa T4 (Fighter), Black Hand Captain T4 (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/QdZFNTN.jpg
 		L.marker([-2695.5,1824.25], {icon: warriorIcon}).bindPopup("N'batu T4 (Fighter)").addTo(namedFighterGroup),
@@ -1082,20 +1101,35 @@
 		L.marker([-2687,2564], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din T4 (Fighter), Hekkr Waverunner T4 (Fighter), shared spawn with T3 fighter").addTo(namedFighterGroup), // https://i.imgur.com/YAifyZ7.jpg
 		L.marker([-1644.75,629.25], {icon: warriorIcon}).bindPopup("Cimmerian Berserker T4 (Fighter) - walks around wide area").addTo(namedFighterGroup), // https://i.imgur.com/UezK0s6.jpg
 
+		//Named Thralls - Priest
+		L.marker([-3049.75,3374.75], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
+		L.marker([-3043.75,3409.5], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
+
 		//Named Thralls - Smelter
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Daya Leaddrinker T4 (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/oQNnjcF.jpg
 		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Yael of Shem T4 (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/71wLHxX.jpg
 		L.marker([-2653.5,2096.5], {icon: smelterIcon}).bindPopup("Fingal Firetender T4 (Smelter), Idra Sparkeyes T4 (Smelter) - middle level").addTo(namedSmelterGroup), // https://i.imgur.com/LogdxDG.jpg // https://i.imgur.com/d3N7vgJ.jpg
+		L.marker([-3049.75,3374.75], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
+		L.marker([-3043.75,3409.5], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
 
 		//Named Thralls - Tanner
 		L.marker([-2699,484], {icon: tannerIcon}).bindPopup("Inigo the Vengeful T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/qEhq07f.jpg
 		L.marker([-964,1530.25], {icon: tannerIcon}).bindPopup("Firis Flickertongue T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/OkXIcQV.jpg
 		L.marker([-2660.25,2071], {icon: tannerIcon}).bindPopup("Valenso Da Reyn T4 (Tanner) - upper level").addTo(namedTannerGroup), // https://i.imgur.com/Fc6dNRP.jpg
+		L.marker([-3049.75,3374.75], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
+		L.marker([-3043.75,3409.5], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
+
 
 		//Named Thralls - Taskmaster
-		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Taskmaster), Olena the Oathmaker T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
+		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Shemite Taskmaster), Olena the Oathmaker T4 (Zamorian Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
 		L.marker([-967.5,1549.75], {icon: taskmasterIcon}).bindPopup("Risa the Brutal T4 (Taskmaster), walks around or dies to lava").addTo(namedTaskmasterGroup),
-		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Vanko the Fearsome T4 (Taskmaster), Saddut the Slaver T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/39tsrGQ.jpg // https://i.imgur.com/R1iVEzI.jpg
+		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Vanko the Fearsome T4 (Zamorian Taskmaster), Saddur the Slaver T4 (Shemite Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/39tsrGQ.jpg // https://i.imgur.com/R1iVEzI.jpg
+		L.marker([-3049.75,3374.75], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
+		L.marker([-3043.75,3409.5], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
+
+		//Named Thralls - Random
+		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
+		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
