@@ -1557,7 +1557,7 @@
 		}
 
 		var groupedLocations = {
-			"Toggle Locations": {
+			"Locations": {
 				"<img src='data/images/icons/icon_mitra.png' width='16' height='16'></img> Religon Trainer": religonGroup,
 				"<img src='data/images/icons/icon_cave.png' width='16' height='16'></img> Caves": caveGroup,
 				"<img src='data/images/icons/icon_dungeon.png' width='16' height='16'></img> Dungeons": dungeonGroup,
