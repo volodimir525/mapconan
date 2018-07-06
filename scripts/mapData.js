@@ -782,6 +782,10 @@
 		L.marker([-3056.25,3352], {icon: derketoIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(religonGroup),
 
 		//------------------T-H-R-A-L-L-S------------------------------------------------------------------------------------------------//
+		// in \Steam\steamapps\common\Conan Exiles\ConanSandbox\Saved\Config\WindowsNoEditor\ServerSettings.ini
+		// change NPCRespawnMultiplier=1.000000 to NPCRespawnMultiplier=0.000001
+		// in-game don't open server settings or it resets, instead use console command MakeMeAdmin
+		// use shift+del to kill thralls instantly, if the NPCRespawnMultiplier stayed, you should have instant respawns
 
 		//Thralls - Alchemist
 		L.marker([-3259.5,1037], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Darfari)").addTo(alchemistGroup),
@@ -789,7 +793,7 @@
 		L.marker([-2718.75,423.75], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(alchemistGroup),
 		L.marker([-2542,3263.5], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(alchemistGroup),
 		L.marker([-2661.5,2112.25], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Cimmerian, Darfari, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - middle level").addTo(alchemistGroup),
-		L.marker([-1172.25,1650.5], {icon: cookIcon}).bindPopup("Alchemist T1 (Cimmerian), Alchemist 3 (Hyborian)").addTo(alchemistGroup),
+		L.marker([-1172.25,1650.5], {icon: cookIcon}).bindPopup("Alchemist T1 (Cimmerian), Alchemist T3 (Hyborian)").addTo(alchemistGroup),
 		L.marker([-1949,945.75], {icon: cookIcon}).bindPopup("Alchemist T3-4 (Nordheimer), Rokur the Alchemist T4").addTo(alchemistGroup),
 		L.marker([-1976.75,1312.25], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Nordheimer)").addTo(alchemistGroup),
 		L.marker([-1938,1282], {icon: cookIcon}).bindPopup("Alchemist T1-3 (Nordheimer) - double spawn").addTo(alchemistGroup),
@@ -804,32 +808,31 @@
 		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Armorer T1-4 (Lemurian), Fia T4").addTo(armorerGroup),
 		L.marker([-1948,1314], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Nordheimer)").addTo(armorerGroup),
 		L.marker([-1588.25,604.75], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Cimmerian)").addTo(armorerGroup),
-		L.marker([-2500.75,3246.5], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(armorerGroup),
-		L.marker([-3103.5,2621.75], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(armorerGroup),
 		L.marker([-3322.75,1274.5], {icon: armorerIcon}).bindPopup("Armorer T1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(armorerGroup),
-		L.marker([-2696.75,2538.5], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(armorerGroup),
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4").addTo(armorerGroup),
 		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4 - spawns upstairs, walks around").addTo(armorerGroup),
+		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Aquilonian, Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Arcen Brokenfingers T4, Diana Steelshaper T4, Ghamm the worn T4, Hanar of Bossonia T4, Than Hammerblow T4, Zoara of the Marshes T4").addTo(armorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
+		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Aquilonian, Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Arcen, Brokenfingers T4, Diana Steelshaper T4, Ghamm the worn T4, Hanar of Bossonia T4, Than Hammerblow T4, Zoara of the Marshes T4").addTo(armorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
 
 		//Thralls - Bearer
-		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Hesth Plainswalker T4").addTo(sherpaGroup),
-		L.marker([-2993.5,1841.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Ulrik the Mountaineer T4").addTo(sherpaGroup),
-		L.marker([-2618,2127], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Fairin of the Wild Coast T4").addTo(sherpaGroup),
-		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Dono'Thelpup T4").addTo(sherpaGroup),
+		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-2993.5,1841.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-2618,2127], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
 		L.marker([-2604.25,477.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Kushite, Nordheimer, Stygian, Zingaran)").addTo(sherpaGroup),
-		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Ulrik the Mountaineer T4, Pelor the Well-Travelled T4, Dono'thelpup T4").addTo(sherpaGroup),
-		L.marker([-2097,1418.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Fairin of the Wild Coast T4, Narr Goatfoot T4").addTo(sherpaGroup),
-		L.marker([-1887.5,1485.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Eina the Light T4, Rethrous the Burdened T4").addTo(sherpaGroup),
-		L.marker([-1803.75,608.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Stygian, Zamorian, Zingaran), Kathibria Featherstep").addTo(sherpaGroup),
-		L.marker([-1629,533.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), Ulrik the Mountaineer T4").addTo(sherpaGroup),
-		L.marker([-1664.75,575.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), Kathibria Featherstep T4").addTo(sherpaGroup),
-		L.marker([-1577.5,709.5], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), Amzadi the Wanderer T4").addTo(sherpaGroup),
-		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran), Hesth Plainswalker T4 - walks around").addTo(sherpaGroup),
-		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Amzadi the Wanderer T4 - in the cave, walks around").addTo(sherpaGroup),
-		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Eina the Light T4").addTo(sherpaGroup),
-		L.marker([-3011,1240], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Rethrous the Burdened T4").addTo(sherpaGroup),
-		L.marker([-2634.5,2148.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Fairin of the Wild Coast T4").addTo(sherpaGroup),
-		L.marker([-2597,1772.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Fairin of the Wild Coast T4, Rethrous the Burdened T4").addTo(sherpaGroup),
+		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-2097,1418.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-1887.5,1485.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-1803.75,608.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-1629,533.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-1664.75,575.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-1577.5,709.5], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran), random T4 - walks around").addTo(sherpaGroup),
+		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4 - in the cave, walks around").addTo(sherpaGroup),
+		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-3011,1240], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-2634.5,2148.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
+		L.marker([-2597,1772.75], {icon: sherpaIcon}).bindPopup("Bearer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), random T4").addTo(sherpaGroup),
 
 		//Thralls - Blacksmith
 		L.marker([-2885,2115.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3, (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
@@ -837,19 +840,16 @@
 		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Hyborian, Shemite, Stygian, Zingaran), Hyam Hammerhand T4").addTo(blacksmithGroup),
 		L.marker([-2663,2209.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3, (Cimmerian, Hyborian, Hyrkanian, Nordheimer, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
 		L.marker([-2289.5,1213.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T3-4 (Shemite, Stygian), Talitha Goldfingers T4").addTo(blacksmithGroup),
-		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T3-4 (Nordheimer), Beri").addTo(blacksmithGroup),
+		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T3-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
 		L.marker([-1988.25,1318.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1956,1311.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
 		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
-		L.marker([-2439.5,3354], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2765.5,2936.75], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kambujan, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - double spawn").addTo(blacksmithGroup), // https://i.imgur.com/pYvX6pr.jpg
-		L.marker([-2600.5,2131], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2624.5,2133.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2631.25,2142.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
+		L.marker([-2722.75,445.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
+		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // west bonfire
 
 		//Thralls - Carpenter
 		L.marker([-3286.5,1236.25], {icon: carpenterIcon}).bindPopup("Carpenter T1 (Darfari)").addTo(carpenterGroup),
@@ -942,9 +942,8 @@
 		//Thralls - Smelter
 		L.marker([-3412.75,2075.75], {icon: smelterIcon}).bindPopup("Smelter T1 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
 		L.marker([-2879.75,2118.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
-		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Shemite, Stygian), Yael of Shem").addTo(smelterGroup),
+		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Shemite, Stygian), Yael of Shem T4").addTo(smelterGroup),
 		L.marker([-2653.5,2096.5], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Cimmerian, Hyborian, Nordheimer, Shemite, Stygian, Zingaran), Fingal Firetender, Idra Sparkeyes - middle level").addTo(smelterGroup),
-		L.marker([-2615.5,2115.25], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(smelterGroup),
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Hyborian, Shemite, Stygian, Zingaran), Daya Leaddrinker T4").addTo(smelterGroup),
 		L.marker([-1982.25,1320.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Nordheimer)").addTo(smelterGroup),
@@ -961,7 +960,6 @@
 		L.marker([-2606,481.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Nordheimer)").addTo(tannerGroup),
 		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Cimmerian) - double spawn").addTo(tannerGroup),
-		L.marker([-2502.75,3253.25], {icon: tannerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(tannerGroup),
 		L.marker([-3284,2227.5], {icon: tannerIcon}).bindPopup("Tanner T1 (Cimmerian Darfari, Hyborian, Hyrkanian, Nordheimer, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 
 		//Thralls - Taskmaster
@@ -977,7 +975,21 @@
 		L.marker([-1669.25,577.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian)").addTo(taskmasterGroup),
 		L.marker([-2473.25,3309.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian)").addTo(taskmasterGroup),
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Darfari, Shemite, Stygian, Zamorian), Vanko the Fearsome T4, Saddur the Slaver T4").addTo(taskmasterGroup),
-		
+		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4, Olena the Oathmaker T4").addTo(taskmasterGroup),
+
+		//Thralls - Random (Ready to add randomThrall class, remove duplicates from above)
+		//L.marker([-2500.75,3246.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-3103.5,2621.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(randomThrallGroup),
+		//L.marker([-2696.75,2538.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2439.5,3354], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2765.5,2936.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kambujan, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - double spawn").addTo(randomThrallGroup), // https://i.imgur.com/pYvX6pr.jpg
+		//L.marker([-2600.5,2131], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2624.5,2133.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2631.25,2142.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2615.5,2115.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-2502.75,3253.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // west bonfire
+		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // east bonfire
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		//Named Thralls - Alchemist
@@ -985,53 +997,60 @@
 		L.marker([-1949,945.75], {icon: cookIcon}).bindPopup("Rokur the Alchemist T4 (Alchemist)").addTo(namedAlchemistGroup), // https://i.imgur.com/uB7WoXF.jpg
 
 		//Named Thralls - Archer
-		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn T4 (Archer)").addTo(namedArcherGroup),
+		L.marker([-2558.75,3262.75], {icon: archerIcon}).bindPopup("Sarnai the Thorn T4 (Archer), Cristian the Blade T4 (Archer), Iekika the Visionary T4 (Archer)").addTo(namedArcherGroup),
 		L.marker([-2102,1711], {icon: archerIcon}).bindPopup("Freya T4 (Archer)").addTo(namedArcherGroup),
 		L.marker([-2335.75,1109.25], {icon: archerIcon}).bindPopup("Du'neman the Dragoon T4 (Archer) - spawns on top, patrols the area").addTo(namedArcherGroup), // https://i.imgur.com/eIg5rtV.jpg
-		L.marker([-1184.25,1636.75], {icon: archerIcon}).bindPopup("Vais the Wayfaerer T4 (Archer) & Anos Preyfinder T4 (Archer), shared spawn with Cimmerian Archer 1-2 & Hyborian Archer 3").addTo(namedArcherGroup), // https://i.imgur.com/VqyZfUv.jpg // https://i.imgur.com/eaHbHG7.jpg
-		L.marker([-2663.5,2065.75], {icon: archerIcon}).bindPopup("Galter of Bossonia T4 (Archer) - middle level, shared spawn with T3 Archer").addTo(namedArcherGroup), // https://i.imgur.com/3466YrO.jpg
+		L.marker([-1184.25,1636.75], {icon: archerIcon}).bindPopup("Vais the Wayfaerer T4 (Archer) & Anos Preyfinder T4 (Archer) - shared spawn with Cimmerian Archer T1-2 & Hyborian Archer T3").addTo(namedArcherGroup), // https://i.imgur.com/VqyZfUv.jpg // https://i.imgur.com/eaHbHG7.jpg
+		L.marker([-2663.5,2065.75], {icon: archerIcon}).bindPopup("Galter of Bossonia T4 (Archer), Conchaka of Hyrkania T4 (Archer) - middle level, shared spawn with T3 Archer").addTo(namedArcherGroup), // https://i.imgur.com/3466YrO.jpg
+		L.marker([-3039.75,3355], {icon: archerIcon}).bindPopup("Alren Storm T4 (Archer), Lissira T4 (Archer) - shared spawn with Lemurian Archer 3").addTo(namedArcherGroup), // https://i.imgur.com/BAZ2jeX.jpg
 
 		//Named Thralls - Armorer
-		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer T4 (Armorer), Llarn Steeltoe T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
-		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
-		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
-		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
-		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
-		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Armorer), Ogrus Iron-Eater T4 (Armorer), Shendelzare, Joka Ironfist T4 (Armorer), Jehungir Horseshoe T4 (Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
+		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer T4 (Kushite Armorer), Llarn Steeltoe T4 (Kambujan Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
+		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
+		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
+		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
+		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer) - spawns upstairs, walks around").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
+		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Zamorian Armorer), Ogrus Iron-Eater T4 (Darfari Armorer), Shendelzare T4 (Kambujan Armorer), Joka Ironfist T4 (Hyborian Armorer), Jehungir Horseshoe T4 (Hyrkanian Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
+		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
+		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
+		L.marker([-3049.75,3374.75], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
+		L.marker([-3043.75,3409.5], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
 
 		//Named Thralls - Bearer
-		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Belor the Well-Travelled T4 (Bearer), Narr Goatfoot T4 (Bearer), Fairin of the Wild Coast T4 (Bearer), Rethrous the Burdened T4 (Bearer), Ulrik the Mountaineer T4 (Bearer), Kathibria Featherstep T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
-		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Ulrik the Mountaineer T4 (Bearer), Pelor the Well-Travelled T4 (Bearer), Dono'thelpup T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/ry6gffX.jpg // https://i.imgur.com/LS5RyDg.jpg
-		L.marker([-2097,1418.75], {icon: sherpaIcon}).bindPopup("Fairin of the Wild Coast T4 (Bearer), Narr Goatfoot T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/otrSIae.jpg
-		L.marker([-1887.5,1485.75], {icon: sherpaIcon}).bindPopup("Eina the Light T4 (Bearer), Rethrous the Burdened T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/Ryijlpr.jpg
-		L.marker([-1803.75,608.75], {icon: sherpaIcon}).bindPopup("Kathibria Featherstep T4 (Bearer)").addTo(namedSherpaGroup),
-		L.marker([-1629,533.25], {icon: sherpaIcon}).bindPopup("Ulrik the Mountaineer T4 (Bearer)").addTo(namedSherpaGroup),
-		L.marker([-1664.75,575.25], {icon: sherpaIcon}).bindPopup("Kathibria Featherstep T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/WYZtsGQ.jpg
-		L.marker([-1577.5,709.5], {icon: sherpaIcon}).bindPopup("Amzadi the Wanderer T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/bAAHcI4.jpg
-		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Hesth Plainswalker T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/1WyniF7.jpg
-		L.marker([-3202,1084.25], {icon: sherpaIcon}).bindPopup("Eina the Light T4 (Bearer), Dono'Thelpup T4 (Bearer) - walks around").addTo(namedSherpaGroup), // https://i.imgur.com/IMcO5TL.jpg // https://i.imgur.com/zUrLmqh.jpg
-		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Hesth Plainswalker T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/zwh5YhK.jpg
-		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Amzadi the Wanderer T4 (Bearer) - in the cave, walks around").addTo(namedSherpaGroup), // https://i.imgur.com/hghK86f.jpg
-		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Eina the Light T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/PIORAOJ.jpg
-		L.marker([-3011,1240], {icon: sherpaIcon}).bindPopup("Rethrous the Burdened T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/Pp7RyJV.jpg
-		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).bindPopup("Dono'Thelpup T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/nSlgVRl.jpg
-		L.marker([-2993.5,1841.75], {icon: sherpaIcon}).bindPopup("Ulrik the Mountaineer T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/6Nu9dnC.jpg
-		L.marker([-2618,2127], {icon: sherpaIcon}).bindPopup("Fairin of the Wild Coast T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/UmMSIuR.jpg
-		L.marker([-2634.5,2148.75], {icon: sherpaIcon}).bindPopup("Fairin of the Wild Coast T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/5ywgWNH.jpg
-		L.marker([-2597,1772.75], {icon: sherpaIcon}).bindPopup("Fairin of the Wild Coast T4 (Bearer), Rethrous the Burdened T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/G1B3hcq.jpg
+		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
+		L.marker([-1954.25,951], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/ry6gffX.jpg // https://i.imgur.com/LS5RyDg.jpg
+		L.marker([-2097,1418.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/otrSIae.jpg
+		L.marker([-1887.5,1485.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/Ryijlpr.jpg
+		L.marker([-1803.75,608.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup),
+		L.marker([-1629,533.25], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup),
+		L.marker([-1664.75,575.25], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/WYZtsGQ.jpg
+		L.marker([-1577.5,709.5], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/bAAHcI4.jpg
+		L.marker([-3344,2012.25], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/1WyniF7.jpg
+		L.marker([-3202,1084.25], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer) - walks around").addTo(namedSherpaGroup), // https://i.imgur.com/IMcO5TL.jpg // https://i.imgur.com/zUrLmqh.jpg
+		L.marker([-3219.75,1316.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/zwh5YhK.jpg
+		L.marker([-2764.25,2951.25], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer) - in the cave, walks around").addTo(namedSherpaGroup), // https://i.imgur.com/hghK86f.jpg
+		L.marker([-3084.5,2121.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/PIORAOJ.jpg
+		L.marker([-3011,1240], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/Pp7RyJV.jpg
+		L.marker([-3010.75,1768.5], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/nSlgVRl.jpg
+		L.marker([-2993.5,1841.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/6Nu9dnC.jpg
+		L.marker([-2618,2127], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/UmMSIuR.jpg
+		L.marker([-2634.5,2148.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/5ywgWNH.jpg
+		L.marker([-2597,1772.75], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/G1B3hcq.jpg
 
 		//Named Thralls - Blacksmith
 		L.marker([-1255,1724], {icon: blacksmithIcon}).bindPopup("Secas the Smith T4 (Blacksmith)").addTo(namedBlacksmithGroup),
-		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
-		L.marker([-2289.5,1213.75], {icon: blacksmithIcon}).bindPopup("Talitha Goldfingers T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/NFCZOUJ.jpg
-		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Beri T4 (Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/Db21vs2.jpg
-		L.marker([-2654.25,2102.25], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Blacksmith) - middle level").addTo(namedBlacksmithGroup), // https://i.imgur.com/zfpVt0Z.jpg
+		L.marker([-2588,554.75], {icon: blacksmithIcon}).bindPopup("Hyam Hammerhand T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/u9FRF0f.jpg
+		L.marker([-2289.5,1213.75], {icon: blacksmithIcon}).bindPopup("Talitha Goldfingers T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/NFCZOUJ.jpg
+		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/Db21vs2.jpg
+		L.marker([-2654.25,2102.25], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Shemite Blacksmith) - middle level").addTo(namedBlacksmithGroup), // https://i.imgur.com/zfpVt0Z.jpg
+		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
+		L.marker([-3043.75,3409.5], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
 
 		//Named Thralls - Carpenter
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/QuEKZtu.jpg
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup),
 		L.marker([-3054,3354.5], {icon: carpenterIcon}).bindPopup("Poscore Nimblefingers T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/t6eGF9P.jpg
-		L.marker([-2663,2084.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter) - lower level").addTo(namedCarpenterGroup), // https://i.imgur.com/oRBzzF1.jpg
+		L.marker([-2663,2084.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter), Rayne O' the Rosewood T4 (Carpenter) - lower level").addTo(namedCarpenterGroup), // https://i.imgur.com/jDRELhI.jpg // https://i.imgur.com/QTYFi6z.jpg
 
 		//Named Thralls - Cook
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler T4 (Cook)").addTo(namedCookGroup),
@@ -1040,6 +1059,8 @@
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/6R4TILS.jpg
 		L.marker([-3057.75,3349.25], {icon: cookIcon}).bindPopup("Gnash the Hungry T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/Rb72P6X.jpg
 		L.marker([-2667,2100.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook) - lower level").addTo(namedCookGroup), // https://i.imgur.com/gwr1lON.jpg
+		L.marker([-3049.75,3374.75], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
+		L.marker([-3043.75,3409.5], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
 
 		//Named Thralls - Entertainer
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer), Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
@@ -1052,36 +1073,52 @@
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).bindPopup("Tarman T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2777,1775.25], {icon: warriorIcon}).bindPopup("Thugra T4 (Fighter)").addTo(namedFighterGroup),
-		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("Mei the Blade T4 (Fighter)").addTo(namedFighterGroup),
+		L.marker([-3042.25,3360.5], {icon: warriorIcon}).bindPopup("Mei the Blade T4, Waros the Breaker T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2409,3368.25], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din T4 (Fighter), Hekkr Waverunner T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2671.25,2141], {icon: warriorIcon}).bindPopup("Captain Ioushuwa T4 (Fighter), Black Hand Captain T4 (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/QdZFNTN.jpg
 		L.marker([-2695.5,1824.25], {icon: warriorIcon}).bindPopup("N'batu T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-1941,1538.5], {icon: warriorIcon}).bindPopup("Lian T4 (Fighter)").addTo(namedFighterGroup),
 		L.marker([-2640.5,536.25], {icon: warriorIcon}).bindPopup("Captain T4 (Fighter), patrols the area").addTo(namedFighterGroup), // https://i.imgur.com/oAPbmAL.jpg
-		L.marker([-1171.25,1618.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3").addTo(namedFighterGroup), // https://i.imgur.com/h33umvU.jpg // https://i.imgur.com/2icyJLS.jpg
-		L.marker([-980.5,1542.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3, spawns on the 2nd floor and walks around").addTo(namedFighterGroup), // https://i.imgur.com/9m7Fe2I.jpg
-		L.marker([-1255.25,1598.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3").addTo(namedFighterGroup), // https://i.imgur.com/if7L6ZA.jpg
-		L.marker([-1273.75, 1626.5], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3, walks around the bridge").addTo(namedFighterGroup), // https://i.imgur.com/QzJwnvv.jpg
-		L.marker([-1311.75,1625], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter), shared spawn with Zamorian Fighter 1, Zingaran Fighter 2 & Hyborian Fighter 3, walks the road").addTo(namedFighterGroup), // https://i.imgur.com/uckco5r.jpg
+		L.marker([-1171.25,1618.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter) - shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3").addTo(namedFighterGroup), // https://i.imgur.com/h33umvU.jpg // https://i.imgur.com/2icyJLS.jpg
+		L.marker([-980.5,1542.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter) - shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3, spawns on the 2nd floor and walks around").addTo(namedFighterGroup), // https://i.imgur.com/9m7Fe2I.jpg
+		L.marker([-1255.25,1598.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter) - shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3").addTo(namedFighterGroup), // https://i.imgur.com/if7L6ZA.jpg
+		L.marker([-1273.75, 1626.5], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter) - shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3, walks around the bridge").addTo(namedFighterGroup), // https://i.imgur.com/QzJwnvv.jpg
+		L.marker([-1311.75,1625], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Fighter) & Daicas the Sharp T4 (Fighter) - shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3, walks the road").addTo(namedFighterGroup), // https://i.imgur.com/uckco5r.jpg
 		L.marker([-1648,613], {icon: warriorIcon}).bindPopup("Dalinsia Snowhunter T4 (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/8a1v9yx.jpg
 		L.marker([-3222.75,1137.5], {icon: warriorIcon}).bindPopup("Ritualist T4 (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/hgXgRmj.jpg
 		L.marker([-2910.5,2136], {icon: warriorIcon}).bindPopup("Sully T4 (Fighter)").addTo(namedFighterGroup), // https://i.imgur.com/wEaW03b.jpg
 		L.marker([-2687,2564], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din T4 (Fighter), Hekkr Waverunner T4 (Fighter), shared spawn with T3 fighter").addTo(namedFighterGroup), // https://i.imgur.com/YAifyZ7.jpg
+		L.marker([-1644.75,629.25], {icon: warriorIcon}).bindPopup("Cimmerian Berserker T4 (Fighter) - walks around wide area").addTo(namedFighterGroup), // https://i.imgur.com/UezK0s6.jpg
+
+		//Named Thralls - Priest
+		L.marker([-3049.75,3374.75], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
+		L.marker([-3043.75,3409.5], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
 
 		//Named Thralls - Smelter
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Daya Leaddrinker T4 (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/oQNnjcF.jpg
 		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Yael of Shem T4 (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/71wLHxX.jpg
 		L.marker([-2653.5,2096.5], {icon: smelterIcon}).bindPopup("Fingal Firetender T4 (Smelter), Idra Sparkeyes T4 (Smelter) - middle level").addTo(namedSmelterGroup), // https://i.imgur.com/LogdxDG.jpg // https://i.imgur.com/d3N7vgJ.jpg
+		L.marker([-3049.75,3374.75], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
+		L.marker([-3043.75,3409.5], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
 
 		//Named Thralls - Tanner
-		L.marker([-2699,486], {icon: tannerIcon}).bindPopup("Inigo the Vengeful T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/qEhq07f.jpg
+		L.marker([-2699,484], {icon: tannerIcon}).bindPopup("Inigo the Vengeful T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/qEhq07f.jpg
 		L.marker([-964,1530.25], {icon: tannerIcon}).bindPopup("Firis Flickertongue T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/OkXIcQV.jpg
 		L.marker([-2660.25,2071], {icon: tannerIcon}).bindPopup("Valenso Da Reyn T4 (Tanner) - upper level").addTo(namedTannerGroup), // https://i.imgur.com/Fc6dNRP.jpg
+		L.marker([-3049.75,3374.75], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
+		L.marker([-3043.75,3409.5], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
+
 
 		//Named Thralls - Taskmaster
-		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster Master T4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4 (Taskmaster), Olena the Oathmaker T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
+		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Shemite Taskmaster), Olena the Oathmaker T4 (Zamorian Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
 		L.marker([-967.5,1549.75], {icon: taskmasterIcon}).bindPopup("Risa the Brutal T4 (Taskmaster), walks around or dies to lava").addTo(namedTaskmasterGroup),
-		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Vanko the Fearsome T4 (Taskmaster), Saddut the Slaver T4 (Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/39tsrGQ.jpg // https://i.imgur.com/R1iVEzI.jpg
+		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Vanko the Fearsome T4 (Zamorian Taskmaster), Saddur the Slaver T4 (Shemite Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/39tsrGQ.jpg // https://i.imgur.com/R1iVEzI.jpg
+		L.marker([-3049.75,3374.75], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
+		L.marker([-3043.75,3409.5], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
+
+		//Named Thralls - Random
+		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
+		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
