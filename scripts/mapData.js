@@ -808,10 +808,7 @@
 		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Armorer T1-4 (Lemurian), Fia T4").addTo(armorerGroup),
 		L.marker([-1948,1314], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Nordheimer)").addTo(armorerGroup),
 		L.marker([-1588.25,604.75], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Cimmerian)").addTo(armorerGroup),
-		L.marker([-2500.75,3246.5], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(armorerGroup),
-		L.marker([-3103.5,2621.75], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(armorerGroup),
 		L.marker([-3322.75,1274.5], {icon: armorerIcon}).bindPopup("Armorer T1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(armorerGroup),
-		L.marker([-2696.75,2538.5], {icon: armorerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(armorerGroup),
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4").addTo(armorerGroup),
 		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4 - spawns upstairs, walks around").addTo(armorerGroup),
 		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Aquilonian, Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Arcen Brokenfingers T4, Diana Steelshaper T4, Ghamm the worn T4, Hanar of Bossonia T4, Than Hammerblow T4, Zoara of the Marshes T4").addTo(armorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
@@ -850,15 +847,9 @@
 		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
 		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
-		L.marker([-2439.5,3354], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2765.5,2936.75], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kambujan, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - double spawn").addTo(blacksmithGroup), // https://i.imgur.com/pYvX6pr.jpg
-		L.marker([-2600.5,2131], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2624.5,2133.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
-		L.marker([-2631.25,2142.5], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
 		L.marker([-2722.75,445.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
 		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // west bonfire
-		L.marker([-3043.75,3409.5], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // east bonfire
 
 		//Thralls - Carpenter
 		L.marker([-3286.5,1236.25], {icon: carpenterIcon}).bindPopup("Carpenter T1 (Darfari)").addTo(carpenterGroup),
@@ -953,7 +944,6 @@
 		L.marker([-2879.75,2118.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
 		L.marker([-2284,1209.25], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Shemite, Stygian), Yael of Shem T4").addTo(smelterGroup),
 		L.marker([-2653.5,2096.5], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Cimmerian, Hyborian, Nordheimer, Shemite, Stygian, Zingaran), Fingal Firetender, Idra Sparkeyes - middle level").addTo(smelterGroup),
-		L.marker([-2615.5,2115.25], {icon: blacksmithIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(blacksmithGroup),
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(smelterGroup),
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Hyborian, Shemite, Stygian, Zingaran), Daya Leaddrinker T4").addTo(smelterGroup),
 		L.marker([-1982.25,1320.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Nordheimer)").addTo(smelterGroup),
@@ -970,7 +960,6 @@
 		L.marker([-2606,481.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Nordheimer)").addTo(tannerGroup),
 		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Cimmerian) - double spawn").addTo(tannerGroup),
-		L.marker([-2502.75,3253.25], {icon: tannerIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(tannerGroup),
 		L.marker([-3284,2227.5], {icon: tannerIcon}).bindPopup("Tanner T1 (Cimmerian Darfari, Hyborian, Hyrkanian, Nordheimer, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 
 		//Thralls - Taskmaster
@@ -999,8 +988,8 @@
 		//L.marker([-2631.25,2142.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
 		//L.marker([-2615.5,2115.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
 		//L.marker([-2502.75,3253.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // west bonfire
 		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // east bonfire
-
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		//Named Thralls - Alchemist
@@ -1017,15 +1006,15 @@
 
 		//Named Thralls - Armorer
 		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Legendary Armorer T4 (Kushite Armorer), Llarn Steeltoe T4 (Kambujan Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/zGbunYX.jpg // https://i.imgur.com/Bv2bDq3.jpg
-		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
-		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
+		L.marker([-3054.25,3352], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/rCJ9UEG.jpg
+		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/89pSez0.jpg
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/cGWcUTf.jpg
 		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("B'naru Heavyhands T4 (Darfari Armorer) - spawns upstairs, walks around").addTo(namedArmorerGroup), // https://i.imgur.com/NAM7y47.jpg
 		L.marker([-2648,2100], {icon: armorerIcon}).bindPopup("Irniz of the Furnace T4 (Zamorian Armorer), Ogrus Iron-Eater T4 (Darfari Armorer), Shendelzare T4 (Kambujan Armorer), Joka Ironfist T4 (Hyborian Armorer), Jehungir Horseshoe T4 (Hyrkanian Armorer) - double spawn (middle and upper level)").addTo(namedArmorerGroup), // https://i.imgur.com/J93tMPn.jpg // https://i.imgur.com/Iw2QGy7.jpg // https://i.imgur.com/85u3MM5.jpg // https://i.imgur.com/EF88mw4.jpg // https://i.imgur.com/w4Qy5n8.jpg
 		L.marker([-2731,438.5], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/IdaSTay.jpg // https://i.imgur.com/USGhJvl.jpg // https://i.imgur.com/U8jQW5y.jpg // https://i.imgur.com/mAUsZvH.jpg
 		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
-		L.marker([-3049.75,3374.75], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
-		L.marker([-3043.75,3409.5], {icon: armorerIcon}).bindPopup("Fia T4 (Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
+		L.marker([-3049.75,3374.75], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
+		L.marker([-3043.75,3409.5], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
 
 		//Named Thralls - Bearer
 		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
