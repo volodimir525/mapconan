@@ -1137,7 +1137,7 @@
 		L.marker([-3181.5,1901], {icon: caveIcon}).bindPopup("Gallaman's Tomb - Brimstone").addTo(caveGroup),
 		L.marker([-2513.25,2304], {icon: caveIcon}).bindPopup("Xalthar's Refuge").addTo(caveGroup),
 		L.marker([-2596,1393], {icon: caveIcon}).bindPopup("Weaver's Hollow").addTo(caveGroup),
-		L.marker([-2482.75,1492], {icon: caveIcon}).bindPopup("Scuttler's Shortcut").addTo(caveGroup),
+		L.marker([-2482.75,1492], {icon: caveIcon}).bindPopup("Scuttler's Shortcut").addTo(caveGroup).addTo(crystalGroup),
 		L.marker([-2006,1823.25], {icon: caveIcon}).bindPopup("Lockstone Cave").addTo(caveGroup),
 		L.marker([-2879.75,1315], {icon: caveIcon}).bindPopup("Warren of Degenerates - Demon Blood, Crystals").addTo(caveGroup),
 		L.marker([-1087,1201], {icon: caveIcon}).bindPopup("The Floe - Goes to Volcano").addTo(caveGroup),
