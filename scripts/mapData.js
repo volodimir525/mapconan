@@ -889,9 +889,9 @@
 		L.marker([-2938.5,2775], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),	
 		L.marker([-2507.25,3220], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2640,445], {icon: cookIcon}).bindPopup("Cook T3-4 (Hyborian, Kushite, Shemite, Stygian, Zamorian, Zingaran), Bragoras the Baker T4").addTo(cookGroup),
-		L.marker([-1980.25,1291.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Nordheimer)").addTo(cookGroup),
-		L.marker([-1953.25,1297.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Nordheimer)").addTo(cookGroup),
-		L.marker([-2171.25,1545.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Nordheimer)").addTo(cookGroup),
+		L.marker([-1980.25,1291.5], {icon: cookIcon}).bindPopup("Cook T1-4 (Nordheimer), Rikkart the Baker T4").addTo(cookGroup),
+		L.marker([-1953.25,1297.5], {icon: cookIcon}).bindPopup("Cook T1-4 (Nordheimer), Rikkart the Baker T4").addTo(cookGroup),
+		L.marker([-2171.25,1545.5], {icon: cookIcon}).bindPopup("Cook T1-4 (Nordheimer), Rikkart the Baker T4").addTo(cookGroup),
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2971.5,3612.25], {icon: cookIcon}).bindPopup("Cook T3 (Hyborian, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 		L.marker([-3337.5,1918], {icon: cookIcon}).bindPopup("Cook T1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
@@ -959,7 +959,7 @@
 		L.marker([-2660.25,2071], {icon: tannerIcon}).bindPopup("Tanner T1-4 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Zamorian, Zingaran), Valenso Da Reyn T4 - upper level").addTo(tannerGroup),
 		L.marker([-2295.75,1258.25], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(tannerGroup),
 		L.marker([-2606,481.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
-		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Nordheimer)").addTo(tannerGroup),
+		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Tanner T1-4 (Nordheimer), Oskar Thunderhead T4").addTo(tannerGroup),
 		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Tanner T1-4 (Cimmerian), Gratt Stinkfinker T4 - double spawn").addTo(tannerGroup),
 		L.marker([-3284,2227.5], {icon: tannerIcon}).bindPopup("Tanner T1 (Cimmerian Darfari, Hyborian, Hyrkanian, Nordheimer, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 
@@ -1074,10 +1074,13 @@
 		L.marker([-2640,445], {icon: cookIcon}).bindPopup("Bragoras the Baker T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/ykMiZqx.jpg
 		L.marker([-2507.25,3220], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/jlfZaKa.jpg
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/6R4TILS.jpg
-		L.marker([-3057.75,3349.25], {icon: cookIcon}).bindPopup("Gnash the Hungry T4 (Cook)").addTo(namedCookGroup), // https://i.imgur.com/Rb72P6X.jpg
+		L.marker([-3057.75,3349.25], {icon: cookIcon}).bindPopup("Gnash the Hungry T4 (Lemurian Cook)").addTo(namedCookGroup), // https://i.imgur.com/Rb72P6X.jpg
 		L.marker([-2667,2100.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook) - lower level").addTo(namedCookGroup), // https://i.imgur.com/gwr1lON.jpg
-		L.marker([-3049.75,3374.75], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
-		L.marker([-3043.75,3409.5], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Cook) - part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
+		L.marker([-3049.75,3374.75], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Lemurian Cook)<br><br>Part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
+		L.marker([-3043.75,3409.5], {icon: cookIcon}).bindPopup("Gnash the hungry T4 (Lemurian Cook)<br><br>Part of random thrall spawns at bonfire").addTo(namedCookGroup), // https://i.imgur.com/O0zU8Kr.jpg
+		L.marker([-1953.25,1297.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup), // https://i.imgur.com/54T6BW8.jpg
+		L.marker([-2171.25,1545.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup),
+		L.marker([-1980.25,1291.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup),
 
 		//Named Thralls - Entertainer
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer), Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
@@ -1132,6 +1135,7 @@
 		L.marker([-3049.75,3374.75], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
 		L.marker([-3043.75,3409.5], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
 		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Gratt Stinkfinker T4 (Cimmerian Tanner) - double spawn").addTo(namedTannerGroup), // https://i.imgur.com/sbVPAEx.jpg
+		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Oskar Thunderhead T4 (Nordheimer Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/wMij9eB.jpg
 
 		//Named Thralls - Taskmaster
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Shemite Taskmaster), Olena the Oathmaker T4 (Zamorian Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
