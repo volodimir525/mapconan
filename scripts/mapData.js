@@ -843,8 +843,8 @@
 		L.marker([-2090,1716.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T3-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
 		L.marker([-1988.25,1318.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
 		L.marker([-1956,1311.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
-		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
-		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
+		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
+		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
 		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
 		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
 		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
@@ -870,7 +870,7 @@
 		L.marker([-2501.75,1171.75], {icon: carpenterIcon}).bindPopup("Carpenter T1 (Cimmerian)").addTo(carpenterGroup),
 		L.marker([-1938.25,1317.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Nordheimer), Airk Strong-in-the-arm T4").addTo(carpenterGroup),
 		L.marker([-1952.5,1321.75], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Nordheimer), Airk Strong-in-the-arm T4").addTo(carpenterGroup),
-		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Nordheimer)").addTo(carpenterGroup),
+		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Nordheimer), Airk Strong-in-the-arm T4").addTo(carpenterGroup),
 		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian), Acastel Ninefingers T4").addTo(carpenterGroup),
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker T4").addTo(carpenterGroup),
 		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
@@ -1056,6 +1056,8 @@
 		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Vulfeles the Hammer T4 (Cimmerian Blacksmith)").addTo(namedBlacksmithGroup),
 		L.marker([-1988.25,1318.5], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/E0QFjmi.jpg
 		L.marker([-1956,1311.25], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/70h02fu.jpg
+		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/tnTqMue.jpg
+		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/wNMdypG.jpg
 
 		//Named Thralls - Carpenter
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/QuEKZtu.jpg
@@ -1065,6 +1067,7 @@
 		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Acastel Ninefingers T4 (Cimmerian Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/NeDwGiG.jpg
 		L.marker([-1952.5,1321.75], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/hWdSbqK.jpg
 		L.marker([-1938.25,1317.25], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/dRc7nG1.jpg
+		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup),
 
 		//Named Thralls - Cook
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler T4 (Cook)").addTo(namedCookGroup),
