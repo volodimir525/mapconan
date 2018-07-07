@@ -906,7 +906,7 @@
 		L.marker([-2354.25,1189.25], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(entertainerGroup),
 		L.marker([-3354.25,2025], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
 		L.marker([-2293.75,1155.25], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(entertainerGroup),
-		L.marker([-1789,1417], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Nordheimer)").addTo(entertainerGroup),
+		L.marker([-1789,1417], {icon: entertainerIcon}).bindPopup("Entertainer T1-4 (Nordheimer), Oyvind Tall-tree T4").addTo(entertainerGroup),
 		L.marker([-2967,2306.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(entertainerGroup),
 		L.marker([-2998.5,1845.75], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
 		L.marker([-2984.5,1755.25], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
@@ -917,8 +917,8 @@
 		L.marker([-2617.5,513.25], {icon: entertainerIcon}).bindPopup("Entertainer T3 (Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran) - triple spawn").addTo(entertainerGroup),
 		L.marker([-2345.25,1213.25], {icon: entertainerIcon}).bindPopup("Entertainer T3-4 (Shemite, Stygian, Zamorian), Ionna the Seductress T4, Sadeh the Lithe T4").addTo(entertainerGroup),
 		L.marker([-2340.5,1208], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(entertainerGroup),
-		L.marker([-1940.5,1328.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Nordheimer)").addTo(entertainerGroup),
-		L.marker([-1874.75,1312.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Nordheimer)").addTo(entertainerGroup),
+		L.marker([-1940.5,1328.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-4 (Nordheimer), Oyvind Tall-tree T4").addTo(entertainerGroup),
+		L.marker([-1874.75,1312.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-4 (Nordheimer), Oyvind Tall-tree T4").addTo(entertainerGroup),
 		L.marker([-2545,3224.25], {icon: entertainerIcon}).bindPopup("Entertainer T3-4 (Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Danyo the Seductive T4, Imiu of Derkheto T4").addTo(entertainerGroup),
 		L.marker([-2446.25,3350.75], {icon: entertainerIcon}).bindPopup("Entertainer T3-4 (Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Danyo the Seductive T4, Imiu of Derkheto T4").addTo(entertainerGroup),
 		L.marker([-2964.5,3610.5], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - triple spawn").addTo(entertainerGroup),
@@ -1086,6 +1086,9 @@
 		L.marker([-2446.25,3350.75], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer), Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/IOUeSJA.jpg // https://i.imgur.com/erea2XN.jpg
 		L.marker([-3058.75,3350.25], {icon: entertainerIcon}).bindPopup("Varkin Fleetfoot T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/YVYNxjp.jpg
 		L.marker([-2666.5,2125], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer), Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/vySAFB2.jpg // https://i.imgur.com/KZwAe6e.jpg
+		L.marker([-1789,1417], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/oD4X1uo.jpg
+		L.marker([-1874.75,1312.5], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup),
+		L.marker([-1940.5,1328.5], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/gHDGVKm.jpg
 
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).bindPopup("Tarman T4 (Black Hand Fighter)<br><li>Health : 750").addTo(namedFighterGroup),
