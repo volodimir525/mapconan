@@ -881,12 +881,12 @@
 		L.marker([-3007.8,1778.5], {icon: cookIcon}).bindPopup("Cook T1 (Darfari)").addTo(cookGroup),
 		L.marker([-2999.75,1524.75], {icon: cookIcon}).bindPopup("Cook T1 (Darfari)").addTo(cookGroup),
 		L.marker([-3057.75,3349.25], {icon: cookIcon}).bindPopup("Cook T1-3 (Lemurian)").addTo(cookGroup),
-		L.marker([-2760.25,2925.25], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
+		L.marker([-2760.25,2925.25], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-3026.75,3342], {icon: cookIcon}).bindPopup("Cook T1-3 (Lemurian)").addTo(cookGroup),
-		L.marker([-2264.75,2956], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
+		L.marker([-2264.75,2956], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2721.75,424.75], {icon: cookIcon}).bindPopup("Cook T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 		L.marker([-2720,2219.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
-		L.marker([-2938.5,2775], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),	
+		L.marker([-2938.5,2775], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Galacus the Gourmand T4").addTo(cookGroup),	
 		L.marker([-2507.25,3220], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2640,445], {icon: cookIcon}).bindPopup("Cook T3-4 (Hyborian, Kushite, Shemite, Stygian, Zamorian, Zingaran), Bragoras the Baker T4").addTo(cookGroup),
 		L.marker([-1980.25,1291.5], {icon: cookIcon}).bindPopup("Cook T1-4 (Nordheimer), Rikkart the Baker T4").addTo(cookGroup),
@@ -901,7 +901,7 @@
 		//Thralls - Entertainer
 		L.marker([-3262.75,1049.75], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
 		L.marker([-3342,2017.25], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
-		L.marker([-2267.25,2952.25], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(entertainerGroup),
+		L.marker([-2267.25,2952.25], {icon: entertainerIcon}).bindPopup("Entertainer T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Danyo the Seductive T4, Imiu of Derkheto T4").addTo(entertainerGroup),
 		L.marker([-2666.5,2125], {icon: entertainerIcon}).bindPopup("Entertainer T3-4 (Hyborian, Hyrkanian, Shemite, Stygian, Zamorian, Zingaran), Danyo the Seductive T4, Imiu of Derkheto T4").addTo(entertainerGroup),
 		L.marker([-2354.25,1189.25], {icon: entertainerIcon}).bindPopup("Entertainer T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(entertainerGroup),
 		L.marker([-3354.25,2025], {icon: entertainerIcon}).bindPopup("Entertainer T1 (Darfari)").addTo(entertainerGroup),
@@ -1081,18 +1081,21 @@
 		L.marker([-1953.25,1297.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup), // https://i.imgur.com/54T6BW8.jpg
 		L.marker([-2171.25,1545.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup),
 		L.marker([-1980.25,1291.5], {icon: cookIcon}).bindPopup("Rikkart the Baker T4 (Nordheimer Cook)").addTo(namedCookGroup),
+		L.marker([-2264.75,2956], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup),
+		L.marker([-2760.25,2925.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup),
+		L.marker([-2938.5,2775], {icon: cookIcon}).bindPopup("Galacus the Gourmand T4 (Hyborian Cook)").addTo(namedCookGroup),	
 
 		//Named Thralls - Entertainer
-		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer), Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
-		L.marker([-2345.25,1213.25], {icon: entertainerIcon}).bindPopup("Ionna the Seductress T4 (Entertainer), Sadeh the Lithe T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/Cj0vWEO.jpg // https://i.imgur.com/fA7R1my.jpg
-		L.marker([-2545,3224.25], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer), Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/ZtVxRw4.jpg // https://i.imgur.com/erea2XN.jpg
-		L.marker([-2446.25,3350.75], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer), Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/IOUeSJA.jpg // https://i.imgur.com/erea2XN.jpg
+		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer)<br>Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
+		L.marker([-2345.25,1213.25], {icon: entertainerIcon}).bindPopup("Ionna the Seductress T4 (Entertainer)<br>Sadeh the Lithe T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/Cj0vWEO.jpg // https://i.imgur.com/fA7R1my.jpg
+		L.marker([-2545,3224.25], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer)<br>Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/ZtVxRw4.jpg // https://i.imgur.com/erea2XN.jpg
+		L.marker([-2446.25,3350.75], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer)<br>Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/IOUeSJA.jpg // https://i.imgur.com/erea2XN.jpg
 		L.marker([-3058.75,3350.25], {icon: entertainerIcon}).bindPopup("Varkin Fleetfoot T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/YVYNxjp.jpg
-		L.marker([-2666.5,2125], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer), Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/vySAFB2.jpg // https://i.imgur.com/KZwAe6e.jpg
+		L.marker([-2666.5,2125], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer)<br>Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/vySAFB2.jpg // https://i.imgur.com/KZwAe6e.jpg
 		L.marker([-1789,1417], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/oD4X1uo.jpg
 		L.marker([-1874.75,1312.5], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup),
 		L.marker([-1940.5,1328.5], {icon: entertainerIcon}).bindPopup("Oyvind Tall-tree T4 (Nordheimer Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/gHDGVKm.jpg
-
+		L.marker([-2267.25,2952.25], {icon: entertainerIcon}).bindPopup("Danyo the Seductive T4 (Entertainer)<br>Imiu of Derkheto T4 (Entertainer)").addTo(namedEntertainerGroup),
 		//Named Thralls - Fighter
 		L.marker([-2903.25,2258.75], {icon: warriorIcon}).bindPopup("Tarman T4 (Black Hand Fighter)<br><li>Health : 750").addTo(namedFighterGroup),
 		L.marker([-2777,1775.25], {icon: warriorIcon}).bindPopup("Thugra T4 (Darfari Fighter)<br><li>Health : 600").addTo(namedFighterGroup),
