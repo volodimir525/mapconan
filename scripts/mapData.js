@@ -807,7 +807,7 @@
 		L.marker([-2280.25,1274.25], {icon: armorerIcon}).bindPopup("Armorer T3-4 (Darfari, Kushite, Shemite, Stygian, Zamorian), Legendary Armorer T4, Llarn Steeltoe T4").addTo(armorerGroup),
 		L.marker([-3032.5,3346.75], {icon: armorerIcon}).bindPopup("Armorer T1-4 (Lemurian), Fia T4").addTo(armorerGroup),
 		L.marker([-1948,1314], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Nordheimer)").addTo(armorerGroup),
-		L.marker([-1588.25,604.75], {icon: armorerIcon}).bindPopup("Armorer T1-3 (Cimmerian)").addTo(armorerGroup),
+		L.marker([-1588.25,604.75], {icon: armorerIcon}).bindPopup("Armorer T1-4 (Cimmerian), Werk of the lost tribe T4").addTo(armorerGroup),
 		L.marker([-3322.75,1274.5], {icon: armorerIcon}).bindPopup("Armorer T1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(armorerGroup),
 		L.marker([-3005,1236], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4").addTo(armorerGroup),
 		L.marker([-3008,1759], {icon: armorerIcon}).bindPopup("Armorer T1, T3-4 (Darfari), B'naru Heavyhands T4 - spawns upstairs, walks around").addTo(armorerGroup),
@@ -845,8 +845,8 @@
 		L.marker([-1956,1311.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
 		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Nordheimer)").addTo(blacksmithGroup),
-		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
-		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Cimmerian)").addTo(blacksmithGroup),
+		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
+		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
 		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
 		L.marker([-2722.75,445.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
 		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // west bonfire
@@ -871,7 +871,7 @@
 		L.marker([-1938.25,1317.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Nordheimer)").addTo(carpenterGroup),
 		L.marker([-1952.5,1321.75], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Nordheimer)").addTo(carpenterGroup),
 		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Nordheimer)").addTo(carpenterGroup),
-		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Cimmerian)").addTo(carpenterGroup),
+		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian), Acastel Ninefingers T4").addTo(carpenterGroup),
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker T4").addTo(carpenterGroup),
 		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
 
@@ -947,7 +947,7 @@
 		L.marker([-2584.25,550.75], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian)").addTo(smelterGroup),
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Smelter T3-4 (Hyborian, Shemite, Stygian, Zingaran), Daya Leaddrinker T4").addTo(smelterGroup),
 		L.marker([-1982.25,1320.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Nordheimer)").addTo(smelterGroup),
-		L.marker([-1593.5,606.5], {icon: smelterIcon}).bindPopup("Smelter T1-3 (Cimmerian)").addTo(smelterGroup),
+		L.marker([-1593.5,606.5], {icon: smelterIcon}).bindPopup("Smelter T1-4 (Cimmerian), Matias Snowmelt T4").addTo(smelterGroup),
 
 		//Thralls - Tanner
 		L.marker([-3229.75,1301.25], {icon: tannerIcon}).bindPopup("Tanner T1-2 (Darfari)").addTo(tannerGroup),
@@ -959,7 +959,7 @@
 		L.marker([-2295.75,1258.25], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(tannerGroup),
 		L.marker([-2606,481.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 		L.marker([-1957,1293.5], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Nordheimer)").addTo(tannerGroup),
-		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Tanner T1-3 (Cimmerian) - double spawn").addTo(tannerGroup),
+		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Tanner T1-4 (Cimmerian), Gratt Stinkfinker T4 - double spawn").addTo(tannerGroup),
 		L.marker([-3284,2227.5], {icon: tannerIcon}).bindPopup("Tanner T1 (Cimmerian Darfari, Hyborian, Hyrkanian, Nordheimer, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(tannerGroup),
 
 		//Thralls - Taskmaster
@@ -977,7 +977,7 @@
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Darfari, Shemite, Stygian, Zamorian), Vanko the Fearsome T4, Saddur the Slaver T4").addTo(taskmasterGroup),
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4, Olena the Oathmaker T4").addTo(taskmasterGroup),
 
-		//Thralls - Random (Ready to add randomThrall class, remove duplicates from above)
+		//Thralls - Random (Ready to add randomThrall class)
 		//L.marker([-2500.75,3246.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
 		//L.marker([-3103.5,2621.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(randomThrallGroup),
 		//L.marker([-2696.75,2538.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(randomThrallGroup),
@@ -1015,6 +1015,7 @@
 		L.marker([-2724.25,451.25], {icon: armorerIcon}).bindPopup("Arcen Brokenfingers T4 (Shemite Armorer), Diana Steelshaper T4 (Hyborian Armorer), Ghamm the worn T4 (Zamorian Armorer), Hanar of Bossonia T4 (Aquilonian Armorer), Than Hammerblow T4 (Hyrkanian Armorer), Zoara of the Marshes T4 (Stygian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/DitnMpl.jpg // https://i.imgur.com/Jzyjuxp.jpg // https://i.imgur.com/L9JqZN6.jpg // https://i.imgur.com/4jTJTXu.jpg // bhttps://i.imgur.com/wixj9pj.jpg
 		L.marker([-3049.75,3374.75], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
 		L.marker([-3043.75,3409.5], {icon: armorerIcon}).bindPopup("Fia T4 (Lemurian Armorer) - part of random thrall spawns at bonfire").addTo(namedArmorerGroup), // https://i.imgur.com/MVrzAD5.jpg
+		L.marker([-1588.25,604.75], {icon: armorerIcon}).bindPopup("Werk of the lost tribe T4 (Cimmerian Armorer)").addTo(namedArmorerGroup), // https://i.imgur.com/5Bq8BXJ.jpg
 
 		//Named Thralls - Bearer
 		L.marker([-2608,475], {icon: sherpaIcon}).bindPopup("Random T4 (Bearer)").addTo(namedSherpaGroup), // https://i.imgur.com/pa3RnIi.jpg // https://i.imgur.com/fz8hopn.jpg // https://i.imgur.com/XF2Uhos.jpg // https://i.imgur.com/xsl2nmY.jpg // https://i.imgur.com/oNcNhw3.jpg
@@ -1045,12 +1046,15 @@
 		L.marker([-2654.25,2102.25], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Shemite Blacksmith) - middle level").addTo(namedBlacksmithGroup), // https://i.imgur.com/zfpVt0Z.jpg
 		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
 		L.marker([-3043.75,3409.5], {icon: blacksmithIcon}).bindPopup("Aisss T4 (Lemurian Blacksmith) - part of random thrall spawns at bonfire").addTo(namedBlacksmithGroup), // https://i.imgur.com/CTGTY7d.jpg
+		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Vulfeles the Hammer T4 (Cimmerian Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/XcxPJHz.jpg
+		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Vulfeles the Hammer T4 (Cimmerian Blacksmith)").addTo(namedBlacksmithGroup),
 
 		//Named Thralls - Carpenter
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/QuEKZtu.jpg
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup),
 		L.marker([-3054,3354.5], {icon: carpenterIcon}).bindPopup("Poscore Nimblefingers T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/t6eGF9P.jpg
 		L.marker([-2663,2084.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter), Rayne O' the Rosewood T4 (Carpenter) - lower level").addTo(namedCarpenterGroup), // https://i.imgur.com/jDRELhI.jpg // https://i.imgur.com/QTYFi6z.jpg
+		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Acastel Ninefingers T4 (Cimmerian Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/NeDwGiG.jpg
 
 		//Named Thralls - Cook
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler T4 (Cook)").addTo(namedCookGroup),
@@ -1091,8 +1095,8 @@
 		L.marker([-1644.75,629.25], {icon: warriorIcon}).bindPopup("Cimmerian Berserker T4 (Fighter) - walks around wide area").addTo(namedFighterGroup), // https://i.imgur.com/UezK0s6.jpg
 
 		//Named Thralls - Priest
-		L.marker([-3049.75,3374.75], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
-		L.marker([-3043.75,3409.5], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
+		L.marker([-3049.75,3374.75], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Ketmet the Whisperer T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
+		L.marker([-3043.75,3409.5], {icon: priestIcon}).bindPopup("Espel the Glorious T4 (Derketo Priest), Ketmet the Whisperer T4 (Derketo Priest), Jaden Rousch the Epiphaneous T4 (Derketo Priest), Menhas, Walker of the Path T4 (Derketo Priest) - part of random thrall spawns at bonfire").addTo(namedPriestGroup), // https://i.imgur.com/WDnfDxl.jpg // https://i.imgur.com/mOP0iQx.jpg // https://i.imgur.com/oRHNrUM.jpg
 
 		//Named Thralls - Smelter
 		L.marker([-2701.25, 417.75], {icon: smelterIcon}).bindPopup("Daya Leaddrinker T4 (Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/oQNnjcF.jpg
@@ -1100,6 +1104,7 @@
 		L.marker([-2653.5,2096.5], {icon: smelterIcon}).bindPopup("Fingal Firetender T4 (Smelter), Idra Sparkeyes T4 (Smelter) - middle level").addTo(namedSmelterGroup), // https://i.imgur.com/LogdxDG.jpg // https://i.imgur.com/d3N7vgJ.jpg
 		L.marker([-3049.75,3374.75], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
 		L.marker([-3043.75,3409.5], {icon: smelterIcon}).bindPopup("Alakar Burning-Hands T4 (Smelter) - part of random thrall spawns at bonfire").addTo(namedSmelterGroup),
+		L.marker([-1593.5,606.5], {icon: smelterIcon}).bindPopup("Matias Snowmelt T4 (Cimmerian Smelter)").addTo(namedSmelterGroup), // https://i.imgur.com/5s4NUtf.jpg
 
 		//Named Thralls - Tanner
 		L.marker([-2699,484], {icon: tannerIcon}).bindPopup("Inigo the Vengeful T4 (Tanner)").addTo(namedTannerGroup), // https://i.imgur.com/qEhq07f.jpg
@@ -1107,7 +1112,7 @@
 		L.marker([-2660.25,2071], {icon: tannerIcon}).bindPopup("Valenso Da Reyn T4 (Tanner) - upper level").addTo(namedTannerGroup), // https://i.imgur.com/Fc6dNRP.jpg
 		L.marker([-3049.75,3374.75], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
 		L.marker([-3043.75,3409.5], {icon: tannerIcon}).bindPopup("Hell Breath T4 (Tanner) - part of random thrall spawns at bonfire").addTo(namedTannerGroup), // https://i.imgur.com/lKl2nKq.jpg
-
+		L.marker([-1595.25,599.25], {icon: tannerIcon}).bindPopup("Gratt Stinkfinker T4 (Cimmerian Tanner) - double spawn").addTo(namedTannerGroup), // https://i.imgur.com/sbVPAEx.jpg
 
 		//Named Thralls - Taskmaster
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Beli the Breaker T4 (Shemite Taskmaster), Olena the Oathmaker T4 (Zamorian Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/wUZbppK.jpg // https://i.imgur.com/1Q3d7sN.jpg
@@ -1424,7 +1429,37 @@
 		L.marker([-2743.75,3547.75], {icon: bossIcon}).bindPopup("Demon Spider<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
 		L.marker([-3201.25,3105.25], {icon: bossIcon}).bindPopup("Giant Spider<br><li>Health : 59360<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
 		L.marker([-3039.25,1872], {icon: bossIcon}).bindPopup("Giant Spider<br><li>Health : 59360<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
-		
+		L.marker([-3179.5,3050.5], {icon: bossIcon}).bindPopup("Giant Spider<br><li>Health : 59360<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2310.25,3401.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2601,1570.75], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2311.5,1505.5], {icon: bossIcon}).bindPopup("Giant Crocodile<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2478,1214.5], {icon: bossIcon}).bindPopup("Rhino King<br><li>Health : 77500<li>Armor : 74<li>XP Reward : 36400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2763,553], {icon: bossIcon}).bindPopup("Rhino King<br><li>Health : 77500<li>Armor : 74<li>XP Reward : 36400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2911.75,2417.5], {icon: bossIcon}).bindPopup("Rotbranch<br><li>Health : 89500<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2267,740.5], {icon: bossIcon}).bindPopup("Rotbranch<br><li>Health : 89500<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-1992.5,1728.25], {icon: bossIcon}).bindPopup("Rotbranch<br><li>Health : 89500<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-1854,773.25], {icon: bossIcon}).bindPopup("Rotbranch<br><li>Health : 89500<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-1505.25,364], {icon: bossIcon}).bindPopup("Rotbranch<br><li>Health : 89500<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-3095.75,3322.25], {icon: bossIcon}).bindPopup("Giant Reptilian Monstrosity<br><li>Health : 72585<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2845.75,1910], {icon: bossIcon}).bindPopup("Giant Snake<br><li>Health : 53063<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2949.75,980.75], {icon: bossIcon}).bindPopup("Giant Snake<br>Inside: Citadel of the Triumvirate<br><li>Health : 53063<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-3098,1867], {icon: bossIcon}).bindPopup("Giant Crocodile<br>Inside: Gallaman's Tomb<br><li>Health : 76230<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2414,353.75], {icon: bossIcon}).bindPopup("Sand Reaper Hive Queen<br><li>Health : 57440<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2589.75,739.5], {icon: bossIcon}).bindPopup("King Scorpion<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2481,2172.5], {icon: bossIcon}).bindPopup("Sand Reaper Hive Queen<br><li>Health : 57440<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2226,2531.25], {icon: bossIcon}).bindPopup("Sand Reaper Hive Queen<br><li>Health : 57440<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2500.75,1328.75], {icon: bossIcon}).bindPopup("The Spider Queen (Giant Spider)<br>Inside: Weaver's Hollow/Scuttler's Shortcut<br><li>Health : 59360<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-3075.25,901.5], {icon: bossIcon}).bindPopup("King Scorpion<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-3019.5,1086.75], {icon: bossIcon}).bindPopup("King Scorpion<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2895,908], {icon: bossIcon}).bindPopup("Green Dragon<br><li>Health : 40998<li>Armor : 84<li>XP Reward : 25200<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Green_Dragon_Head' target='_blank'>Green Dragon Head</a><li><a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'>Dragon Bone</a>").addTo(bossGroup),
+		L.marker([-1547.5,1862.5], {icon: bossIcon}).bindPopup("White Dragon<br><li>Health : 40998<li>Armor : 84<li>XP Reward : 25200<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'>Dragon Bone</a>").addTo(bossGroup),
+		L.marker([-2567.25,1068.25], {icon: bossIcon}).bindPopup("King Scorpion<br><li>Health : 66959<li>Armor : 87<li>XP Reward : 43400<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2768.25,1064.5], {icon: bossIcon}).bindPopup("Green Dragon<br><li>Health : 40998<li>Armor : 84<li>XP Reward : 25200<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Green_Dragon_Head' target='_blank'>Green Dragon Head</a><li><a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'>Dragon Bone</a>").addTo(bossGroup),
+		L.marker([-2834,1018.25], {icon: bossIcon}).bindPopup("Green Dragon<br><li>Health : 40998<li>Armor : 84<li>XP Reward : 25200<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Green_Dragon_Head' target='_blank'>Green Dragon Head</a><li><a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'>Dragon Bone</a>").addTo(bossGroup),
+		L.marker([-2466.5,954], {icon: bossIcon}).bindPopup("Rockslide<br><li>Health : 56500<li>Armor : 57<li>XP Reward : 26600<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2480.25,1772.25], {icon: bossIcon}).bindPopup("Thunderfoot (Elephant)<br><li>Health : 72585<li>Armor : 84<li>XP Reward : 42000<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+		L.marker([-2448,1800.25], {icon: bossIcon}).bindPopup("White Tiger<br><li>Health : 60320<li>Armor : 88<li>XP Reward : 44100<br><br>Notable Harvests :<li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(bossGroup),
+
 
 		//Locations - Lore
 		
@@ -1438,7 +1473,26 @@
 		L.marker([-3216.25,3073.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-3028.75,1880.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
 		L.marker([-2698.5,2472.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
-
+		L.marker([-2315,3406.65], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2582.25,1576.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2307.25,1496.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2459.25,1218.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2761,528], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),
+		L.marker([-2896,2423], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2258.5,731.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-1994,1742.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-1858,769.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-1509.75,356.75], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-3112.75,3326], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2958.75,981.25], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Inside: Citadel of the Triumvirate<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2419.5,348.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2590.25,747], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2488.5,2177], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2221.5,2536.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2572.75,1074.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2478.75,950.5], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		L.marker([-2422,1771], {icon: treasureIcon}).bindPopup("Legendary Chest<br>Requirements : <li>Level 60 <li><a href='https://conanexiles.gamepedia.com/Skeleton_Key' target='_blank'>Skeleton Key</a>").addTo(treasureGroup),				
+		
 
 		//Locations - Recipes
 		L.marker([-3267,1078.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/darfaribanners.png' width='300'></img><p align='center'>Darfari Banners</p></a>").addTo(recipeGroup),
