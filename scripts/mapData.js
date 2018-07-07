@@ -873,7 +873,7 @@
 		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Nordheimer), Airk Strong-in-the-arm T4").addTo(carpenterGroup),
 		L.marker([-1650.5,540.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian), Acastel Ninefingers T4").addTo(carpenterGroup),
 		L.marker([-2415.75,3369.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker T4").addTo(carpenterGroup),
-		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
+		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker T4").addTo(carpenterGroup),
 
 		//Thralls - Cook
 		L.marker([-2667,2100.25], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent - lower level").addTo(cookGroup),
@@ -895,7 +895,7 @@
 		L.marker([-2465,3285.25], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2971.5,3612.25], {icon: cookIcon}).bindPopup("Cook T3 (Hyborian, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 		L.marker([-3337.5,1918], {icon: cookIcon}).bindPopup("Cook T1 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
-		L.marker([-3096.25,2112.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
+		L.marker([-3096.25,2112.5], {icon: cookIcon}).bindPopup("Cook T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Vatessa the Potent T4").addTo(cookGroup),
 		L.marker([-2904.75,2137.5], {icon: cookIcon}).bindPopup("Cook T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(cookGroup),
 
 		//Thralls - Entertainer
@@ -1068,6 +1068,7 @@
 		L.marker([-1952.5,1321.75], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/hWdSbqK.jpg
 		L.marker([-1938.25,1317.25], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/dRc7nG1.jpg
 		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup),
+		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup),
 
 		//Named Thralls - Cook
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler T4 (Cook)").addTo(namedCookGroup),
@@ -1084,6 +1085,7 @@
 		L.marker([-2264.75,2956], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup),
 		L.marker([-2760.25,2925.25], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup),
 		L.marker([-2938.5,2775], {icon: cookIcon}).bindPopup("Galacus the Gourmand T4 (Hyborian Cook)").addTo(namedCookGroup),	
+		L.marker([-3096.25,2112.5], {icon: cookIcon}).bindPopup("Vatessa the Potent T4 (Cook)").addTo(namedCookGroup),
 
 		//Named Thralls - Entertainer
 		L.marker([-2602.5,479.5], {icon: entertainerIcon}).bindPopup("Luba the Luscious T4 (Entertainer)<br>Thutmekri the Dramatist T4 (Entertainer)").addTo(namedEntertainerGroup), // https://i.imgur.com/AIbIRt0.jpg // https://i.imgur.com/VVt7ylY.jpg
