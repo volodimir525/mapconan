@@ -123,6 +123,14 @@ var yogIcon = L.icon({
 
 ////////////////////////////////////////////////////Thrall Icons
 
+var randomThrallIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_random.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
 var archerIcon = L.icon({
 	iconUrl: 'data/images/icons/icon_archer.png',
 				
