@@ -972,7 +972,7 @@
 		L.marker([-2668,2221], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian)").addTo(taskmasterGroup),
 		L.marker([-1966.75,1307.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-4 (Nordheimer), Manos, the handful T4").addTo(taskmasterGroup),
 		L.marker([-1953,1270.5], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-4 (Nordheimer), Manos, the handful T4").addTo(taskmasterGroup),
-		L.marker([-1890.75,1476.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Nordheimer)").addTo(taskmasterGroup),
+		L.marker([-1890.75,1476.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-4 (Nordheimer), Manos, the handful T4").addTo(taskmasterGroup),
 		L.marker([-1669.25,577.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian)").addTo(taskmasterGroup),
 		L.marker([-2473.25,3309.75], {icon: taskmasterIcon}).bindPopup("Taskmaster T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian)").addTo(taskmasterGroup),
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Darfari, Shemite, Stygian, Zamorian), Vanko the Fearsome T4, Saddur the Slaver T4").addTo(taskmasterGroup),
@@ -1107,7 +1107,7 @@
 		L.marker([-1255.25,1598.25], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Votaries Fighter)<br>Daicas the Sharp T4 (Votaries Fighter)<br><li>Health : 3075<br><br>Shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3").addTo(namedFighterGroup), // https://i.imgur.com/if7L6ZA.jpg
 		L.marker([-1273.75, 1626.5], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Votaries Fighter)<br>Daicas the Sharp T4 (Votaries Fighter)<br><li>Health : 3075<br><br>Shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3<br><br>Walks around the bridge").addTo(namedFighterGroup), // https://i.imgur.com/QzJwnvv.jpg
 		L.marker([-1311.75,1625], {icon: warriorIcon}).bindPopup("Spinas the Marauder T4 (Votaries Fighter)<br>Daicas the Sharp T4 Votaries (Fighter)<br><li>Health : 3075<br><br>Shared spawn with Zamorian Fighter T1, Zingaran Fighter T2 & Hyborian Fighter T3<br><br>Walks the road").addTo(namedFighterGroup), // https://i.imgur.com/uckco5r.jpg
-		L.marker([-1648,613], {icon: warriorIcon}).bindPopup("Dalinsia Snowhunter T4 (Cimmerian Fighter)<br><li>Health : 2025").addTo(namedFighterGroup), // https://i.imgur.com/8a1v9yx.jpg
+		L.marker([-1669,582.25], {icon: warriorIcon}).bindPopup("Dalinsia Snowhunter T4 (Cimmerian Fighter)<br><li>Health : 2025<br><br>Shared spawn with Cimmerian Fighter T1-3").addTo(namedFighterGroup), // https://i.imgur.com/8a1v9yx.jpg
 		L.marker([-3222.75,1137.5], {icon: warriorIcon}).bindPopup("Ritualist T4 (Darfari Fighter)<br><li>Health : 600").addTo(namedFighterGroup), // https://i.imgur.com/hgXgRmj.jpg
 		L.marker([-2910.5,2136], {icon: warriorIcon}).bindPopup("Sully T4 (Black Hand Fighter)<br><li>Health : 750").addTo(namedFighterGroup), // https://i.imgur.com/wEaW03b.jpg
 		L.marker([-2687,2564], {icon: warriorIcon}).bindPopup("Gall O' the Spear-Din T4 (Black Hand Fighter)<br>Hekkr Waverunner T4 (Black HandFighter)<br><li>Health : 825<br><br>Shared spawn with T3 fighter").addTo(namedFighterGroup), // https://i.imgur.com/YAifyZ7.jpg
@@ -1145,6 +1145,7 @@
 		L.marker([-3043.75,3409.5], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
 		L.marker([-1953,1270.5], {icon: taskmasterIcon}).bindPopup("Manos, the handful T4 (Nordheimer Taskmaster)").addTo(namedTaskmasterGroup),
 		L.marker([-1966.75,1307.25], {icon: taskmasterIcon}).bindPopup("Manos, the handful T4 (Nordheimer Taskmaster)").addTo(namedTaskmasterGroup), // https://i.imgur.com/pNzFsLL.jpg
+		L.marker([-1890.75,1476.25], {icon: taskmasterIcon}).bindPopup("Manos, the handful T4 (Nordheimer Taskmaster)").addTo(namedTaskmasterGroup),
 
 		//Named Thralls - Random
 		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
