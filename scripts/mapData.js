@@ -64,6 +64,7 @@
 		var smelterGroup = L.layerGroup();
 		var tannerGroup = L.layerGroup();
 		var taskmasterGroup = L.layerGroup();
+		var randomThrallGroup = L.layerGroup();
 		
 		//Create Named Thrall Groups
 		var namedArcherGroup = L.layerGroup();
@@ -79,6 +80,7 @@
 		var namedTannerGroup = L.layerGroup();
 		var namedTaskmasterGroup = L.layerGroup();
 		var namedFighterGroup = L.layerGroup();
+		var namedRandomThrallGroup = L.layerGroup();
 
 		
 		//Create Location Groups
@@ -977,20 +979,19 @@
 		L.marker([-2672.5,2120.25], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Darfari, Shemite, Stygian, Zamorian), Vanko the Fearsome T4, Saddur the Slaver T4").addTo(taskmasterGroup),
 		L.marker([-2632.5,385.5], {icon: taskmasterIcon}).bindPopup("Taskmaster T3-4 (Kushite, Shemite, Stygian, Zamorian), Beli the Breaker T4, Olena the Oathmaker T4").addTo(taskmasterGroup),
 
-		//Thralls - Random (Ready to add randomThrall class)
-		//L.marker([-2500.75,3246.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-3103.5,2621.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(randomThrallGroup),
-		//L.marker([-2696.75,2538.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2439.5,3354], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2765.5,2936.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kambujan, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - double spawn").addTo(randomThrallGroup), // https://i.imgur.com/pYvX6pr.jpg
-		//L.marker([-2600.5,2131], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2624.5,2133.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2631.25,2142.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2615.5,2115.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-2502.75,3253.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
-		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // west bonfire
-		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // east bonfire
-		//-------------------------------------------------------------------------------------------------------------------------------//
+		//Thralls - Random
+		L.marker([-2500.75,3246.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-3103.5,2621.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - walks around, spawns on top of the mountain").addTo(randomThrallGroup),
+		L.marker([-2696.75,2538.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2439.5,3354], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2765.5,2936.75], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Kambujan, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran) - double spawn").addTo(randomThrallGroup), // https://i.imgur.com/pYvX6pr.jpg
+		L.marker([-2600.5,2131], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2624.5,2133.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2631.25,2142.5], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2615.5,2115.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Smelter, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-2502.75,3253.25], {icon: randomThrallIcon}).bindPopup("Random T1-3 thrall between Armorer, Blacksmith, Carpenter, Cook, Dancer, Tanner (Cimmerian, Darfari, Hyborian, Hyrkanian, Nordheimer, Zamorian, Zingaran").addTo(randomThrallGroup),
+		L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // west bonfire
+		L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(randomThrallGroup), // east bonfire
 
 		//Named Thralls - Alchemist
 		L.marker([-1181,1668.5], {icon: cookIcon}).bindPopup("Sayd Secretkeeper T4 (Alchemist)").addTo(namedAlchemistGroup),
@@ -1122,10 +1123,8 @@
 		L.marker([-3043.75,3409.5], {icon: taskmasterIcon}).bindPopup("Roknori the Unmerciful T4 (Lemurian Taskmaster) - part of random thrall spawns at bonfire").addTo(namedTaskmasterGroup), // https://i.imgur.com/rO9O756.jpg
 
 		//Named Thralls - Random
-		//L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
-		//L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
-
-		//-------------------------------------------------------------------------------------------------------------------------------//
+		L.marker([-3049.75,3374.75], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
+		L.marker([-3043.75,3409.5], {icon: randomThrallIcon}).bindPopup("Random T4 Armorer, Blacksmith, Cook, Priest (Derketo), Tanner, Taskmaster (Lemurian) - part of random thrall spawns at bonfire").addTo(namedRandomThrallGroup),
 
 		//Location - Dungeons
 		L.marker([-3249.5,996.5], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Dregs' target='_blank'>The Dregs</a>").addTo(dungeonGroup),
@@ -1589,7 +1588,8 @@
 				"<img src='data/images/icons/icon_priest.png' width='16' height='16'></img> Priest": priestGroup,
 				"<img src='data/images/icons/icon_tanner.png' width='16' height='16'></img> Tanner": tannerGroup,
 				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": taskmasterGroup,
-				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": smelterGroup
+				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": smelterGroup,
+				"<img src='data/images/icons/icon_random.png' width='16' height='16'></img> Random": randomThrallGroup
 			},
 		}
 		var namedThralls = {
@@ -1606,7 +1606,8 @@
 				"<img src='data/images/icons/icon_sherpa.png' width='16' height='16'></img> Bearer": namedSherpaGroup,
 				"<img src='data/images/icons/icon_smelter.png' width='16' height='16'></img> Smelter": namedSmelterGroup,
 				"<img src='data/images/icons/icon_tanner.png' width='16' height='16'></img> Tanner": namedTannerGroup,
-				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": namedTaskmasterGroup
+				"<img src='data/images/icons/icon_taskmaster.png' width='16' height='16'></img> Taskmaster": namedTaskmasterGroup,
+				"<img src='data/images/icons/icon_random.png' width='16' height='16'></img> Random": namedRandomThrallGroup
 			}
 		}
 
