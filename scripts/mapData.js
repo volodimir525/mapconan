@@ -847,7 +847,7 @@
 		L.marker([-1878.5,1480.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Nordheimer), Beri T4").addTo(blacksmithGroup),
 		L.marker([-1617.5,558.75], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
 		L.marker([-1619.75,537], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Cimmerian), Vulfeles the Hammer T4").addTo(blacksmithGroup),
-		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Kushite, Shemite, Stygian, Zamorian) - walks around").addTo(blacksmithGroup),		
+		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-4 (Kushite, Shemite, Stygian, Zamorian), Talitha Goldfingers T4 - walks around").addTo(blacksmithGroup),		
 		L.marker([-2722.75,445.5], {icon: blacksmithIcon}).bindPopup("Blacksmith T1-3 (Hyborian, Hyrkanian, Kushite, Shemite, Stygian, Zamorian, Zingaran)").addTo(blacksmithGroup),
 		L.marker([-3049.75,3374.75], {icon: blacksmithIcon}).bindPopup("Random T1-4 Armorer, Blacksmith, Cook, Priest, Tanner, Taskmaster (Lemurian, Derketo) - double spawn at bonfire").addTo(blacksmithGroup), // west bonfire
 
@@ -863,7 +863,7 @@
 		L.marker([-2353.5,1171], {icon: carpenterIcon}).bindPopup("Carpenter T1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-3054,3354.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Lemurian), Poscore Nimblefingers T4").addTo(carpenterGroup),
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Sigyn the Woodworker T4").addTo(carpenterGroup),
-		L.marker([-2702.25, 2540.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(carpenterGroup),
+		L.marker([-2702.25, 2540.5], {icon: carpenterIcon}).bindPopup("Carpenter T1-4 (Cimmerian, Darfari, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran), Rayne O' the Rosewood T4").addTo(carpenterGroup),
 		L.marker([-2339.75,1216], {icon: carpenterIcon}).bindPopup("Carpenter T1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2293.25,1184.75], {icon: carpenterIcon}).bindPopup("Carpenter T1-3 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
 		L.marker([-2291.25,1103.25], {icon: carpenterIcon}).bindPopup("Carpenter T1-2 (Kushite, Shemite, Stygian, Zamorian)").addTo(carpenterGroup),
@@ -1060,6 +1060,7 @@
 		L.marker([-1864.75,1317.75], {icon: blacksmithIcon}).bindPopup("Beri T4 (Nordheimer Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/wNMdypG.jpg
 		L.marker([-2885,2115.5], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup), // https://i.imgur.com/yb1dF7P.jpg
 		L.marker([-2663,2209.75], {icon: blacksmithIcon}).bindPopup("Arvad of Akbitan T4 (Shemite Blacksmith)").addTo(namedBlacksmithGroup),
+		L.marker([-2588,1785.25], {icon: blacksmithIcon}).bindPopup("Talitha Goldfingers T4 (Shemite Blacksmith) - walks around").addTo(namedBlacksmithGroup),		
 
 		//Named Thralls - Carpenter
 		L.marker([-2458.75,3303.5], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/QuEKZtu.jpg
@@ -1070,7 +1071,8 @@
 		L.marker([-1952.5,1321.75], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/hWdSbqK.jpg
 		L.marker([-1938.25,1317.25], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/dRc7nG1.jpg
 		L.marker([-1857.5,1312.5], {icon: carpenterIcon}).bindPopup("Airk Strong-in-the-arm T4 (Nordheimer Carpenter)").addTo(namedCarpenterGroup),
-		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup),
+		L.marker([-3116,2144.25], {icon: carpenterIcon}).bindPopup("Sigyn the Woodworker T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/qkcdFY9.jpg
+		L.marker([-2702.25, 2540.5], {icon: carpenterIcon}).bindPopup("Rayne O' the Rosewood T4 (Carpenter)").addTo(namedCarpenterGroup), // https://i.imgur.com/jmgdypV.jpg
 
 		//Named Thralls - Cook
 		L.marker([-1187.5,1671.5], {icon: cookIcon}).bindPopup("Ennis the Gobbler T4 (Cook)").addTo(namedCookGroup),
