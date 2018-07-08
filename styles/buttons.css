@@ -3,7 +3,23 @@
  * Please reuse classes where possible.
  */
 
-.button-wrapper {
+.button-wrapper-android {
+  position: absolute;
+  left: 0;
+  right: 20.3%;
+  bottom: 0;
+  z-index: 20;
+}
+
+.button-wrapper-info {
+  position: absolute;
+  left: 0;
+  right: 8%;
+  bottom: 0;
+  z-index: 9;
+}
+
+.button-wrapper-donate {
   position: absolute;
   left: 0;
   right: 0;
