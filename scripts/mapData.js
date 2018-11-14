@@ -147,14 +147,6 @@
 			"Locations - Emotes": emoteGroup,
 		};
 
-		/* Star Metal Grouping
-		var latlngs = [
-			[
-				[[-1388, 628],[-1379, 699],[-1349, 764],[-1199, 741],[-1174, 850],[-1090, 876],[-1061, 943],[-1180,1202],[-1284, 1216],[-1468, 920],[-1571, 844],[-1497, 709]]
-			]
-		];
-		*/
-
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
 		L.marker([-1274.25,1475.5], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
