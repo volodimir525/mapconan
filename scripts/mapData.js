@@ -146,7 +146,15 @@
 			"Locations - Recipes": recipeGroup,
 			"Locations - Emotes": emoteGroup,
 		};
-		
+
+		/* Star Metal Grouping
+		var latlngs = [
+			[
+				[[-1388, 628],[-1379, 699],[-1349, 764],[-1199, 741],[-1174, 850],[-1090, 876],[-1061, 943],[-1180,1202],[-1284, 1216],[-1468, 920],[-1571, 844],[-1497, 709]]
+			]
+		];
+		*/
+
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
 		L.marker([-1274.25,1475.5], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
@@ -1573,7 +1581,7 @@
 		L.marker([-3172.75,1031.75], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Khitan_Dance' target='_blank'>Khitan Dance</a><br>").addTo(emoteGroup);
 		L.marker([-3028.75,1473.25], {icon: emoteIcon}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/War_Dance' target='_blank'>War Dance</a><br>").addTo(emoteGroup);
 		L.marker([-1606.75,550.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Chicken' target='_blank'>Chicken</a><br>").addTo(emoteGroup);
-		L.marker([-1708.5,595.5], {icon: emoteIcon}).bindPopup("Journal on Ground (Not visible on ground)<br><li><a href='https://conanexiles.gamepedia.com/Spit' target='_blank'>Spit</a><br>").addTo(emoteGroup);
+		L.marker([-1708.5,595.5], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Spit' target='_blank'>Spit</a><br>").addTo(emoteGroup);
 		L.marker([-1891.75,768.75], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Shake_Fist' target='_blank'>Shake Fist</a><br>").addTo(emoteGroup);
 		L.marker([-1952.75,916.25], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Push-ups' target='_blank'>Push-Ups</a><br>").addTo(emoteGroup);
 		L.marker([-1801,1296], {icon: emoteIcon}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Slit_Throat' target='_blank'>Slit Throat</a><br>").addTo(emoteGroup);
