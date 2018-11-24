@@ -71,7 +71,7 @@ var starmetalIcon = L.icon({
 	popupAnchor:	[0, -10]
 });
 
-//Religon Icons
+////////////////////////////////////////////////////Religion Icons
 var cromIcon = L.icon({
 	iconUrl: 'data/images/icons/icon_crom.png',
 
@@ -120,6 +120,13 @@ var yogIcon = L.icon({
 	popupAnchor:	[0, -10]
 });
 
+var jhebbalIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_jhebbal.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
 
 ////////////////////////////////////////////////////Thrall Icons
 
@@ -497,6 +504,14 @@ var emoteIcon = L.icon({
 	iconUrl: 'data/images/icons/icon_emote.png',
 				
 	iconSize:	[28,28],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petMerchantIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petmerchant.png',
+				
+	iconSize:	[32,32],
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
