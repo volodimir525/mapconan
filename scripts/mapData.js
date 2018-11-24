@@ -946,6 +946,7 @@
 		L.marker([-1995.5,1291], {icon: priestIcon}).bindPopup("Nordheimer Priest T1-3").addTo(priestGroup),
 		L.marker([-2663.5, 2424.5], {icon: priestIcon}).bindPopup("Yog Priest T1, Yog High Priest T2, Yog Archpriest T3").addTo(priestGroup),
 		L.marker([-2991,1459], {icon: priestIcon}).bindPopup("Yog Priest T1, Yog High Priest T2, Yog Archpriest T3").addTo(priestGroup),
+		L.marker([-2284.75,1150], {icon: priestIcon}).bindPopup("Jhebbal Sag Archpriest T3").addTo(priestGroup),
 
 		//Thralls - Smelter
 		L.marker([-3412.75,2075.75], {icon: smelterIcon}).bindPopup("Smelter T1 (Cimmerian, Hyborian, Hyrkanian, Kushite, Nordheimer, Shemite, Stygian, Zamorian, Zingaran)").addTo(smelterGroup),
