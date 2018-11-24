@@ -87,7 +87,7 @@
 		var caveGroup = L.layerGroup();
 		var dungeonGroup = L.layerGroup();
 		var obeliskGroup = L.layerGroup();
-		var religonGroup = L.layerGroup();
+		var ReligionGroup = L.layerGroup();
 		var campGroup = L.layerGroup();
 		var capitalGroup = L.layerGroup();
 		var vistaGroup = L.layerGroup();
@@ -97,6 +97,7 @@
 		var treasureGroup = L.layerGroup();
 		var recipeGroup = L.layerGroup();
 		var emoteGroup = L.layerGroup();
+		var petMerchantGroup = L.layerGroup();
 		
 		//Set the groups
 		var overlays = {
@@ -108,7 +109,7 @@
 			"Star Metal": starmetalGroup,
 			"Black Ice": blackiceGroup,
 			"Obsidian": obsidianGroup,
-			"NPC - Religon Trainer": religonGroup,
+			"NPC - Religion Trainer": ReligionGroup,
 			"Thrall - Alchemist": alchemistGroup,
 			"Thrall - Armorer": armorerGroup,
 			"Thrall - Bearer": sherpaGroup,
@@ -145,6 +146,7 @@
 			"Locations - Treasure": treasureGroup,
 			"Locations - Recipes": recipeGroup,
 			"Locations - Emotes": emoteGroup,
+			"Locations - Pet Merchant": petMerchantGroup,
 		};
 
 		//Obsidian Icons
@@ -193,6 +195,7 @@
 		//Crystal Icons
 		L.marker([-3266,1310], {icon: crystalIcon}).bindPopup("Crystals in Cavern of Fiends").addTo(crystalGroup),
 		L.marker([-3503.25,1904.75], {icon: crystalIcon}).bindPopup("Crystals in Hanuman's Grotto").addTo(crystalGroup),
+		L.marker([-2482.75,1492], {icon: crystalIcon}).bindPopup("Crystals in Scuttler's Shortcut").addTo(crystalGroup),
 		
 		//Iron Icons
 		L.marker([-2236,1397], {icon: ironIcon}).bindPopup("3 Iron Nodes").addTo(ironGroup),
@@ -726,6 +729,7 @@
 		//Brimstone Icons
 		L.marker([-3149,1705], {icon: brimstoneIcon}).bindPopup("Brimstone in Sinner's Refuge").addTo(brimstoneGroup),
 		L.marker([-3175,1901], {icon: brimstoneIcon}).bindPopup("Brimstone in Gallaman's Tomb").addTo(brimstoneGroup),
+		L.marker([-2863.5,2186.75], {icon: brimstoneIcon}).bindPopup("Brimstone in Executioner's Cave").addTo(brimstoneGroup),
 		L.marker([-2305,672], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
 		L.marker([-2330.5,671.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
 		L.marker([-2330.5,671.75], {icon: brimstoneIcon}).bindPopup("Brimstone Node (Stalagmite)").addTo(brimstoneGroup),
@@ -776,12 +780,14 @@
 		L.marker([-2432,3587.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
 		L.marker([-2457.25,3368.5], {icon: brimstoneIcon}).bindPopup("5 Brimstone Nodes (Stalagmites)").addTo(brimstoneGroup),
 		
-		//Religon Icons
-		L.marker([-3244,1328], {icon: yogIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Nunu_the_Cannibal' target='_blank'>Yog Trainer - Nunu the Cannibal</a>").addTo(religonGroup),
-		L.marker([-2614.5,1630], {icon: setIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Mek-kamoses' target='_blank'>Set Trainer - Mek-Kamoses</a>").addTo(religonGroup),
-		L.marker([-2516,1171], {icon: mitraIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Muriela_the_Artisan' target='_blank'>Mitra Trainer - Muriela the Artisan</a>").addTo(religonGroup),
-		L.marker([-1453.5,693.5], {icon: ymirIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Outcast' target='_blank'>Ymir Trainer - The Outcast</a>").addTo(religonGroup),
-		L.marker([-3056.25,3352], {icon: derketoIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(religonGroup),
+		//Religion Icons
+		L.marker([-3244,1328], {icon: yogIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Nunu_the_Cannibal' target='_blank'>Yog Trainer - Nunu the Cannibal</a>").addTo(ReligionGroup),
+		L.marker([-2614.5,1630], {icon: setIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Mek-kamoses' target='_blank'>Set Trainer - Mek-Kamoses</a>").addTo(ReligionGroup),
+		L.marker([-2516,1171], {icon: mitraIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Muriela_the_Artisan' target='_blank'>Mitra Trainer - Muriela the Artisan</a>").addTo(ReligionGroup),
+		L.marker([-1453.5,693.5], {icon: ymirIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Outcast' target='_blank'>Ymir Trainer - The Outcast</a>").addTo(ReligionGroup),
+		L.marker([-3056.25,3352], {icon: derketoIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Yakira,_Priestess_of_Derketo' target='_blank'>Derketo Trainer - Yakira, Priestess of Derketo</a>").addTo(ReligionGroup),
+		L.marker([-2368.5,1061], {icon: jhebbalIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Child_of_Jhebbal_Sag' target='_blank'>Child of Jhebbal Sag</a>").addTo(ReligionGroup),
+
 
 		//------------------T-H-R-A-L-L-S------------------------------------------------------------------------------------------------//
 		// in \Steam\steamapps\common\Conan Exiles\ConanSandbox\Saved\Config\WindowsNoEditor\ServerSettings.ini
@@ -1179,7 +1185,7 @@
 		L.marker([-3181.5,1901], {icon: caveIcon}).bindPopup("Gallaman's Tomb - Brimstone").addTo(caveGroup),
 		L.marker([-2513.25,2304], {icon: caveIcon}).bindPopup("Xalthar's Refuge").addTo(caveGroup),
 		L.marker([-2596,1393], {icon: caveIcon}).bindPopup("Weaver's Hollow").addTo(caveGroup),
-		L.marker([-2482.75,1492], {icon: caveIcon}).bindPopup("Scuttler's Shortcut - Crystals").addTo(caveGroup).addTo(crystalGroup),
+		L.marker([-2482.75,1492], {icon: caveIcon}).bindPopup("Scuttler's Shortcut - Crystals").addTo(caveGroup),
 		L.marker([-2006,1823.25], {icon: caveIcon}).bindPopup("Lockstone Cave").addTo(caveGroup),
 		L.marker([-2879.75,1315], {icon: caveIcon}).bindPopup("Warren of Degenerates - Demon Blood, Crystals").addTo(caveGroup),
 		L.marker([-1087,1201], {icon: caveIcon}).bindPopup("The Floe - Goes to Volcano").addTo(caveGroup),
@@ -1317,6 +1323,9 @@
 		L.marker([-2662,480.25], {icon: capitalRelicHuntersIcon}).bindPopup("Sepermeru, City of the Relic Hunters").addTo(capitalGroup),
 		L.marker([-2817.75,992.5], {icon: capitalUnnamedCityIcon}).bindPopup("The Unnamed City").addTo(capitalGroup),
 		
+		//Locations - Pet Merchants
+		L.marker([-1612,2888], {icon: petMerchantIcon}).bindPopup("Test Pet Merchant - VISIBLE:NO").addTo(petMerchantGroup),
+
 		//Locations - Vistas
 		L.marker([-2514.75,1725.5], {icon: vistaIcon}).bindPopup("Swagger Rock").addTo(vistaGroup),
 		L.marker([-2710.25,2129.25], {icon: vistaIcon}).bindPopup("Pariah's Overwatch").addTo(vistaGroup),
@@ -1654,7 +1663,7 @@
 
 		var groupedLocations = {
 			"Locations": {
-				"<img src='data/images/icons/icon_mitra.png' width='16' height='16'></img> Religon Trainer": religonGroup,
+				"<img src='data/images/icons/icon_mitra.png' width='16' height='16'></img> Religion Trainer": ReligionGroup,
 				"<img src='data/images/icons/icon_cave.png' width='16' height='16'></img> Caves": caveGroup,
 				"<img src='data/images/icons/icon_dungeon.png' width='16' height='16'></img> Dungeons": dungeonGroup,
 				"<img src='data/images/icons/icon_obelisk.png' width='16' height='16'></img> Obelisks": obeliskGroup,
@@ -1666,7 +1675,8 @@
 				//"<img src='data/images/icons/icon_lore.png' width='16' height='16'></img> Lore": loreGroup,
 				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup,
 				"<img src='data/images/icons/icon_recipes.png' width='16' height='16'></img> Recipes": recipeGroup,
-				"<img src='data/images/icons/icon_emote.png' width='16' height='16'></img> Emotes": emoteGroup
+				"<img src='data/images/icons/icon_emote.png' width='16' height='16'></img> Emotes": emoteGroup,
+				"<img src='data/images/icons/icon_petmerchant.png' width='16' height='16'></img> Pet Merchant": petMerchantGroup,
 			}
 		}
 
@@ -1681,7 +1691,6 @@
 		var layerControlThralls = L.control.groupedLayers(null, groupedThralls, options);
 		var layerControlNamedThralls = L.control.groupedLayers(null, namedThralls, options);
 		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
-
 
 		//OLD FILTERING
 		layerControlResources.addTo(map);
@@ -1698,7 +1707,6 @@
 		campGroup.addTo(map);
 		capitalGroup.addTo(map);
 		ruinsGroup.addTo(map);
-		bossGroup.addTo(map);
-		treasureGroup.addTo(map);
 		recipeGroup.addTo(map);
 		emoteGroup.addTo(map);
+		petMerchantGroup.addTo(map);
