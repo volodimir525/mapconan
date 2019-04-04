@@ -115,6 +115,10 @@
   padding: 30px;
 }
 
+.modal-content__database {
+  padding: 30px;
+}
+
 @media only screen and (max-width: 500px) {
   .modal {
     width: 90%;
