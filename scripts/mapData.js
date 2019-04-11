@@ -46,6 +46,9 @@
 		var petMerchantGroup = L.layerGroup();
 		var petHyenaGroup = L.layerGroup();
 		var petOstrichGroup = L.layerGroup();
+		var petSabretoothGroup = L.layerGroup();
+		var petElephantGroup = L.layerGroup();
+		var petTigerGroup = L.layerGroup();
 
 		//Create Mineral Groups
 		var ironGroup = L.layerGroup();
@@ -109,6 +112,9 @@
 			"Pets - Pet Merchant": petMerchantGroup,
 			"Pets - Hyena": petHyenaGroup,
 			"Pets - Ostrich": petOstrichGroup,
+			"Pets - Sabretooth": petSabretoothGroup,
+			"Pets - Elephant": petElephantGroup,
+			"Pets - Tiger": petTigerGroup,
 			"Iron": ironGroup,
 			"Coal": coalGroup,
 			"Brimstone": brimstoneGroup,
@@ -180,6 +186,20 @@
 		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
 		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
 		L.marker([-3180,1288], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
+		
+		//Pet Icons - Sabretooth
+		L.marker([-1214,860.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
+		L.marker([-1196,873.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
+		L.marker([-1596.5,1446.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
+
+		//Pet Icons - Elephant
+		L.marker([-2441.75,1719.75], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
+		L.marker([-2419.25,1685.25], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
+		L.marker([-2519.25,1772.5], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
+
+		//Pet Icons - Tiger
+		L.marker([-2513,1748.5], {icon: petTigerIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
+		L.marker([-2504.75,1740.75], {icon: petTigerIcon}).bindPopup("Tiger Cub").addTo(petTigerGroup),
 
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
@@ -1791,6 +1811,9 @@
 				"<img src='data/images/icons/icon_petmerchant.png' width='16' height='16'></img> Pet Merchant": petMerchantGroup,
 				"<img src='data/images/icons/icon_pethyena.png' width='16' height='16'></img> Hyena Whelp": petHyenaGroup,
 				"<img src='data/images/icons/icon_petostrich.png' width='16' height='16'></img> Ostrich Chick": petOstrichGroup,
+				"<img src='data/images/icons/icon_petsabretooth.png' width='16' height='16'></img> Sabretooth Cub": petSabretoothGroup,
+				"<img src='data/images/icons/icon_petelephant.png' width='16' height='16'></img> Elephant Calf": petElephantGroup,
+				"<img src='data/images/icons/icon_pettiger.png' width='16' height='16'></img> Tiger Cub": petTigerGroup,
 			}
 		}
 

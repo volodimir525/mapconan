@@ -531,3 +531,27 @@ var petOstrichIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var petSabretoothIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petsabretooth.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petElephantIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petelephant.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petTigerIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_pettiger.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
