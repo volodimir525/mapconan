@@ -41,7 +41,12 @@
 
 		//Coordinates Display (Bottom Left)
 		L.control.mousePosition().addTo(map)
-	  	
+		  
+		//Create Pet Groups
+		var petMerchantGroup = L.layerGroup();
+		var petHyenaGroup = L.layerGroup();
+		var petOstrichGroup = L.layerGroup();
+
 		//Create Mineral Groups
 		var ironGroup = L.layerGroup();
 		var coalGroup = L.layerGroup();
@@ -97,10 +102,13 @@
 		var treasureGroup = L.layerGroup();
 		var recipeGroup = L.layerGroup();
 		var emoteGroup = L.layerGroup();
-		var petMerchantGroup = L.layerGroup();
+		
 		
 		//Set the groups
 		var overlays = {
+			"Pets - Pet Merchant": petMerchantGroup,
+			"Pets - Hyena": petHyenaGroup,
+			"Pets - Ostrich": petOstrichGroup,
 			"Iron": ironGroup,
 			"Coal": coalGroup,
 			"Brimstone": brimstoneGroup,
@@ -146,8 +154,32 @@
 			"Locations - Treasure": treasureGroup,
 			"Locations - Recipes": recipeGroup,
 			"Locations - Emotes": emoteGroup,
-			"Locations - Pet Merchant": petMerchantGroup,
 		};
+
+		//Locations - Pet Merchants
+		L.marker([-2515.5,3215.5], {icon: petMerchantIcon}).bindPopup("Ignatius the Greedy<br><br>Sells:<li><a href='http://conanscrolls.com/item.html?id=19024' target='_blank'>Sand Reaper Egg</a><br><li>Cost: 10 x <a href='http://conanscrolls.com/recipe.html?id=11066' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
+		L.marker([-2514.75,3211.25], {icon: petMerchantIcon}).bindPopup("Koros the Brave<br><br>Sells:<li><a href='http://conanscrolls.com/item.html?id=19023' target='_blank'>Shoebill Egg</a><br><li>Cost: 10 x <a href='http://conanscrolls.com/recipe.html?id=11066' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
+		L.marker([-2517,3219.5], {icon: petMerchantIcon}).bindPopup("Owen the Beautiful<br><br>Sells:<li><a href='http://conanscrolls.com/item.html?id=19021' target='_blank'>Spider Egg-sac</a><br><li>Cost: 10 x <a href='http://conanscrolls.com/recipe.html?id=11066' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
+		L.marker([-2286,1205], {icon: petMerchantIcon}).bindPopup("Shawna the Strange<br><br>Sells:<li><a href='http://conanscrolls.com/item.html?id=19026' target='_blank'>Rocknose Egg</a><br><li>Cost: 10 x <a href='http://conanscrolls.com/recipe.html?id=11066' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
+		L.marker([-2360.75,1210.5], {icon: petMerchantIcon}).bindPopup("Urik, Master Tamer<br><br>Sells:<li><a href='http://conanscrolls.com/item.html?id=19034' target='_blank'>Camel Calf</a><br><li>Cost: 10 x <a href='http://conanscrolls.com/recipe.html?id=11066' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
+		
+
+		//Pet Icons - Hyena
+		L.marker([-3212,1712], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3162,1287], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3140,1272], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3166,1257], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3212,1180], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3036,1706], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-2957,1529], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-2836,2322], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-2819,2348], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-2680,1843], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+
+		//Pet Icons - Ostrich
+		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
+		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
+		L.marker([-3180,1288], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
 
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
@@ -1395,8 +1427,8 @@
 		L.marker([-2662,480.25], {icon: capitalRelicHuntersIcon}).bindPopup("Sepermeru, City of the Relic Hunters").addTo(capitalGroup),
 		L.marker([-2817.75,992.5], {icon: capitalUnnamedCityIcon}).bindPopup("The Unnamed City").addTo(capitalGroup),
 		
-		//Locations - Pet Merchants
-		L.marker([-1612,2888], {icon: petMerchantIcon}).bindPopup("Test Pet Merchant - VISIBLE:NO").addTo(petMerchantGroup),
+		
+
 
 		//Locations - Vistas
 		L.marker([-2514.75,1725.5], {icon: vistaIcon}).bindPopup("Swagger Rock").addTo(vistaGroup),
@@ -1751,7 +1783,14 @@
 				"<img src='data/images/icons/icon_treasure.png' width='16' height='16'></img> Treasures": treasureGroup,
 				"<img src='data/images/icons/icon_recipes.png' width='16' height='16'></img> Recipes": recipeGroup,
 				"<img src='data/images/icons/icon_emote.png' width='16' height='16'></img> Emotes": emoteGroup,
+			}
+		}
+
+		var groupedPets = {
+			"Pets": {
 				"<img src='data/images/icons/icon_petmerchant.png' width='16' height='16'></img> Pet Merchant": petMerchantGroup,
+				"<img src='data/images/icons/icon_pethyena.png' width='16' height='16'></img> Hyena Whelp": petHyenaGroup,
+				"<img src='data/images/icons/icon_petostrich.png' width='16' height='16'></img> Ostrich Chick": petOstrichGroup,
 			}
 		}
 
@@ -1766,12 +1805,14 @@
 		var layerControlThralls = L.control.groupedLayers(null, groupedThralls, options);
 		var layerControlNamedThralls = L.control.groupedLayers(null, namedThralls, options);
 		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
+		var layerControlPets = L.control.groupedLayers(null, groupedPets, options);
 
 		//OLD FILTERING
 		layerControlResources.addTo(map);
 		layerControlThralls.addTo(map);
 		layerControlNamedThralls.addTo(map);
 		layerControlLocations.addTo(map);
+		layerControlPets.addTo(map);
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);

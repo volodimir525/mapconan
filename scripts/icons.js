@@ -515,3 +515,19 @@ var petMerchantIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var petHyenaIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_pethyena.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petOstrichIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petostrich.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
