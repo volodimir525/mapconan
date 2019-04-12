@@ -55,3 +55,15 @@ a:active {
 .map {
   z-index: 5;
 }
+
+@media only screen and (max-width: 500px) {
+  .mobile-hide {
+     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mobile-show {
+     display: show;
+  }
+}

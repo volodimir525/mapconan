@@ -39,7 +39,7 @@
         crs.unproject(L.point(mapExtent[0], mapExtent[1]))
 		]);
 
-		//Coordinates Display (Bottom Left)
+		//Coordinates Display (Bottom Left) - old
 		L.control.mousePosition().addTo(map)
 		  
 		//Create Pet Groups
@@ -171,35 +171,35 @@
 		
 
 		//Pet Icons - Hyena
-		L.marker([-3212,1712], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-3162,1287], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-3140,1272], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-3166,1257], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-3212,1180], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-3036,1706], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-2957,1529], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-2836,2322], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-2819,2348], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
-		L.marker([-2680,1843], {icon: petHyenaIcon}).bindPopup("Hyena Whelp").addTo(petHyenaGroup),
+		L.marker([-3212,1712], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-3162,1287], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-3140,1272], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-3166,1257], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-3212,1180], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-3036,1706], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-2957,1529], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-2836,2322], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-2819,2348], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
+		L.marker([-2680,1843], {icon: petHyenaIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_SpottedHyena.png' width='64'><br><p align='center'>Hyena Whelp</p>").addTo(petHyenaGroup),
 
 		//Pet Icons - Ostrich
-		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
-		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
-		L.marker([-3180,1288], {icon: petOstrichIcon}).bindPopup("Ostrich Chick").addTo(petOstrichGroup),
+		L.marker([-3199,1249], {icon: petOstrichIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Ostrich.png' width='64'><br><p align='center'>Ostrich Chick</p>").addTo(petOstrichGroup),
+		L.marker([-3202,1296], {icon: petOstrichIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Ostrich.png' width='64'><br><p align='center'>Ostrich Chick</p>").addTo(petOstrichGroup),
+		L.marker([-3180,1288], {icon: petOstrichIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Ostrich.png' width='64'><br><p align='center'>Ostrich Chick</p>").addTo(petOstrichGroup),
 		
 		//Pet Icons - Sabretooth
-		L.marker([-1214,860.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
-		L.marker([-1196,873.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
-		L.marker([-1596.5,1446.5], {icon: petSabretoothIcon}).bindPopup("Sabretooth Cub").addTo(petSabretoothGroup),
+		L.marker([-1214,860.5], {icon: petSabretoothIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
+		L.marker([-1196,873.5], {icon: petSabretoothIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
+		L.marker([-1596.5,1446.5], {icon: petSabretoothIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
 
 		//Pet Icons - Elephant
-		L.marker([-2441.75,1719.75], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
-		L.marker([-2419.25,1685.25], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
-		L.marker([-2519.25,1772.5], {icon: petElephantIcon}).bindPopup("Elephant Calf").addTo(petElephantGroup),
+		L.marker([-2441.75,1719.75], {icon: petElephantIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_elephant.png' width='64'><br><p align='center'>Elephant Calf</p>").addTo(petElephantGroup),
+		L.marker([-2419.25,1685.25], {icon: petElephantIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_elephant.png' width='64'><br><p align='center'>Elephant Calf</p>").addTo(petElephantGroup),
+		L.marker([-2519.25,1772.5], {icon: petElephantIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_elephant.png' width='64'><br><p align='center'>Elephant Calf</p>").addTo(petElephantGroup),
 
 		//Pet Icons - Tiger
 		L.marker([-2513,1748.5], {icon: petTigerIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
-		L.marker([-2504.75,1740.75], {icon: petTigerIcon}).bindPopup("Tiger Cub").addTo(petTigerGroup),
+		L.marker([-2504.75,1740.75], {icon: petTigerIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
 
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
