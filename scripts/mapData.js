@@ -1840,6 +1840,8 @@
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
+		L.DomEvent.disableClickPropagation(layerControlNamedThralls._container);
+		L.DomEvent.disableClickPropagation(layerControlPets._container);
 		
 
 		//Add Default Filters
