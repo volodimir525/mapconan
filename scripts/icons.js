@@ -555,3 +555,43 @@ var petTigerIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var petRhinoIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petrhino.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petFawnIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petfawn.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petCrocIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petcroc.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petBoarIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petboar.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var petWolfIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petwolf.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
