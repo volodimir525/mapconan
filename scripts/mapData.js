@@ -40,7 +40,7 @@
 		]);
 
 		//Coordinates Display (Bottom Left) - old
-		L.control.mousePosition().addTo(map)
+		L.control.mousePosition().addTo(map);
 		  
 		//Create Pet Groups
 		var petMerchantGroup = L.layerGroup();
@@ -49,6 +49,11 @@
 		var petSabretoothGroup = L.layerGroup();
 		var petElephantGroup = L.layerGroup();
 		var petTigerGroup = L.layerGroup();
+		var petRhinoGroup = L.layerGroup();
+		var petFawnGroup = L.layerGroup();
+		var petCrocGroup = L.layerGroup();
+		var petBoarGroup = L.layerGroup();
+		var petWolfGroup = L.layerGroup();
 
 		//Create Mineral Groups
 		var ironGroup = L.layerGroup();
@@ -115,6 +120,11 @@
 			"Pets - Sabretooth": petSabretoothGroup,
 			"Pets - Elephant": petElephantGroup,
 			"Pets - Tiger": petTigerGroup,
+			"Pets - Rhino": petRhinoGroup,
+			"Pets - Fawn": petFawnGroup,
+			"Pets - Croc": petCrocGroup,
+			"Pets - Boar": petBoarGroup,
+			"Pets - Wolf": petWolfGroup,
 			"Iron": ironGroup,
 			"Coal": coalGroup,
 			"Brimstone": brimstoneGroup,
@@ -200,6 +210,47 @@
 		//Pet Icons - Tiger
 		L.marker([-2513,1748.5], {icon: petTigerIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
 		L.marker([-2504.75,1740.75], {icon: petTigerIcon}).bindPopup("<img class='border-fix' src='http://conanscrolls.com/Icons/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
+
+		//Pet Icons - Rhino
+		//http://conanscrolls.com/Icons/icon_baby_Rhino.png
+
+		//Pet Icons - Fawn
+		//http://conanscrolls.com/Icons/icon_baby_Fawn.png
+
+		//Pet Icons - Croc
+		//http://conanscrolls.com/Icons/icon_baby_Crocodile.png
+
+		//Pet Icons - Boar
+		//http://conanscrolls.com/Icons/icon_baby_Boar.png
+
+		//Pet Icons - Wolf
+		//http://conanscrolls.com/Icons/icon_baby_Wolf.png
+
+		//Star Metal Icons
+		L.marker([-1199,1014], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1256,1016], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1282,1006], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1177,971], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1167,849], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1298,832], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1229,770], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1365,924], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1226,979], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1205,955], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1247,943], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1157,1039], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1186,1091], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1088,935], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1476,865], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1474,790], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1572,819], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1411,930], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1497,760], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1487,702], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1562,816], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1511,871], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		L.marker([-1472,873], {icon: starmetalIcon}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
+		
 
 		//Obsidian Icons
 		L.marker([-1266.25,1465], {icon: obsidianIcon}).bindPopup("3 Obsidian Nodes").addTo(obsidianGroup),
@@ -1301,6 +1352,7 @@
 		L.marker([-1526.5,1377], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Black_Keep' target='_blank'>The Black Keep</a>").addTo(dungeonGroup),
 		L.marker([-1550.5,1283], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Undergate' target='_blank'>Undergate</a> - Entrance requires swimming under ice.").addTo(dungeonGroup),
 		L.marker([-969,1537], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Well_of_Skelos' target='_blank'>The Well of Skelos</a>").addTo(dungeonGroup),
+		L.marker([-2881,3409], {icon: dungeonIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/The_Sunken_City' target='_blank'>The Sunken City</a>").addTo(dungeonGroup),
 		
 		//Location - Caves
 		L.marker([-3271,1318.5], {icon: caveIcon}).bindPopup("Cavern of Fiends - Demon Blood, Crystals").addTo(caveGroup),
@@ -1810,11 +1862,16 @@
 		var groupedPets = {
 			"Pets": {
 				"<img src='data/images/icons/icon_petmerchant.png' width='16' height='16'></img> Pet Merchant": petMerchantGroup,
-				"<img src='data/images/icons/icon_pethyena.png' width='16' height='16'></img> Hyena Whelp": petHyenaGroup,
-				"<img src='data/images/icons/icon_petostrich.png' width='16' height='16'></img> Ostrich Chick": petOstrichGroup,
-				"<img src='data/images/icons/icon_petsabretooth.png' width='16' height='16'></img> Sabretooth Cub": petSabretoothGroup,
-				"<img src='data/images/icons/icon_petelephant.png' width='16' height='16'></img> Elephant Calf": petElephantGroup,
-				"<img src='data/images/icons/icon_pettiger.png' width='16' height='16'></img> Tiger Cub": petTigerGroup,
+				"<img src='data/images/icons/icon_pethyena.png' width='16' height='16'></img> Hyena": petHyenaGroup,
+				"<img src='data/images/icons/icon_petostrich.png' width='16' height='16'></img> Ostrich": petOstrichGroup,
+				"<img src='data/images/icons/icon_petsabretooth.png' width='16' height='16'></img> Sabretooth": petSabretoothGroup,
+				"<img src='data/images/icons/icon_petelephant.png' width='16' height='16'></img> Elephant": petElephantGroup,
+				"<img src='data/images/icons/icon_pettiger.png' width='16' height='16'></img> Tiger": petTigerGroup,
+				"<img src='data/images/icons/icon_petrhino.png' width='16' height='16'></img> Rhino": petRhinoGroup,
+				"<img src='data/images/icons/icon_petfawn.png' width='16' height='16'></img> Fawn": petFawnGroup,
+				"<img src='data/images/icons/icon_petcroc.png' width='16' height='16'></img> Crocodile": petCrocGroup,
+				"<img src='data/images/icons/icon_petboar.png' width='16' height='16'></img> Boar": petBoarGroup,
+				"<img src='data/images/icons/icon_petwolf.png' width='16' height='16'></img> Wolf": petWolfGroup,
 			}
 		}
 
