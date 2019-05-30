@@ -44,69 +44,15 @@
 					</script>
 			</main>
 		</div>
-			<div class="mobile-show">
-				<script type="text/javascript">
-					L.easyButton('<img src="data/images/icons/icon_lore_CLOSE.png" width="20">', function(btn, map){
-							petMerchantGroup.remove(map);
-							petHyenaGroup.remove(map);
-							petOstrichGroup.remove(map);
-							petSabretoothGroup.remove(map);
-							petElephantGroup.remove(map);
-							petTigerGroup.remove(map);
-							petRhinoGroup.remove(map);
-							petFawnGroup.remove(map);
-							petCrocGroup.remove(map);
-							petBoarGroup.remove(map);
-							petWolfGroup.remove(map);
-							ironGroup.remove(map);
-							coalGroup.remove(map);
-							brimstoneGroup.remove(map);
-							crystalGroup.remove(map);
-							silverGroup.remove(map);
-							starmetalGroup.remove(map);
-							blackiceGroup.remove(map);
-							obsidianGroup.remove(map);
-							ReligionGroup.remove(map);
-							alchemistGroup.remove(map);
-							armorerGroup.remove(map);
-							sherpaGroup.remove(map);
-							blacksmithGroup.remove(map);
-							carpenterGroup.remove(map);
-							cookGroup.remove(map);
-							entertainerGroup.remove(map);
-							priestGroup.remove(map);
-							tannerGroup.remove(map);
-							taskmasterGroup.remove(map);
-							smelterGroup.remove(map);
-							namedArcherGroup.remove(map);
-							namedAlchemistGroup.remove(map);
-							namedArmorerGroup.remove(map);
-							namedSherpaGroup.remove(map);
-							namedBlacksmithGroup.remove(map);
-							namedCarpenterGroup.remove(map);
-							namedCookGroup.remove(map);
-							namedEntertainerGroup.remove(map);
-							namedFighterGroup.remove(map);
-							namedPriestGroup.remove(map);
-							namedSmelterGroup.remove(map);
-							namedTannerGroup.remove(map);
-							namedTaskmasterGroup.remove(map);			
-							caveGroup.remove(map);
-							obeliskGroup.remove(map);
-							dungeonGroup.remove(map);
-							campGroup.remove(map);
-							capitalGroup.remove(map);
-							vistaGroup.remove(map);
-							ruinsGroup.remove(map);
-							bossGroup.remove(map);
-							loreGroup.remove(map);
-							treasureGroup.remove(map);
-							recipeGroup.remove(map);
-							emoteGroup.remove(map);
-							randomThrallGroup.remove(map);
-					}).addTo(map);
-			</script>
-		</div>
+		<script type="text/javascript">
+			L.easyButton('<img src="data/images/icons/icon_lore_CLOSE.png" width="20">', function(btn, map){
+				layerControlResources._collapse();
+				layerControlThralls._collapse();
+				layerControlNamedThralls._collapse();
+				layerControlLocations._collapse();
+				layerControlPets._collapse();
+			}).addTo(map);
+		</script>
 		<script src="scripts/pageEvents.js" type="text/javascript"></script>
 	</body>
 </html>
