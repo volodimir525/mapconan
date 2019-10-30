@@ -39,7 +39,7 @@
 		]);
 
 		//Coordinates Display (Bottom Left) - old
-		//L.control.mousePosition().addTo(map);
+		L.control.mousePosition().addTo(map);
 		  
 		//Create Pet Groups
 		var petMerchantGroup = L.layerGroup();
@@ -1723,7 +1723,7 @@
 
 		//Locations - Recipes
 		L.marker([-3267,1078.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/darfaribanners.png' width='300'></img><p align='center'>Darfari Banners</p></a>").addTo(recipeGroup),
-		L.marker([-3228.25,1138], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Weapons' target='_blank'><img class='border-fix' src='data/images/recipes/darfariweapons.png' width='300'></img><p align='center'>Darfari Weapons</p></a>").addTo(recipeGroup),
+		L.marker([-3257,1070.75], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Weapons' target='_blank'><img class='border-fix' src='data/images/recipes/darfariweapons_new.png' width='300'></img><p align='center'>Darfari Weapons</p></a>").addTo(recipeGroup),
 		L.marker([-2734.25,439.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/relichunters.png' width='300'></img><p align='center'>Relic Hunter Armor</p></a>").addTo(recipeGroup),
 		L.marker([-2590.75,532.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/relichunterbanners.png' width='300'></img><p align='center'>Relic Hunter Banners</p></a>").addTo(recipeGroup),
 		L.marker([-2973,1395.75], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VIII' target='_blank'><img class='border-fix' src='data/images/recipes/cooking8.png' width='300'></img><p align='center'>Specialist Cooking VIII</p></a>").addTo(recipeGroup),
