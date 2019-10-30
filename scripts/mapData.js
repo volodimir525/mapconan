@@ -1723,6 +1723,7 @@
 
 		//Locations - Recipes
 		L.marker([-3267,1078.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/darfaribanners.png' width='300'></img><p align='center'>Darfari Banners</p></a>").addTo(recipeGroup),
+		L.marker([-2627,1069.75], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Cartographer' target='_blank'><img class='border-fix' src='data/images/recipes/cartographer.png' width='300'></img><p align='center'>Cartographer</p></a><p align='center'>(Entrance to Archives to the south)</p>").addTo(recipeGroup),
 		L.marker([-3257,1070.75], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Darfari_Weapons' target='_blank'><img class='border-fix' src='data/images/recipes/darfariweapons_new.png' width='300'></img><p align='center'>Darfari Weapons</p></a>").addTo(recipeGroup),
 		L.marker([-2734.25,439.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/relichunters.png' width='300'></img><p align='center'>Relic Hunter Armor</p></a>").addTo(recipeGroup),
 		L.marker([-2590.75,532.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/relichunterbanners.png' width='300'></img><p align='center'>Relic Hunter Banners</p></a>").addTo(recipeGroup),
