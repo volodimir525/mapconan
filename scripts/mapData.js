@@ -1747,6 +1747,7 @@
 		L.marker([-2850.25,1807.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Dragonbone' target='_blank'><img class='border-fix' src='data/images/recipes/dragonbone.png' width='300'></img><p align='center'>Dragonbone Weapons</p></a>Required Feats:<li><a href='https://conanexiles.gamepedia.com/Star_Metal_Tools' target='_blank'>Star Metal Tools</a>").addTo(recipeGroup),
 		L.marker([-1652.75,304.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Vanquisher_of_the_King_Beneath' target='_blank'><img class='border-fix' src='data/images/recipes/vanquisherofthekingbeneath.png' width='300'></img><p align='center'>Vanquisher of the King Beneath</p></a>Required Feats:<li><a href='https://conanexiles.gamepedia.com/Star_Metal_Tools' target='_blank'>Star Metal Tools</a>").addTo(recipeGroup),
 		L.marker([-1029.5,1108.25], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Totems' target='_blank'><img class='border-fix' src='data/images/recipes/totems.png' width='300'></img><p align='center'>Totems</p></a>").addTo(recipeGroup);
+		L.marker([-2542.25,3223.5], {icon: recipeIcon}).bindPopup("<a href='https://conanexiles.gamepedia.com/Pirate_Cuisine' target='_blank'><img class='border-fix' src='data/images/recipes/piratecuisine.png' width='300'></img><p align='center'>Pirate Cuisine</p></a>").addTo(recipeGroup);
 
 
 		//Locations Emotes
