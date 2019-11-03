@@ -39,11 +39,11 @@
 		function enterCoord (e) {
 			var promptCoord = prompt("Enter coordinates below:");
 			if (promptCoord != null) {
-				alertify.success('Centering on: ' + promptCoord);
+				alertify.success('<p style = "font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:strong;">Centering on: </p>' + promptCoord +'</p>');
 				map.flyTo(L.latLng(eval(promptCoord)),5);
 				new L.marker(eval(promptCoord), {title: "MARKER", contextmenu: false}).bindPopup("Temporary Marker").addTo(map).addTo(markerGroup)
             } else if (promptCoord = null){
-                alertify.error('No coordinates entered.');
+                alertify.error('<p style = "font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:strong;">No coordinates entered.</p>');
             }
 		}
 		
