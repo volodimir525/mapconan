@@ -18,16 +18,33 @@
 			var cursor = e.target.style.cursor;
 		},false);
 
+		var markerGroup = L.layerGroup();
+
 		//Declare context menu
-		
 		function submitMarkerChange (e) {
-			window.open("https://docs.google.com/forms/d/e/1FAIpQLSe4wvhWEo4ASrCY47M5JocwHNcvSHb8IUu1evrwHGDXLTo58w/viewform?usp=pp_url&entry.1052909131="+e.latlng);
+			window.open("https://docs.google.com/forms/d/e/1FAIpQLSe4wvhWEo4ASrCY47M5JocwHNcvSHb8IUu1evrwHGDXLTo58w/viewform?usp=pp_url&entry.1052909131=L.latLng("+e.latlng.lat+", "+e.latlng.lng+")");
 			}
 		function submitMarker (e) {
-			window.open("https://docs.google.com/forms/d/e/1FAIpQLSfLSv7A5he7TUAFLca4BtfUTXORCpDfSm1HIzgBlZaMy1ixgQ/viewform?usp=pp_url&entry.2143384121="+e.latlng);
+			window.open("https://docs.google.com/forms/d/e/1FAIpQLSfLSv7A5he7TUAFLca4BtfUTXORCpDfSm1HIzgBlZaMy1ixgQ/viewform?usp=pp_url&entry.2143384121=L.latLng("+e.latlng.lat+", "+e.latlng.lng+")");
 		}
 		function centerMap (e) {
 			map.panTo(e.latlng);
+		}
+		function copyCoord (e) {
+			prompt("Copy the coordinates below:", "L.latLng("+e.latlng.lat+", "+e.latlng.lng+")")
+		}
+		function deleteMarker (e) {
+			markerGroup.remove(map)
+		}
+		function enterCoord (e) {
+			var promptCoord = prompt("Enter coordinates below:");
+			if (promptCoord != null) {
+				alertify.success('Centering on: ' + promptCoord);
+				map.flyTo(L.latLng(eval(promptCoord)),5);
+				new L.marker(eval(promptCoord), {title: "MARKER", contextmenu: false}).bindPopup("Temporary Marker").addTo(map).addTo(markerGroup)
+            } else if (promptCoord = null){
+                alertify.error('No coordinates entered.');
+            }
 		}
 		
 		var map = new L.Map('map', {
@@ -43,11 +60,17 @@
 			contextmenu: true,
         	contextmenuWidth: 140,
 	      	contextmenuItems: [{
-			   	text: 'Submit marker here',
-		    	callback: submitMarker
+				text: 'Submit marker here',
+				callback: submitMarker
 	      	}, '-', {
-		    	text: 'Center map here',
-		    	callback: centerMap
+				text: 'Center map here',
+				callback: centerMap
+			}, '-', {
+				text: 'Copy coordinates',
+				callback: copyCoord
+			}, {
+				text: 'Enter coordinates',
+				callback: enterCoord
 	      }]
 		});
 			
@@ -1753,7 +1776,7 @@
 		L.marker([-2734.25,439.25], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/relichunters.png' width='300'></img><p align='center'>Relic Hunter Armor</p></a>").addTo(recipeGroup),
 		L.marker([-2590.75,532.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Relic_Hunter_Banners' target='_blank'><img class='border-fix' src='data/images/recipes/relichunterbanners.png' width='300'></img><p align='center'>Relic Hunter Banners</p></a>").addTo(recipeGroup),
 		L.marker([-2973,1395.75], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VIII' target='_blank'><img class='border-fix' src='data/images/recipes/cooking8.png' width='300'></img><p align='center'>Specialist Cooking VIII</p></a>").addTo(recipeGroup),
-		L.marker([-2984,1746.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Skulltaker' target='_blank'><img class='border-fix' src='data/images/recipes/skulltaker.png' width='300'></img><p align='center'>Skulltaker</p></a>").addTo(recipeGroup),
+		L.marker([-3012, 1752.75], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Skulltaker' target='_blank'><img class='border-fix' src='data/images/recipes/skulltaker_new.png' width='300'></img><p align='center'>Skulltaker</p></a>").addTo(recipeGroup),
 		L.marker([-2985.25,1754.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='data/images/recipes/cooking1&6.png' width='300'></img><p align='center'><a href='https://conanexiles.gamepedia.com/Specialist_Cooking_I' target='_blank'>Specialist Cooking I</a><br><a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VI' target='_blank'>Specialist Cooking VI</a></p>").addTo(recipeGroup),
 		L.marker([-2726,1994.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Hyena-Fur_Armor' target='_blank'><img class='border-fix' src='data/images/recipes/hyenafurarmor.png' width='300'></img><p align='center'>Hyena-Fur Armor</p></a>").addTo(recipeGroup),
 		L.marker([-2505.25,1166.25], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Specialist_Cooking_VII' target='_blank'><img class='border-fix' src='data/images/recipes/cooking7.png' width='300'></img><p align='center'>Specialist Cooking VII</p></a>").addTo(recipeGroup),
@@ -1773,13 +1796,15 @@
 		L.marker([-1652.75,304.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Vanquisher_of_the_King_Beneath' target='_blank'><img class='border-fix' src='data/images/recipes/vanquisherofthekingbeneath.png' width='300'></img><p align='center'>Vanquisher of the King Beneath</p></a>Required Feats:<li><a href='https://conanexiles.gamepedia.com/Star_Metal_Tools' target='_blank'>Star Metal Tools</a>").addTo(recipeGroup),
 		L.marker([-1029.5,1108.25], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Totems' target='_blank'><img class='border-fix' src='data/images/recipes/totems.png' width='300'></img><p align='center'>Totems</p></a>").addTo(recipeGroup);
 		L.marker([-2542.25,3223.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Pirate_Cuisine' target='_blank'><img class='border-fix' src='data/images/recipes/piratecuisine.png' width='300'></img><p align='center'>Pirate Cuisine</p></a>").addTo(recipeGroup);
+		L.marker([-3011, 1765.5], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Witch_Doctor' target='_blank'><img class='border-fix' src='data/images/recipes/witchdoctor.png' width='300'></img><p align='center'>Witch Doctor</p></a>").addTo(recipeGroup);
+		L.marker([-881.75, 1116.75], {icon: recipeIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<a href='https://conanexiles.gamepedia.com/Frost_Smithing' target='_blank'><img class='border-fix' src='data/images/recipes/frostsmithing.png' width='300'></img><p align='center'>Frost Smithing</p></a><p align='center'>(Inside Temple of Frost)</p>").addTo(recipeGroup);
 
 
 		//Locations Emotes
 		L.marker([-2335.5,618], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Polite_Laugh' target='_blank'>Polite Laugh</a><br><li><a href='https://conanexiles.gamepedia.com/Laugh' target='_blank'>Laugh</a>").addTo(emoteGroup);
 		L.marker([-1010.5,1097], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Runestone<br><li><a href='https://conanexiles.gamepedia.com/By_Crom' target='_blank'>By Crom</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2863,998.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Set' target='_blank'>By Set</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
-		L.marker([-2997.75,1754], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Yog' target='_blank'>By Yog</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
+		L.marker([-2993, 1786.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Yog' target='_blank'>By Yog</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2528.25,1165.75], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Mitra' target='_blank'>By Mitra</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2711.5,466.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
 		L.marker([-2711.5,466.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
