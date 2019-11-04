@@ -595,3 +595,11 @@ var petWolfIcon = L.icon({
 	iconAnchor: [16,16],
 	popupAnchor:	[0, -10]
 });
+
+var petBearIcon = L.icon({
+	iconUrl: 'data/images/icons/icon_petbear.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});

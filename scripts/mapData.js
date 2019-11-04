@@ -101,6 +101,7 @@
 		var petCrocGroup = L.layerGroup();
 		var petBoarGroup = L.layerGroup();
 		var petWolfGroup = L.layerGroup();
+		var petBearGroup = L.layerGroup();
 
 		//Create Mineral Groups
 		var ironGroup = L.layerGroup();
@@ -172,6 +173,7 @@
 			"Pets - Croc": petCrocGroup,
 			"Pets - Boar": petBoarGroup,
 			"Pets - Wolf": petWolfGroup,
+			"Pets - Bear" : petBearGroup,
 			"Iron": ironGroup,
 			"Coal": coalGroup,
 			"Brimstone": brimstoneGroup,
@@ -248,6 +250,7 @@
 		L.marker([-1214,860.5], {icon: petSabretoothIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
 		L.marker([-1196,873.5], {icon: petSabretoothIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
 		L.marker([-1596.5,1446.5], {icon: petSabretoothIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
+		L.marker([-1672.75, 1637.25], {icon: petSabretoothIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Sabertooth.png' width='64'><br><p align='center'>Sabretooth Cub</p>").addTo(petSabretoothGroup),
 
 		//Pet Icons - Elephant
 		L.marker([-2441.75,1719.75], {icon: petElephantIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_elephant.png' width='64'><br><p align='center'>Elephant Calf</p>").addTo(petElephantGroup),
@@ -257,9 +260,13 @@
 		//Pet Icons - Tiger
 		L.marker([-2513,1748.5], {icon: petTigerIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
 		L.marker([-2504.75,1740.75], {icon: petTigerIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Tiger.png' width='64'><br><p align='center'>Tiger Cub</p>").addTo(petTigerGroup),
-
+		
 		//Pet Icons - Rhino
 		//https://conanexilesmap.com/data/images/gameicon/icon_baby_Rhino.png
+		
+		//Pet Icons - Bear
+		//https://conanexilesmap.com/data/images/gameicon/icon_baby_Bear.png
+		L.marker([-2311.5, 1849.25], {icon: petBearIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Bear.png' width='64'><br><p align='center'>Bear Cub</p>").addTo(petBearGroup),
 
 		//Pet Icons - Fawn
 		//https://conanexilesmap.com/data/images/gameicon/icon_baby_Fawn.png
@@ -271,7 +278,8 @@
 		//https://conanexilesmap.com/data/images/gameicon/icon_baby_Boar.png
 
 		//Pet Icons - Wolf
-		//https://conanexilesmap.com/data/images/gameicon/icon_baby_Wolf.png
+		L.marker([-2345, 1706.75], {icon: petWolfIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("<img class='border-fix' src='https://conanexilesmap.com/data/images/gameicon/icon_baby_Wolf.png' width='64'><br><p align='center'>Wolf Pups</p>").addTo(petWolfGroup),
+		
 
 		//Star Metal Icons
 		L.marker([-1199,1014], {icon: starmetalIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Possible Star Metal Location").addTo(starmetalGroup),
@@ -1807,7 +1815,7 @@
 		L.marker([-2993, 1786.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Yog' target='_blank'>By Yog</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2528.25,1165.75], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/By_Mitra' target='_blank'>By Mitra</a><br><li><a href='https://conanexiles.gamepedia.com/Kneel' target='_blank'>Kneel</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Sitting' target='_blank'>Pray Sitting</a><br><li><a href='https://conanexiles.gamepedia.com/Pray_Standing' target='_blank'>Pray Standing</a><br>").addTo(emoteGroup),
 		L.marker([-2711.5,466.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
-		L.marker([-2711.5,466.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Snake_Dance' target='_blank'>Snake Dance</a><br>").addTo(emoteGroup),
+		L.marker([-2882.25, 1987.75], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Aquilonian_Dance' target='_blank'>Aquilonian Dance</a><br>").addTo(emoteGroup),
 		L.marker([-2268.25,1197.75], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Belly_Dance' target='_blank'>Belly Dance</a><br>").addTo(emoteGroup);
 		L.marker([-2677.25,1659.5], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Cimmerian_Dance' target='_blank'>Cimmerian Dance</a><br>").addTo(emoteGroup);
 		L.marker([-3172.75,1031.75], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ghost Spawn<br><li><a href='https://conanexiles.gamepedia.com/Khitan_Dance' target='_blank'>Khitan Dance</a><br>").addTo(emoteGroup);
@@ -1923,6 +1931,7 @@
 				"<img src='data/images/icons/icon_petcroc.png' width='16' height='16'></img> Crocodile": petCrocGroup,
 				"<img src='data/images/icons/icon_petboar.png' width='16' height='16'></img> Boar": petBoarGroup,
 				"<img src='data/images/icons/icon_petwolf.png' width='16' height='16'></img> Wolf": petWolfGroup,
+				"<img src='data/images/icons/icon_petbear.png' width='16' height='16'></img> Bear": petBearGroup,
 			}
 		}
 
@@ -1945,12 +1954,13 @@
 		layerControlNamedThralls.addTo(map);
 		layerControlLocations.addTo(map);
 		layerControlPets.addTo(map);
+
+		//Disable click through elements
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlResources._container);
 		L.DomEvent.disableClickPropagation(layerControlNamedThralls._container);
 		L.DomEvent.disableClickPropagation(layerControlPets._container);
-		
 
 		//Add Default Filters
 		obeliskGroup.addTo(map);
