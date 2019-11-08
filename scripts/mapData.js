@@ -221,6 +221,45 @@
 			"Locations - Emotes": emoteGroup,
 		};
 
+		$(function () {
+			// console.log('here~~!');
+			var ajaxRequestContent = {
+				url: "backend/markerData.php",
+				type: "GET",
+				dataType: 'json',
+				success : function (data, status, xhr) {
+					if (data.error != undefined) {
+						console.error("AJAX GET ERROR");
+						console.error(status);
+						console.error(data);
+					} else {
+						// console.log(data);
+						data.forEach(marker => {
+							L.marker([marker.markerLat, marker.markerLon], {
+								icon: eval(marker.iconType),
+								contextmenu: marker.contextMenuEnabled,
+								contextmenuInheritItems: marker.contextMenuInherit,
+								contextmenuItems: [{
+									text: marker.contextMenuItem1,
+									callback: eval(marker.contextMenuItem1Job)
+								}]
+							})
+							.bindPopup(marker.markerDescription)
+							.addTo(eval(marker.iconGroup));
+						});
+					}
+				},
+				error : function (xhr, status) {
+					console.log("Error receiving the data");
+					console.log(xhr);
+					console.log(status);
+				}
+			};
+
+			$.ajax(ajaxRequestContent);
+		});
+
+/*
 		//Locations - Pet Merchants
 		L.marker([-2515.5,3215.5], {icon: petMerchantIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Ignatius the Greedy<br><br>Sells:<li><a href='https://conanexiles.gamepedia.com/Sand_Reaper_Egg_(Pet)' target='_blank'>Sand Reaper Egg</a><br><li>Cost: 10 x <a href='https://conanexiles.gamepedia.com/Gold_Coin' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
 		L.marker([-2514.75,3211.25], {icon: petMerchantIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Koros the Brave<br><br>Sells:<li><a href='https://conanexiles.gamepedia.com/Shoebill_Egg_(Pet)' target='_blank'>Shoebill Egg</a><br><li>Cost: 10 x <a href='https://conanexiles.gamepedia.com/Gold_Coin' target='_blank'>Gold Coin</a>").addTo(petMerchantGroup),
@@ -1848,7 +1887,7 @@
 		L.marker([-2855.75,1276.25], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Sigh' target='_blank'>Sigh</a><br>").addTo(emoteGroup);
 		L.marker([-3266.5,1392], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Submissive' target='_blank'>Submissive</a><br>").addTo(emoteGroup);
 		L.marker([-3487.25,1307.25], {icon: emoteIcon, contextmenu: true, contextmenuInheritItems: false, contextmenuItems: [{text: 'Submit Change',callback: submitMarkerChange}]}).bindPopup("Journal on Ground<br><li><a href='https://conanexiles.gamepedia.com/Cross Arms' target='_blank'>Cross Arms</a><br>").addTo(emoteGroup);
-
+*/
 
 		var hash = new L.Hash(map);
 		//Group Overlay Combiner
